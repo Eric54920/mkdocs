@@ -58,8 +58,8 @@ nav:
   - 关于: about.md
 
 theme: 
-  # logo: ./...
-  # favicon: images/favicon.png
+  logo: ./assets/img/myLOGO.png
+  favicon: ./assets/img/icon.png
   name: material
   highlight: true
   font:
