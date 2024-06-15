@@ -3,10 +3,19 @@ site_url: http://theguodong.com
 
 nav:
   - 首页: 
+    - index.md
+    - 后端:
+      - Python:
+        - ./articles/Python/index.md
+        - Python数据类型: ./articles/Python/Python数据类型.md
     - 数据库:
       - MySQL:
+        - ./articles/DataBase/MySQL/index.md
         - MySQL内置函数: ./articles/DataBase/MySQL/MySQL内置函数.md
         - MySQL存储过程: ./articles/DataBase/MySQL/MySQL存储过程.md
+      - Redis:
+        - ./articles/DataBase/Redis/index.md
+        - Redis基础数据类型: ./articles/DataBase/Redis/Redis基础数据类型.md
   - 相册: 
     - gallery.md
     - 时间线:
@@ -61,7 +70,6 @@ theme:
   logo: ./assets/img/myLOGO.png
   favicon: ./assets/img/icon.png
   name: material
-  highlight: true
   font:
     code: Roboto Mono
 
@@ -118,12 +126,15 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
-  - attr_list
-  - md_in_html
 
 extra_css:
   - assets/fancybox/fancybox.css
