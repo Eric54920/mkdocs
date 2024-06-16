@@ -7,7 +7,14 @@ nav:
     - 后端:
       - Python:
         - ./articles/Python/index.md
+        - Python语言介绍: ./articles/Python/Python语言介绍.md
+        - Python变量: ./articles/Python/Python变量.md
+        - Python常量: ./articles/Python/Python常量.md
+        - Python注释: ./articles/Python/Python注释.md
         - Python数据类型: ./articles/Python/Python数据类型.md
+        - Python运算符: ./articles/Python/Python运算符.md
+        - Python判断语句: ./articles/Python/Python判断语句.md
+        - Python循环: ./articles/Python/Python循环.md
         - Python深浅拷贝: ./articles/Python/Python深浅拷贝.md
         - Python使用shutil实现文件拷贝: ./articles/Python/Python使用shutil实现文件拷贝.md
         - Python使用PIL进行图片压缩: ./articles/Python/Python使用PIL进行图片压缩.md
@@ -15,6 +22,7 @@ nav:
         - IO多路复用: ./articles/Python/IO多路复用.md
       - Golang:
         - ./articles/Go/index.md
+        - Go语言介绍: ./articles/Go/Go语言介绍.md
     - 前端:
       - Vue:
         - ./articles/Vue/index.md
