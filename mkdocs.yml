@@ -15,7 +15,20 @@ nav:
         - Python运算符: ./articles/Python/Python运算符.md
         - Python判断语句: ./articles/Python/Python判断语句.md
         - Python循环: ./articles/Python/Python循环.md
+        - Python字符串格式化: ./articles/Python/Python字符串格式化.md
         - Python深浅拷贝: ./articles/Python/Python深浅拷贝.md
+        - Python序列化: ./articles/Python/Python序列化.md
+        - Python推导式: ./articles/Python/Python推导式.md
+        - Python迭代器: ./articles/Python/Python迭代器.md
+        - Python生成器: ./articles/Python/Python生成器.md
+        - Python文件读写: ./articles/Python/Python文件读写.md
+        - Python正则表达式: ./articles/Python/Python正则表达式.md
+        - Python匿名函数: ./articles/Python/Python匿名函数.md
+        - Python函数: ./articles/Python/Python函数.md
+        - Python函数名的第一类对象及使用: ./articles/Python/Python函数名的第一类对象及使用.md
+        - Python递归: ./articles/Python/Python递归.md
+        - Python闭包: ./articles/Python/Python闭包.md
+        - Python反射: ./articles/Python/Python反射.md
         - Python使用shutil实现文件拷贝: ./articles/Python/Python使用shutil实现文件拷贝.md
         - Python使用PIL进行图片压缩: ./articles/Python/Python使用PIL进行图片压缩.md
         - Python调用ChatGPT: ./articles/Python/Python调用ChatGPT.md
