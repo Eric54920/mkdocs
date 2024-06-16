@@ -8,6 +8,10 @@ nav:
       - Python:
         - ./articles/Python/index.md
         - Python数据类型: ./articles/Python/Python数据类型.md
+        - Python深浅拷贝: ./articles/Python/深浅拷贝.md
+        - Python使用shutil实现文件拷贝: ./articles/Python/Python使用shutil实现文件拷贝.md
+        - Python使用PIL进行图片压缩: ./articles/Python/Python使用PIL进行图片压缩.md
+        - IO多路复用: ./articles/Python/IO多路复用.md
       - Golang:
         - ./articles/Go/index.md
     - 前端:
@@ -16,15 +20,32 @@ nav:
     - 数据库:
       - MySQL:
         - ./articles/DataBase/MySQL/index.md
+        - MySQL存储引擎: ./articles/DataBase/MySQL/MySQL存储引擎.md
+        - MySQL完整性约束: ./articles/DataBase/MySQL/MySQL完整性约束.md
+        - MySQL数据类型: ./articles/DataBase/MySQL/MySQL数据类型.md
+        - MySQL正则表达式: articles/DataBase/MySQL/MySQL正则表达式.md
         - MySQL内置函数: ./articles/DataBase/MySQL/MySQL内置函数.md
+        - MySQL自定义函数: ./articles/DataBase/MySQL/MySQL自定义函数.md
         - MySQL存储过程: ./articles/DataBase/MySQL/MySQL存储过程.md
+        - MySQL数据备份与恢复: ./articles/DataBase/MySQL/MySQL数据备份与恢复.md
+        - MySQL权限管理: ./articles/DataBase/MySQL/MySQL权限管理.md
+        - MySQL流程控制: ./articles/DataBase/MySQL/MySQL流程控制.md
+        - MySQL视图: ./articles/DataBase/MySQL/MySQL视图.md
+        - MySQL索引: ./articles/DataBase/MySQL/MySQL索引.md
+        - MySQL事务: ./articles/DataBase/MySQL/MySQL事务.md
+        - MySQL触发器: ./articles/DataBase/MySQL/MySQL触发器.md
       - Redis:
         - ./articles/DataBase/Redis/index.md
         - Redis基础数据类型: ./articles/DataBase/Redis/Redis基础数据类型.md
+        - Redis主从复制: ./articles/DataBase/Redis/Redis主从复制.md
+        - Redis数据持久化: ./articles/DataBase/Redis/Redis数据持久化.md
+        - Redis不重启情况下，RDB切换到AOF: ./articles/DataBase/Redis/Redis不重启情况下，RDB切换到AOF.md
+        - 缓存相关问题: ./articles/DataBase/Redis/缓存相关问题.md
     - 版本控制:
       - Git:
         - ./articles/Git/index.md
         - 如何给开源项目贡献代码: ./articles/Git/如何给开源项目贡献代码.md
+        - Git查看和配置环境信息: ./articles/Git/Git查看和配置环境信息.md
   - 相册: 
     - gallery.md
     - 时间线:
