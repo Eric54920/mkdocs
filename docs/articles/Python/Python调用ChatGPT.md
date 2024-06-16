@@ -17,21 +17,24 @@ pip install openai
 以下是一个示例代码，展示了如何使用 OpenAI 的 Python 客户端库调用 ChatGPT API：
 
 ```python
-import openai
+from openai import OpenAI
 
-# 设置 OpenAI API 密钥
-openai.api_key = 'your-api-key-here'
+api_key = 'your-api-key-here'
+
+# 初始化 openai 客户端
+client = OpenAI(api_key=api_key)
 
 # 定义调用 ChatGPT 的函数
 def chat_with_gpt(prompt):
-    response = openai.ChatCompletion.create(
+    response = client.chat.completions.create(
         model="gpt-3.5-turbo",  # 或者使用其他模型，例如 "gpt-4"
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": prompt}
         ]
     )
-    return response.choices[0].message['content']
+    return response.choices[0].message
+
 
 # 示例使用
 prompt = "告诉我关于Python的基本信息。"
@@ -42,16 +45,18 @@ print(response)
 ### 4. 示例解释
 
 - **导入库**：首先导入 `openai` 库。
-- **设置 API 密钥**：将您的 OpenAI API 密钥赋值给 `openai.api_key`。
-- **定义函数**：`chat_with_gpt` 函数接收用户输入的 `prompt`，并使用 `openai.ChatCompletion.create` 调用 API。
+- **初始化 OpenAI 客户端**：使用你的 API KEY 来初始化一个客户端。
+- **定义函数**：`chat_with_gpt` 函数接收用户输入的 `prompt`，并使用 `client.chat.completions.create` 调用 API。
   - `model` 参数指定使用的模型，例如 `"gpt-3.5-turbo"` 或 `"gpt-4"`.
   - `messages` 参数包含对话的上下文。`role` 可以是 `system`、`user` 或 `assistant`，分别表示系统设置、用户输入和助手回复。
 - **示例使用**：定义了一个示例提示 `prompt` 并调用 `chat_with_gpt` 函数，然后打印返回的结果。
 
 ### 注意事项
 
-1. **API 密钥安全**：不要在代码中直接硬编码 API 密钥，尤其是在共享或公开的代码库中。使用环境变量或其他安全存储方式。
-2. **API 使用限制**：确保您了解并遵守 OpenAI 的使用限制和配额，以避免超出使用限额。
+!!! warning
+   
+    1. **API 密钥安全**：不要在代码中直接硬编码 API 密钥，尤其是在共享或公开的代码库中。使用环境变量或其他安全存储方式。
+    2. **API 使用限制**：确保您了解并遵守 OpenAI 的使用限制和配额，以避免超出使用限额。
 
 ### 5. 使用环境变量存储 API 密钥
 
@@ -71,21 +76,25 @@ print(response)
 
 ```python
 import os
-import openai
+from openai import OpenAI
 
-# 从环境变量中读取 API 密钥
-openai.api_key = os.getenv('OPENAI_API_KEY')
 
+# 初始化 openai 客户端
+client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+
+# 定义调用 ChatGPT 的函数
 def chat_with_gpt(prompt):
-    response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",  # 或者使用其他模型，例如 "gpt-4"
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": prompt}
         ]
     )
-    return response.choices[0].message['content']
+    return response.choices[0].message
 
+
+# 示例使用
 prompt = "告诉我关于Python的基本信息。"
 response = chat_with_gpt(prompt)
 print(response)

@@ -8,7 +8,7 @@ nav:
       - Python:
         - ./articles/Python/index.md
         - Python数据类型: ./articles/Python/Python数据类型.md
-        - Python深浅拷贝: ./articles/Python/深浅拷贝.md
+        - Python深浅拷贝: ./articles/Python/Python深浅拷贝.md
         - Python使用shutil实现文件拷贝: ./articles/Python/Python使用shutil实现文件拷贝.md
         - Python使用PIL进行图片压缩: ./articles/Python/Python使用PIL进行图片压缩.md
         - Python调用ChatGPT: ./articles/Python/Python调用ChatGPT.md
