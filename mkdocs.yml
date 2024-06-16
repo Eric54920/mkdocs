@@ -8,6 +8,11 @@ nav:
       - Python:
         - ./articles/Python/index.md
         - Python数据类型: ./articles/Python/Python数据类型.md
+      - Golang:
+        - ./articles/Go/index.md
+    - 前端:
+      - Vue:
+        - ./articles/Vue/index.md
     - 数据库:
       - MySQL:
         - ./articles/DataBase/MySQL/index.md
@@ -16,6 +21,10 @@ nav:
       - Redis:
         - ./articles/DataBase/Redis/index.md
         - Redis基础数据类型: ./articles/DataBase/Redis/Redis基础数据类型.md
+    - 版本控制:
+      - Git:
+        - ./articles/Git/index.md
+        - 如何给开源项目贡献代码: ./articles/Git/如何给开源项目贡献代码.md
   - 相册: 
     - gallery.md
     - 时间线:
@@ -70,6 +79,7 @@ theme:
   logo: ./assets/img/myLOGO.png
   favicon: ./assets/img/icon.png
   name: material
+  language: zh
   font:
     code: Roboto Mono
 

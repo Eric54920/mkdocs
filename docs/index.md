@@ -5,6 +5,15 @@
 <div class="grid cards" markdown>
 
 - :simple-python: __Python__ [:octicons-arrow-right-24: 进入](./articles/Python/index.md)
+- :simple-go: __Golang__ [:octicons-arrow-right-24: 进入](./articles/Go/index.md)
+
+</div>
+
+## 前端
+
+<div class="grid cards" markdown>
+
+- :simple-vuedotjs: __Vue__ [:octicons-arrow-right-24: 进入](./articles/Vue/index.md)
 
 </div>
 
@@ -17,3 +26,10 @@
 
 </div>
 
+## 版本控制
+
+<div class="grid cards" markdown>
+
+- :simple-git: __Git__ [:octicons-arrow-right-24: 进入](./articles/Git/index.md)
+
+</div>
