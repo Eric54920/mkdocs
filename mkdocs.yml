@@ -11,6 +11,7 @@ nav:
         - Python深浅拷贝: ./articles/Python/深浅拷贝.md
         - Python使用shutil实现文件拷贝: ./articles/Python/Python使用shutil实现文件拷贝.md
         - Python使用PIL进行图片压缩: ./articles/Python/Python使用PIL进行图片压缩.md
+        - Python调用ChatGPT: ./articles/Python/Python调用ChatGPT.md
         - IO多路复用: ./articles/Python/IO多路复用.md
       - Golang:
         - ./articles/Go/index.md
