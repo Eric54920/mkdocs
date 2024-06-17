@@ -70,6 +70,30 @@ nav:
       - Golang:
         - ./articles/Go/index.md
         - Go语言介绍: ./articles/Go/Go语言介绍.md
+        - Go语言的包: ./articles/Go/Go语言的包.md
+        - Go语言import: ./articles/Go/Go语言import.md
+        - Go语言依赖管理: ./articles/Go/Go语言依赖管理.md
+        - Go语言变量: ./articles/Go/Go语言变量.md
+        - Go语言常量: ./articles/Go/Go语言常量.md
+        - Go语言数据类型: ./articles/Go/Go语言数据类型.md
+        - Go语言运算符: ./articles/Go/Go语言运算符.md
+        - Go语言fmt包: ./articles/Go/Go语言fmt包.md
+        - Go语言if判断: ./articles/Go/Go语言if判断.md
+        - Go语言for循环: ./articles/Go/Go语言for循环.md
+        - Go语言switch: ./articles/Go/Go语言switch.md
+        - Go语言Array: ./articles/Go/Go语言Array.md
+        - Go语言Slice: ./articles/Go/Go语言Slice.md
+        - Go语言Map: ./articles/Go/Go语言Map.md
+        - Go语言函数: ./articles/Go/Go语言函数.md
+        - Go语言函数作用域: ./articles/Go/Go语言函数作用域.md
+        - Go语言函数类型和变量: ./articles/Go/Go语言函数类型和变量.md
+        - Go语言闭包: ./articles/Go/Go语言闭包.md
+        - Go语言defer延迟调用: ./articles/Go/Go语言defer延迟调用.md
+        - Go语言函数异常处理: ./articles/Go/Go语言函数异常处理.md
+        - Go语言传值与传指针: ./articles/Go/Go语言传值与传指针.md
+        - Go语言递归: ./articles/Go/Go语言递归.md
+        - Go语言指针: ./articles/Go/Go语言指针.md
+        - Go语言自定义类型: ./articles/Go/Go语言自定义类型.md
     - 前端:
       - Vue:
         - ./articles/Vue/index.md
@@ -214,6 +238,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - attr_list
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -226,7 +252,14 @@ markdown_extensions:
 extra_css:
   - assets/fancybox/fancybox.css
   - stylesheets/gallery.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
 
 extra_javascript:
   - assets/fancybox/fancybox.umd.js
   - javascripts/gallery.js
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
