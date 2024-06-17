@@ -21,6 +21,7 @@ nav:
         - Python推导式: ./articles/Python/Python推导式.md
         - Python迭代器: ./articles/Python/Python迭代器.md
         - Python生成器: ./articles/Python/Python生成器.md
+        - Python装饰器: ./articles/Python/Python装饰器.md
         - Python文件读写: ./articles/Python/Python文件读写.md
         - Python正则表达式: ./articles/Python/Python正则表达式.md
         - Python匿名函数: ./articles/Python/Python匿名函数.md
@@ -29,6 +30,29 @@ nav:
         - Python递归: ./articles/Python/Python递归.md
         - Python闭包: ./articles/Python/Python闭包.md
         - Python反射: ./articles/Python/Python反射.md
+        - Python内置函数: ./articles/Python/Python内置函数.md
+        - Python异常处理: ./articles/Python/Python异常处理.md
+        - Python模块和包: ./articles/Python/Python模块和包.md
+        - Python的functools模块: ./articles/Python/Python的functools模块.md
+        - Python的os模块: ./articles/Python/Python的os模块.md
+        - Python的sys模块: ./articles/Python/Python的sys模块.md
+        - Python的time模块: ./articles/Python/Python的time模块.md
+        - Python的datetime模块: ./articles/Python/Python的datetime模块.md
+        - Python的random模块: ./articles/Python/Python的random模块.md
+        - Python的json模块: ./articles/Python/Python的json模块.md
+        - Python的hashlib模块: ./articles/Python/Python的hashlib模块.md
+        - Python的logging模块: ./articles/Python/Python的logging模块.md
+        - Python的collections模块: ./articles/Python/Python的collections模块.md
+        - Python的stmplib模块: ./articles/Python/Python的stmplib模块.md
+        - Python的socket模块: ./articles/Python/Python的socket模块.md
+        - Python面向对象: ./articles/Python/Python面向对象.md
+        - Python的元类: ./articles/Python/Python的元类.md
+        - Python类的继承: ./articles/Python/Python类的继承.md
+        - Python的封装: ./articles/Python/Python的封装.md
+        - Python的多态: ./articles/Python/Python的多态.md
+        - Python类的私有成员: ./articles/Python/Python类的私有成员.md
+        - Python的特殊方法: ./articles/Python/Python的特殊方法.md
+        - Python的抽象类: ./articles/Python/Python的抽象类.md
         - Python使用shutil实现文件拷贝: ./articles/Python/Python使用shutil实现文件拷贝.md
         - Python使用PIL进行图片压缩: ./articles/Python/Python使用PIL进行图片压缩.md
         - Python调用ChatGPT: ./articles/Python/Python调用ChatGPT.md
