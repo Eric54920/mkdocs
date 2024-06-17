@@ -26,7 +26,7 @@ nav:
         - Python正则表达式: ./articles/Python/Python正则表达式.md
         - Python匿名函数: ./articles/Python/Python匿名函数.md
         - Python函数: ./articles/Python/Python函数.md
-        - Python函数名的第一类对象及使用: ./articles/Python/Python函数名的第一类对象及使用.md
+        - Python函数名的应用: ./articles/Python/Python函数名的应用.md
         - Python递归: ./articles/Python/Python递归.md
         - Python闭包: ./articles/Python/Python闭包.md
         - Python反射: ./articles/Python/Python反射.md
@@ -53,10 +53,20 @@ nav:
         - Python类的私有成员: ./articles/Python/Python类的私有成员.md
         - Python的特殊方法: ./articles/Python/Python的特殊方法.md
         - Python的抽象类: ./articles/Python/Python的抽象类.md
+        - Python信号量: ./articles/Python/Python信号量.md
+        - Python进程: ./articles/Python/Python进程.md
+        - Python线程: ./articles/Python/Python线程.md
+        - Python的Event: ./articles/Python/Python的Event.md
+        - Python定时器: ./articles/Python/Python定时器.md
+        - Python的锁: ./articles/Python/Python的锁.md
+        - Python的GIL: ./articles/Python/Python的GIL.md
+        - Python的并发和并行: ./articles/Python/Python的并发和并行.md
+        - Python协程: ./articles/Python/Python协程.md
+        - Python的IO多路复用: ./articles/Python/Python的IO多路复用.md
+        - Python开发规范: ./articles/Python/Python开发规范.md
         - Python使用shutil实现文件拷贝: ./articles/Python/Python使用shutil实现文件拷贝.md
         - Python使用PIL进行图片压缩: ./articles/Python/Python使用PIL进行图片压缩.md
         - Python调用ChatGPT: ./articles/Python/Python调用ChatGPT.md
-        - IO多路复用: ./articles/Python/IO多路复用.md
       - Golang:
         - ./articles/Go/index.md
         - Go语言介绍: ./articles/Go/Go语言介绍.md
