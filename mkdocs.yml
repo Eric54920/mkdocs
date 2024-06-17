@@ -94,6 +94,12 @@ nav:
         - Go语言递归: ./articles/Go/Go语言递归.md
         - Go语言指针: ./articles/Go/Go语言指针.md
         - Go语言自定义类型: ./articles/Go/Go语言自定义类型.md
+        - Go语言结构体: ./articles/Go/Go语言结构体.md
+        - Go语言结构体与序列化: ./articles/Go/Go语言结构体与序列化.md
+        - Go语言接口: ./articles/Go/Go语言接口.md
+        - Go语言Error: ./articles/Go/Go语言Error.md
+        - Go语言反射: ./articles/Go/Go语言反射.md
+        - Go语言文件操作: ./articles/Go/Go语言文件操作.md
     - 前端:
       - Vue:
         - ./articles/Vue/index.md
