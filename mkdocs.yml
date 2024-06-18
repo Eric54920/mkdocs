@@ -67,6 +67,7 @@ nav:
         - Python使用shutil实现文件拷贝: ./articles/Python/Python使用shutil实现文件拷贝.md
         - Python使用PIL进行图片压缩: ./articles/Python/Python使用PIL进行图片压缩.md
         - Python调用ChatGPT: ./articles/Python/Python调用ChatGPT.md
+        - FastAPI数据库迁移: ./articles/Python/FastAPI数据库迁移.md
       - Golang:
         - ./articles/Go/index.md
         - Go语言介绍: ./articles/Go/Go语言介绍.md
