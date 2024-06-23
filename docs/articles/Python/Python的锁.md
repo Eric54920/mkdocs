@@ -3,6 +3,7 @@ Python 中的锁（Lock）是一种同步原语，用于在多线程编程中控
 ### 1. `threading.Lock` 类
 
 Python 提供了 `threading.Lock` 类来实现基本的互斥锁（Mutex）。`Lock` 类实现了一种简单的互斥锁机制，有两个主要方法：
+
 - `acquire(blocking=True, timeout=-1)`：获取锁。默认情况下，如果锁当前已被其他线程持有，则阻塞当前线程，直到获取到锁为止。可选参数 `timeout` 指定最长的阻塞时间（秒），超时则抛出 `TimeoutError` 异常。
 - `release()`：释放锁。将当前持有的锁释放，允许其他线程获取锁。
 
