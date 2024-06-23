@@ -5,6 +5,8 @@
 <div class="grid cards" markdown>
 
 - :simple-python: __Python__ [:octicons-arrow-right-24: 进入](./articles/Python/index.md)
+- :simple-django: __Django__ [:octicons-arrow-right-24: 进入](./articles/Django/index.md)
+- :simple-fastapi: __FastAPI__ [:octicons-arrow-right-24: 进入](./articles/FastAPI/index.md)
 - :simple-go: __Golang__ [:octicons-arrow-right-24: 进入](./articles/Go/index.md)
 
 </div>

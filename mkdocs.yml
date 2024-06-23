@@ -33,6 +33,7 @@ nav:
         - Python内置函数: ./articles/Python/Python内置函数.md
         - Python异常处理: ./articles/Python/Python异常处理.md
         - Python模块和包: ./articles/Python/Python模块和包.md
+        - Python中的__all__: ./articles/Python/Python中的__all__.md
         - Python的functools模块: ./articles/Python/Python的functools模块.md
         - Python的os模块: ./articles/Python/Python的os模块.md
         - Python的sys模块: ./articles/Python/Python的sys模块.md
@@ -67,7 +68,14 @@ nav:
         - Python使用shutil实现文件拷贝: ./articles/Python/Python使用shutil实现文件拷贝.md
         - Python使用PIL进行图片压缩: ./articles/Python/Python使用PIL进行图片压缩.md
         - Python调用ChatGPT: ./articles/Python/Python调用ChatGPT.md
-        - FastAPI数据库迁移: ./articles/Python/FastAPI数据库迁移.md
+      - Django:
+        - ./articles/Django/index.md
+        - Django路由: ./articles/Django/Django路由.md
+        - Django视图: ./articles/Django/Django视图.md
+        - Django请求处理: ./articles/Django/Django请求处理.md
+      - FastAPI:
+        - ./articles/FastAPI/index.md
+        - FastAPI数据库迁移: ./articles/FastAPI/FastAPI数据库迁移.md
       - Golang:
         - ./articles/Go/index.md
         - Go语言介绍: ./articles/Go/Go语言介绍.md

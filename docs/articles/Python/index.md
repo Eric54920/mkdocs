@@ -26,6 +26,7 @@
 - [Python内置函数](./Python内置函数.md)
 - [Python异常处理](./Python异常处理.md)
 - [Python模块和包](./Python模块和包.md)
+- [Python中的__all__](./Python中的__all__.md)
 - [Python的functools模块](./Python的functools模块.md)
 - [Python的os模块](./Python的os模块.md)
 - [Python的sys模块](./Python的sys模块.md)
@@ -60,4 +61,3 @@
 - [Python使用shutil实现文件拷贝](./Python使用shutil实现文件拷贝.md)
 - [Python使用PIL进行图片压缩](./Python使用PIL进行图片压缩.md)
 - [Python调用ChatGPT](./Python调用ChatGPT.md)
-- [FastAPI数据库迁移](./FastAPI数据库迁移.md)
