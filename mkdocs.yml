@@ -71,6 +71,8 @@ nav:
       - Django:
         - ./articles/Django/index.md
         - Django路由: ./articles/Django/Django路由.md
+        - Django模型: ./articles/Django/Django模型.md
+        - Django模型字段类型: ./articles/Django/Django模型字段类型.md
         - Django视图: ./articles/Django/Django视图.md
         - Django请求处理: ./articles/Django/Django请求处理.md
       - FastAPI:
