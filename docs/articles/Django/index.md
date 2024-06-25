@@ -9,6 +9,6 @@
 - [Django模型](./Django模型.md)
 - [Django模型字段类型](./Django模型字段类型.md)
 - [Django表单](./Django表单.md)
-- [Django模版](./Django模版.md)
+- [Django模板](./Django模板.md)
 - [Django的Cookies和Sessions](./Django的Cookies和Sessions.md)
 - [DRF介绍](./DRF介绍.md)

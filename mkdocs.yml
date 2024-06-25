@@ -79,7 +79,7 @@ nav:
         - Django模型: ./articles/Django/Django模型.md
         - Django模型字段类型: ./articles/Django/Django模型字段类型.md
         - Django表单: ./articles/Django/Django表单.md
-        - Django模版: ./articles/Django/Django模版.md
+        - Django模板: ./articles/Django/Django模板.md
         - Django的Cookies和Sessions: ./articles/Django/Django的Cookies和Sessions.md
         - DRF介绍: ./articles/Django/DRF介绍.md
       - FastAPI:
