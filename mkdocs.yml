@@ -82,6 +82,9 @@ nav:
         - Django模板: ./articles/Django/Django模板.md
         - Django的Cookies和Sessions: ./articles/Django/Django的Cookies和Sessions.md
         - DRF介绍: ./articles/Django/DRF介绍.md
+        - DRF视图: ./articles/Django/DRF视图.md
+        - DRF用户模型: ./articles/Django/DRF用户模型.md
+        - DRF认证: ./articles/Django/DRF认证.md
       - FastAPI:
         - ./articles/FastAPI/index.md
         - FastAPI数据库迁移: ./articles/FastAPI/FastAPI数据库迁移.md
