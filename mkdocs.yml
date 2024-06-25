@@ -70,6 +70,7 @@ nav:
         - Python调用ChatGPT: ./articles/Python/Python调用ChatGPT.md
       - Django:
         - ./articles/Django/index.md
+        - Django介绍: ./articles/Django/Django介绍.md
         - Django路由: ./articles/Django/Django路由.md
         - Django视图: ./articles/Django/Django视图.md
         - Django请求处理: ./articles/Django/Django请求处理.md
@@ -77,6 +78,10 @@ nav:
         - Django中间件: ./articles/Django/Django中间件.md
         - Django模型: ./articles/Django/Django模型.md
         - Django模型字段类型: ./articles/Django/Django模型字段类型.md
+        - Django表单: ./articles/Django/Django表单.md
+        - Django模版: ./articles/Django/Django模版.md
+        - Django的Cookies和Sessions: ./articles/Django/Django的Cookies和Sessions.md
+        - DRF介绍: ./articles/Django/DRF介绍.md
       - FastAPI:
         - ./articles/FastAPI/index.md
         - FastAPI数据库迁移: ./articles/FastAPI/FastAPI数据库迁移.md
