@@ -85,6 +85,11 @@ nav:
         - DRF视图: ./articles/Django/DRF视图.md
         - DRF用户模型: ./articles/Django/DRF用户模型.md
         - DRF认证: ./articles/Django/DRF认证.md
+        - DRF权限: ./articles/Django/DRF权限.md
+        - DRF限流: ./articles/Django/DRF限流.md
+        - DRF分页: ./articles/Django/DRF分页.md
+        - DRF过滤: ./articles/Django/DRF过滤.md
+        - DRF版本: ./articles/Django/DRF版本.md
       - FastAPI:
         - ./articles/FastAPI/index.md
         - FastAPI数据库迁移: ./articles/FastAPI/FastAPI数据库迁移.md
