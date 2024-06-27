@@ -88,8 +88,12 @@ nav:
         - DRF权限: ./articles/Django/DRF权限.md
         - DRF限流: ./articles/Django/DRF限流.md
         - DRF分页: ./articles/Django/DRF分页.md
-        - DRF过滤: ./articles/Django/DRF过滤.md
         - DRF版本: ./articles/Django/DRF版本.md
+        - DRF过滤器: ./articles/Django/DRF过滤器.md
+        - DRF渲染器: ./articles/Django/DRF渲染器.md
+        - DRF解析器: ./articles/Django/DRF解析器.md
+        - DRF内容协商: ./articles/Django/DRF内容协商.md
+        - DRF元数据: ./articles/Django/DRF元数据.md
       - FastAPI:
         - ./articles/FastAPI/index.md
         - FastAPI数据库迁移: ./articles/FastAPI/FastAPI数据库迁移.md
