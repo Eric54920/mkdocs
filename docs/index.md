@@ -30,6 +30,16 @@
 
 </div>
 
+## 数据挖掘
+
+### 数据分析
+
+<div class="grid cards" markdown>
+
+- :simple-numpy: __NumPy__ [:octicons-arrow-right-24: 进入](./articles/NumPy/index.md)
+
+</div>
+
 ## 前端
 
 <div class="grid cards" markdown>
