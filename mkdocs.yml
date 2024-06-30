@@ -140,12 +140,28 @@ nav:
       - Actix:
         - ./articles/Actix/index.md
         - Actix介绍: ./articles/Actix/Actix介绍.md
-    - 数据挖掘:
+    - 数据科学:
       - NumPy:
         - ./articles/NumPy/index.md
         - NumPy介绍: ./articles/NumPy/NumPy介绍.md
-        - NumPy的ndarray对象: ./articles/NumPy/NumPy的ndarray对象.md
         - NumPy数据类型: ./articles/NumPy/NumPy数据类型.md
+        - NumPy创建数组: ./articles/NumPy/NumPy创建数组.md
+        - NumPy数组属性: ./articles/NumPy/NumPy数组属性.md
+        - NumPy数组的切片和索引: ./articles/NumPy/NumPy数组的切片和索引.md
+        - NumPy广播: ./articles/NumPy/NumPy广播.md
+        - NumPy迭代: ./articles/NumPy/NumPy迭代.md
+        - NumPy修改数组形状: ./articles/NumPy/NumPy修改数组形状.md
+        - NumPy连接数组: ./articles/NumPy/NumPy连接数组.md
+        - NumPy分割数组: ./articles/NumPy/NumPy分割数组.md
+        - NumPy数组元素的添加和删除: ./articles/NumPy/NumPy数组元素的添加和删除.md
+        - NumPy字符串函数: ./articles/NumPy/NumPy字符串函数.md
+        - NumPy数学函数: ./articles/NumPy/NumPy数学函数.md
+        - NumPy排序函数: ./articles/NumPy/NumPy排序函数.md
+        - NumPy搜索函数: ./articles/NumPy/NumPy搜索函数.md
+        - NumPy赋值: ./articles/NumPy/NumPy赋值.md
+        - NumPy视图: ./articles/NumPy/NumPy视图.md
+        - NumPy副本: ./articles/NumPy/NumPy副本.md
+        - NumPy的IO函数: ./articles/NumPy/NumPy的IO函数.md
     - 前端:
       - Vue:
         - ./articles/Vue/index.md
