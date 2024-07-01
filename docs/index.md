@@ -30,6 +30,14 @@
 
 </div>
 
+### 设计模式
+
+<div class="grid cards" markdown>
+
+- :material-material-design: __设计模式__ [:octicons-arrow-right-24: 进入](./articles/设计模式/index.md)
+
+</div>
+
 ## 数据科学
 
 ### 数据分析
