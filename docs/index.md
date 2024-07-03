@@ -23,6 +23,14 @@
 
 </div>
 
+## 人工智能
+
+<div class="grid cards" markdown>
+
+- :simple-langchain: __LangChain__ [:octicons-arrow-right-24: 进入](./articles/LangChain/index.md)
+
+</div>
+
 ## 前端
 
 <div class="grid cards" markdown>

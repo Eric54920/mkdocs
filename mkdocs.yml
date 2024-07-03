@@ -188,6 +188,10 @@ nav:
         - NumPy视图: ./articles/NumPy/NumPy视图.md
         - NumPy副本: ./articles/NumPy/NumPy副本.md
         - NumPy的IO函数: ./articles/NumPy/NumPy的IO函数.md
+    - 人工智能:
+      - LangChain:
+        - ./articles/LangChain/index.md
+        - LangChain介绍: ./articles/LangChain/LangChain介绍.md
     - 前端:
       - Vue:
         - ./articles/Vue/index.md
@@ -320,6 +324,9 @@ extra:
     
     - icon: fontawesome/brands/instagram 
       link: https://www.instagram.com/_ericphotograph
+
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/realmaguodong
 
     - icon: fontawesome/solid/envelope
       link: mailto:realmaguodong@outlook.com
