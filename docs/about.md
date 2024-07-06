@@ -8,39 +8,39 @@ Hi 大家好, 我是 Eric 👋
 
 ### 语言和工具
 
-#### 前端
+=== "前端"
 
-  - :simple-html5: HTML
-  - :simple-css3: CSS
-  - :simple-javascript: JavaScript
-  - :simple-vuedotjs: Vue
-  - :simple-bootstrap: Bootstrap
-  - :simple-tailwindcss: Tailwind CSS
+    - :simple-html5: HTML
+    - :simple-css3: CSS
+    - :simple-javascript: JavaScript
+    - :simple-vuedotjs: Vue
+    - :simple-bootstrap: Bootstrap
+    - :simple-tailwindcss: Tailwind CSS
   
-#### 后端
+=== "后端"
 
-  - :simple-python: Python
-  - :simple-django: Django
-  - :simple-flask: Flask
-  - :fontawesome-solid-tornado: Tornado
-  - :simple-fastapi: FastAPI
-  - :simple-go: Golang
-  - :simple-gin: Gin
-  - :simple-docker: Docker
-  - :simple-linux: Linux
-  - :simple-ubuntu: Ubuntu
+    - :simple-python: Python
+    - :simple-django: Django
+    - :simple-flask: Flask
+    - :fontawesome-solid-tornado: Tornado
+    - :simple-fastapi: FastAPI
+    - :simple-go: Golang
+    - :simple-gin: Gin
+    - :simple-docker: Docker
+    - :simple-linux: Linux
+    - :simple-ubuntu: Ubuntu
   
-#### 数据库
+=== "数据库"
 
-  - :simple-mysql: MySQL
-  - :simple-redis: Redis
-  - :simple-sqlite: SQLite
-  - :simple-postgresql: PostgreSQL
-  - :simple-mongodb: MongoDB
+    - :simple-mysql: MySQL
+    - :simple-redis: Redis
+    - :simple-sqlite: SQLite
+    - :simple-postgresql: PostgreSQL
+    - :simple-mongodb: MongoDB
 
-#### 开发工具
+=== "开发工具"
 
-  - :material-microsoft-visual-studio-code: VS Code
+    - :material-microsoft-visual-studio-code: VS Code
 
 ### 社交媒体
 
