@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # GR3｜趁阳光正好，趁秋意尚在，赶快出来疯吧 {: .article-title}
 
 <div class="grid cards" markdown>

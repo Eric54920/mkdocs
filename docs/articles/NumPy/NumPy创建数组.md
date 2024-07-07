@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 NumPy 提供了多种方法来创建 `ndarray` 数组，这里详细列出并示例这些方法。
 
 ### 1. 使用 `np.array`

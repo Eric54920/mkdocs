@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 内容协商（Content Negotiation）是 Django REST Framework (DRF) 中用于确定 API 响应格式的一项重要功能。通过内容协商，API 可以根据客户端的请求头信息（如 `Accept` 头）自动选择合适的渲染器（Renderer）来生成响应数据。
 
 ### 内容协商的工作原理

@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 在 Django 中，视图是处理请求和返回响应的函数或类。视图可以处理各种类型的 HTTP 请求，如 GET、POST、PUT、DELETE 等，并返回相应的响应，如 HTML 页面、JSON 数据、重定向等。
 
 ### 视图类型

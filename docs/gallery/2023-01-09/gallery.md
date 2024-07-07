@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 空黄的路灯无力地照着沉寂的深巷 {: .article-title}
 
 <div class="grid cards" markdown>

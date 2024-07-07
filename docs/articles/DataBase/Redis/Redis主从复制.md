@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 Redis 主从复制（Replication）是一个强大的功能，允许数据从一个 Redis 实例（主服务器，Master）自动复制到一个或多个 Redis 实例（从服务器，Slaves）。这有助于提高数据的可用性和读取性能。以下是关于 Redis 主从复制的详细解释和配置示例。
 
 ### Redis 主从复制的特点

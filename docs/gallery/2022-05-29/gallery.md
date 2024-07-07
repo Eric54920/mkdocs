@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # iPhone｜工厂里也能拍到绝美的照片 {: .article-title}
 
 <div class="grid cards" markdown>

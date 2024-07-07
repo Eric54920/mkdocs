@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 许多人和事一旦错过就不可能再遇到了 {: .article-title}
 
 <div class="grid cards" markdown>

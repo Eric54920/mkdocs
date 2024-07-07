@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 在 Django REST Framework (DRF) 中，解析器（Parsers）负责将客户端请求的数据解析为能够被视图处理的格式。解析器决定了 API 如何读取和处理请求的数据格式，例如 JSON、表单数据、多部分表单数据等。以下是对 DRF 解析器的详细介绍。
 
 ### 默认解析器

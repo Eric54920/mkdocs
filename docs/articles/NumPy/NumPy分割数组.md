@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 在 NumPy 中，可以使用多种方法将数组分割成多个子数组。这些方法包括 `np.split`、`np.array_split`、`np.hsplit`、`np.vsplit` 和 `np.dsplit`。以下是这些方法的详细介绍及示例：
 
 ### `np.split`

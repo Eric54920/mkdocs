@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 在Python中，深拷贝（deep copy）和浅拷贝（shallow copy）是用于复制对象的两种不同方式。它们的主要区别在于拷贝的程度：
 
 ### 1. 浅拷贝（Shallow Copy）

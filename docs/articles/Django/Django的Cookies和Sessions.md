@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 在 Django 中，Cookies 和 Sessions 是用来在客户端和服务器之间存储和传递数据的重要机制。它们为保持用户状态和跨请求传递数据提供了强大的支持。
 
 ### Cookies

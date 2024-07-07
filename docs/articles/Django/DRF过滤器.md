@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 在 Django REST Framework (DRF) 中，过滤是一个非常重要的功能，可以让客户端对数据进行查询、筛选和排序。DRF 提供了多种方法来实现过滤，包括内置的 `django-filter` 库、自定义过滤器以及基于查询参数的过滤。以下是详细介绍 DRF 过滤功能的内容：
 
 ### 安装 `django-filter`

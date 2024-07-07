@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 生活匆忙，别错过日落和夕阳 {: .article-title}
 
 <div class="grid cards" markdown>

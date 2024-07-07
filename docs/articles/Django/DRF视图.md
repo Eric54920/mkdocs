@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 Django REST Framework (DRF) 中的视图是处理 HTTP 请求并返回响应的核心组件。DRF 提供了多种类型的视图类，使得开发 RESTful API 更加高效和灵活。以下是对 DRF 中主要视图类型的详细介绍：
 
 ### APIView

@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 朴树的音乐需要在夜深人静的时候去品味 {: .article-title}
 
 <div class="grid cards" markdown>

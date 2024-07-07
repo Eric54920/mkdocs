@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 Django REST Framework (DRF) 中的元数据（Metadata）功能用于提供关于 API 端点和视图的详细信息。元数据在生成可浏览的 API（Browsable API）页面时特别有用，它可以帮助开发者了解 API 的结构、字段、可用的操作等信息。DRF 提供了灵活的元数据配置和自定义功能。
 
 ### 默认元数据类

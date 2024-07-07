@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 每周必达，杭州临平大剧院 {: .article-title}
 
 <div class="grid cards" markdown>

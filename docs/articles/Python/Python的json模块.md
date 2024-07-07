@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 `json` 模块是 Python 标准库中用于处理 JSON（JavaScript Object Notation）数据格式的模块。JSON 是一种轻量级的数据交换格式，易于人阅读和编写，也易于机器解析和生成。在 Python 中，`json` 模块提供了用于编码（序列化）和解码（反序列化）JSON 数据的函数，以及与 Python 数据类型之间的转换。
 
 ### 导入 json 模块

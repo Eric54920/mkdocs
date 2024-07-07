@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # GR3｜向野而生，怀念以前没有疫情的日子 {: .article-title}
 
 <div class="grid cards" markdown>

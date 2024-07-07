@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 青海焦黄色山脉和盘山公路⛰️ {: .article-title}
 
 <div class="grid cards" markdown>

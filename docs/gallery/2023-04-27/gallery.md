@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 青海贵德｜奇特的丹霞地貌和清澈见底的黄河 {: .article-title}
 
 <div class="grid cards" markdown>

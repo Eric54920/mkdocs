@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 在 Python 中，抽象类是一种特殊的类，它不能被实例化，只能被继承，并且子类必须实现抽象类中定义的所有抽象方法。Python 中实现抽象类的主要方式是使用 `abc` 模块（Abstract Base Classes），这个模块提供了 `ABC` 类和 `abstractmethod` 装饰器来定义和实现抽象类和抽象方法。
 
 ### 定义抽象类

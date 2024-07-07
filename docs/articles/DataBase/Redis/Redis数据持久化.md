@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 Redis 提供了多种数据持久化机制，主要包括 RDB（Redis Database）快照和 AOF（Append Only File）日志。下面分别介绍这两种持久化机制，并给出相应的示例。
 
 ### RDB 快照持久化

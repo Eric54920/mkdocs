@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 等到疫情过去，带着Ta，一起去划船吧 {: .article-title}
 
 <div class="grid cards" markdown>

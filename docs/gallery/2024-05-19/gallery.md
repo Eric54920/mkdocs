@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # GR3｜麻木不仁的日子里，记录就是反抗 {: .article-title}
 
 <div class="grid cards" markdown>

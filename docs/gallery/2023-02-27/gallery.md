@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 追赶日落就算我献给自己的浪漫 {: .article-title}
 
 <div class="grid cards" markdown>

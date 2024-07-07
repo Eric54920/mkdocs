@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 焦虑的日子里，不妨放下一切，出去走走吧 {: .article-title}
 
 <div class="grid cards" markdown>

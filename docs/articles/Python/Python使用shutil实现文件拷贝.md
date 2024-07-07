@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 在Python中，可以使用`shutil`模块来拷贝文件。`shutil`模块提供了多个用于文件操作的函数，如`shutil.copy`、`shutil.copy2`和`shutil.copyfile`。下面是一些示例，展示了如何使用这些函数来拷贝文件。
 
 ### 使用 `shutil.copy`

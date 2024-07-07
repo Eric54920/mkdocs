@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 Django REST Framework (DRF) 是一个强大且灵活的工具包，用于在 Django 框架上构建 Web APIs。DRF 通过一系列工具和库，为开发者提供了构建 RESTful APIs 的简便方法。以下是对 DRF 的详细介绍：
 
 ### 主要特性

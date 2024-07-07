@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 面向对象编程（Object-Oriented Programming, OOP）是一种编程范式，Python 是一种多范式的语言，支持面向对象编程。在 Python 中，一切皆为对象，对象可以包含数据（属性）和操作数据的方法（方法）。下面详细介绍 Python 中面向对象编程的基本概念和用法。
 
 ### 类（Class）和对象（Object）

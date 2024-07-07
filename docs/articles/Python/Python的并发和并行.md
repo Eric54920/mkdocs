@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 在 Python 中，处理并发（Concurrency）和并行（Parallelism）是涉及到多任务处理的两个重要概念，它们通常用于描述程序同时执行多个任务的能力，但在实现方式和应用场景上有所不同。
 
 ### 1. 并发（Concurrency）

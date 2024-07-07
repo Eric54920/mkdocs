@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 一年前去逛展拍的鹦鹉，颜色太好看了 {: .article-title}
 
 <div class="grid cards" markdown>

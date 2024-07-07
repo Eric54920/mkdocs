@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 一起去婺源吧，看那座山崖上肆意生长的村落 {: .article-title}
 
 <div class="grid cards" markdown>

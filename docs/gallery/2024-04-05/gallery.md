@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 春意暖暖，岁月缓缓，在感受，在记录，在珍惜 {: .article-title}
 
 <div class="grid cards" markdown>

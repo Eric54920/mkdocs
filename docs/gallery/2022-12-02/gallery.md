@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # GR3｜等鲜花盛开，人间温柔亦浪漫 {: .article-title}
 
 <div class="grid cards" markdown>

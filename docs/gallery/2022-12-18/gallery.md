@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # GR3｜傍晚的蓝色是治愈，也是温柔 {: .article-title}
 
 <div class="grid cards" markdown>

@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 总要带着喜欢的人，去看一眼蔚蓝的赛里木湖 {: .article-title}
 
 <div class="grid cards" markdown>

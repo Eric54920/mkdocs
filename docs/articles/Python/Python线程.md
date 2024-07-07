@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 在 Python 中，线程（Thread）是执行流的最小单元，允许程序在同一进程内并发执行多个任务。Python 提供了多个模块来支持线程编程，主要包括 `threading` 和 `concurrent.futures`。下面将详细介绍 Python 中线程的基本概念、创建、管理、通信以及一些常见用法。
 
 ### 1. 线程的基本概念

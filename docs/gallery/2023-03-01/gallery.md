@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 总要去趟上海吧，吹吹黄浦江的晚风 {: .article-title}
 
 <div class="grid cards" markdown>

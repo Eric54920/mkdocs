@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 在Python中，循环结构用于重复执行一段代码，直到达到某个条件为止。Python提供了两种主要的循环结构：`for` 循环和 `while` 循环。此外，还可以结合使用 `break` 和 `continue` 语句来控制循环的执行流程。
 
 ### 1. for循环

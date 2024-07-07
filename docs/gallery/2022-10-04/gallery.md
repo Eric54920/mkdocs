@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 这才是我记忆里南方小镇该有的样子！ {: .article-title}
 
 <div class="grid cards" markdown>

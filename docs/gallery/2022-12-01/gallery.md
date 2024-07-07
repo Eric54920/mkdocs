@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # GR3｜乌篷船缓缓从水面划过，溅起阵阵涟漪 {: .article-title}
 
 <div class="grid cards" markdown>

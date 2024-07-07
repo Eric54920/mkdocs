@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 在 Django REST Framework (DRF) 中，渲染器（Renderer）是负责将 API 响应数据转换成不同格式（如 JSON、HTML、XML 等）的组件。渲染器决定了 API 的输出格式，因此理解和正确配置渲染器对于构建灵活和可扩展的 API 是至关重要的。以下是关于 DRF 渲染器的详细介绍。
 
 ### 默认渲染器

@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # GR3｜没有销声匿迹，我在热爱生活 {: .article-title}
 
 <div class="grid cards" markdown>

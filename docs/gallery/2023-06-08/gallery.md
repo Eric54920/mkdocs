@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 你不在重庆的日子，我替你吹了嘉陵江的晚风 {: .article-title}
 
 <div class="grid cards" markdown>

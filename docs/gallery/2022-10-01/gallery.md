@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 如果有不开心的时候，去良渚是不错的选择 {: .article-title}
 
 <div class="grid cards" markdown>

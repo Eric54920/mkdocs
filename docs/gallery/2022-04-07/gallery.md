@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 如果能和你分享此刻该多好 {: .article-title}
 
 <div class="grid cards" markdown>

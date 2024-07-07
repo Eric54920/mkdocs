@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 希望余生都能浪费在热爱的事情上📸 {: .article-title}
 
 <div class="grid cards" markdown>

@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 万物皆有裂痕，那是阳光照进来的地方 {: .article-title}
 
 <div class="grid cards" markdown>

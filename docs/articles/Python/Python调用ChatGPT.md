@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 要在 Python 中调用 ChatGPT API，您可以使用 OpenAI 提供的 Python 客户端库 `openai`。以下是如何设置和使用 ChatGPT API 的详细步骤：
 
 ### 1. 安装 OpenAI 客户端库

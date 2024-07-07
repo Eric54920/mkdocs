@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 乌镇｜天青色等烟雨，而我在等你 {: .article-title}
 
 <div class="grid cards" markdown>

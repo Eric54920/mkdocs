@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 在充满阳光的地方，安静的迎接温暖的一天 {: .article-title}
 
 <div class="grid cards" markdown>

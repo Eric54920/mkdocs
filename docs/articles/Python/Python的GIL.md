@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 GIL（Global Interpreter Lock，全局解释器锁）是 Python 解释器中的一个机制，它是为了确保在解释器级别对 Python 对象进行线程安全的访问而设计的。GIL 实际上是一个互斥锁，它会保证任何时刻只有一个线程在解释器中执行 Python 字节码。虽然 GIL 在单核 CPU 上可以简化内存管理的实现，但它限制了 Python 多线程程序的并行性能。
 
 ### 1. GIL 的作用

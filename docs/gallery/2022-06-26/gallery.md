@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 看到清晨烈焰似的云霞，就知道这一趟没白来 {: .article-title}
 
 <div class="grid cards" markdown>

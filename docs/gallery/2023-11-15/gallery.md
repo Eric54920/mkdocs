@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 西安｜我从远方赶来，赴你一面之约 {: .article-title}
 
 <div class="grid cards" markdown>

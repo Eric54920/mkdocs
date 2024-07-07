@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 如今已是离开北京的第二个年头了，怀念 {: .article-title}
 
 <div class="grid cards" markdown>

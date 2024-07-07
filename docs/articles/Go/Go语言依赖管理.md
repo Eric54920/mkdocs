@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 Go语言的依赖管理主要通过Go Modules进行管理，这是从Go 1.11版本开始引入的。Go Modules为Go语言提供了一个标准化且高效的依赖管理系统，解决了依赖版本控制和包管理的问题。下面是Go Modules的详细介绍和使用方法。
 
 ### 1. 初始化Go Modules

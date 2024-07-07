@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 在 Django REST Framework (DRF) 中，限流（Throttle）是一种用于限制客户端请求速率的机制，以防止滥用和过载。DRF 提供了多种限流策略，允许你根据不同的需求对 API 进行限流配置。以下是详细介绍 DRF 中限流的内容。
 
 ### 限流类

@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 没有大城市的繁华，却有人间最纯净的朴素 {: .article-title}
 
 <div class="grid cards" markdown>

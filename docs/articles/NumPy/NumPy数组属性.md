@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 NumPy 的 `ndarray` 对象有许多属性，这些属性提供了数组的形状、数据类型、维度等信息。下面是 `ndarray` 的主要属性及其详细解释和示例：
 
 ### 1. `ndarray.ndim`

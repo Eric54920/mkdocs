@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 在 Django REST Framework (DRF) 中，`User` 模型是处理用户认证和授权的核心部分。Django 内置了一个用户模型 `User`，并且 DRF 提供了工具来方便地管理和操作用户数据。下面将详细介绍如何使用 Django 的 `User` 模型以及如何通过 DRF 处理用户的注册、登录和管理。
 
 ### 创建用户模型

@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 在Python中，判断语句通过条件判断来决定程序的执行流程。Python提供了 `if`、`elif`（else if的缩写）和 `else` 关键字来实现条件判断。下面是Python中判断语句的基本语法和示例：
 
 ### 1. if语句

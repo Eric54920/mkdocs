@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 在Go语言中，异常处理采用的是错误值（error values）和延迟（defer）机制，而不是像其他语言（如Java或Python）那样使用传统的异常处理机制（try-catch）。
 
 ### 错误值（Error Values）

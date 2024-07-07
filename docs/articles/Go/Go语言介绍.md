@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 Go语言，也称为Golang，是由Google开发的一种静态类型、编译型编程语言。它在2007年由Robert Griesemer、Rob Pike和Ken Thompson设计，并于2009年首次发布。Go语言以其简单性、高效性和并发性而著称，主要用于系统编程、服务器端开发和云计算等领域。
 
 ### 1. 设计目标

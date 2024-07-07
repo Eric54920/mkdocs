@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 Actix 是一个非常流行且高性能的 Rust 异步框架，常用于构建网络服务和 Web 应用。Actix 提供了多种组件，包括 Actix Web（一个功能强大的 Web 框架）和 Actix Actor（一个基于 Actor 模型的并发库）。以下是对 Actix 框架的详细介绍，尤其是 Actix Web 的使用。
 
 ### 安装 Actix Web

@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 这一刻，阳光和微风的完美相遇 {: .article-title}
 
 <div class="grid cards" markdown>

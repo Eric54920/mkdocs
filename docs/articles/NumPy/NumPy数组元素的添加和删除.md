@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 在 NumPy 中，可以通过多种方法向数组中添加和删除元素。这些方法包括 `np.append`、`np.insert`、`np.delete` 等。下面详细介绍这些方法及其示例。
 
 ### 添加元素

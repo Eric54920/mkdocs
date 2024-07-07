@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 从广州南下，到珠海情侣路，所到之处皆美景 {: .article-title}
 
 <div class="grid cards" markdown>

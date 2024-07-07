@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 在 Python 中，实现 IO 多路复用通常使用 `select`、`poll`、`epoll`（Linux）或 `kqueue`（BSD/macOS）等机制。其中，`select` 是跨平台的，而 `poll`、`epoll` 和 `kqueue` 则是针对特定操作系统的。在 Python 中，通常使用 `select` 或者 `selectors` 模块来实现 IO 多路复用。
 
 ### 1. select 模块

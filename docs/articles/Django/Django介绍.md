@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 Django 是一个高级的 Python Web 框架，旨在快速开发和干净、实用的设计。它鼓励使用快速开发和遵循“不要重复自己”（DRY）原则。Django 提供了许多功能，使得 Web 开发变得更加简单和高效。
 
 ### Django 的主要功能

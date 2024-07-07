@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 在 Python 中，可以使用 `threading.Timer` 类来创建定时器，这个类允许您在指定的时间间隔后执行特定的函数或代码块。定时器可以用于执行周期性的任务或延时执行任务。
 
 ### 使用 `threading.Timer`

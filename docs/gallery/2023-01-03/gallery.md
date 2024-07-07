@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 北京后海附近，街头人文纪实摄影 {: .article-title}
 
 <div class="grid cards" markdown>

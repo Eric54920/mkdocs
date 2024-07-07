@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # GR3｜人间朝暮，落叶惊秋，你我皆是江南客 {: .article-title}
 
 <div class="grid cards" markdown>

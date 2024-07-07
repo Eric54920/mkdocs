@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 大热天的谁能拒绝一份冰凉美味的龟苓膏呢 {: .article-title}
 
 <div class="grid cards" markdown>
