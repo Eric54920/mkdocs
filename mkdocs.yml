@@ -195,6 +195,7 @@ nav:
     - 前端:
       - Vue:
         - ./articles/Vue/index.md
+        - Vue介绍: ./articles/Vue/Vue介绍.md
     - 数据库:
       - MySQL:
         - ./articles/DataBase/MySQL/index.md
@@ -223,6 +224,7 @@ nav:
       - Git:
         - ./articles/Git/index.md
         - Git查看和配置环境信息: ./articles/Git/Git查看和配置环境信息.md
+        - Git常用命令: ./articles/Git/Git常用命令.md
         - 如何给开源项目贡献代码: ./articles/Git/如何给开源项目贡献代码.md
   - 相册: 
     - gallery.md
