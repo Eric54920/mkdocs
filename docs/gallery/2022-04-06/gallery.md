@@ -6,9 +6,9 @@ comments: true
 
 <div class="grid cards" markdown>
 
-- [![Image 3](d80c2a70-a7e5-4dfe-a075-c86d74b868f9.jpg)](d80c2a70-a7e5-4dfe-a075-c86d74b868f9.jpg){: .fancybox }
-- [![Image 3](a8bdc3e9-9020-474e-8b1e-6f7724771262.jpg)](a8bdc3e9-9020-474e-8b1e-6f7724771262.jpg){: .fancybox }
-- [![Image 3](a2fa3393-bd83-4212-b905-7f73a5f67ff9.jpg)](a2fa3393-bd83-4212-b905-7f73a5f67ff9.jpg){: .fancybox }
+- [![img](d80c2a70-a7e5-4dfe-a075-c86d74b868f9.jpg)](d80c2a70-a7e5-4dfe-a075-c86d74b868f9.jpg){: .fancybox-gallery }
+- [![img](a8bdc3e9-9020-474e-8b1e-6f7724771262.jpg)](a8bdc3e9-9020-474e-8b1e-6f7724771262.jpg){: .fancybox-gallery }
+- [![img](a2fa3393-bd83-4212-b905-7f73a5f67ff9.jpg)](a2fa3393-bd83-4212-b905-7f73a5f67ff9.jpg){: .fancybox-gallery }
 
 
 </div>

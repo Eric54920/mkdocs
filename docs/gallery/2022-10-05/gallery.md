@@ -6,7 +6,7 @@ comments: true
 
 <div class="grid cards" markdown>
 
-- [![Image 3](ec006147-82e3-4c85-a35f-eae96ccb99b7.jpg)](ec006147-82e3-4c85-a35f-eae96ccb99b7.jpg){: .fancybox }
+- [![img](ec006147-82e3-4c85-a35f-eae96ccb99b7.jpg)](ec006147-82e3-4c85-a35f-eae96ccb99b7.jpg){: .fancybox-gallery }
 
 
 </div>

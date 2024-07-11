@@ -6,11 +6,11 @@ comments: true
 
 <div class="grid cards" markdown>
 
-- [![Image](IMG_5329.jpg)](IMG_5329.jpg){: .fancybox }
-- [![Image](IMG_5353.jpg)](IMG_5353.jpg){: .fancybox }
-- [![Image](IMG_5355.jpg)](IMG_5355.jpg){: .fancybox }
-- [![Image](IMG_5351.jpg)](IMG_5351.jpg){: .fancybox }
-- [![Image](IMG_5327.jpg)](IMG_5327.jpg){: .fancybox }
-- [![Image](IMG_5331.jpg)](IMG_5331.jpg){: .fancybox }
+- [![img](IMG_5329.jpg)](IMG_5329.jpg){: .fancybox-gallery }
+- [![img](IMG_5353.jpg)](IMG_5353.jpg){: .fancybox-gallery }
+- [![img](IMG_5355.jpg)](IMG_5355.jpg){: .fancybox-gallery }
+- [![img](IMG_5351.jpg)](IMG_5351.jpg){: .fancybox-gallery }
+- [![img](IMG_5327.jpg)](IMG_5327.jpg){: .fancybox-gallery }
+- [![img](IMG_5331.jpg)](IMG_5331.jpg){: .fancybox-gallery }
 
 </div>

@@ -391,6 +391,7 @@ extra_css:
   - assets/fancybox/fancybox.css
   - stylesheets/gallery.css
   - https://unpkg.com/katex@0/dist/katex.min.css
+  - assets/plyr/plyr.css
 
 extra_javascript:
   - assets/fancybox/fancybox.umd.js
@@ -401,3 +402,4 @@ extra_javascript:
   - javascripts/katex.js
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+  - assets/plyr/plyr.js
