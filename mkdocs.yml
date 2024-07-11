@@ -100,7 +100,7 @@ nav:
         - FastAPI数据库迁移: ./articles/FastAPI/FastAPI数据库迁移.md
       - Flask:
         - ./articles/Flask/index.md
-        - FastAPI数据库迁移: ./articles/Flask/Flask介绍.md
+        - Flask介绍: ./articles/Flask/Flask介绍.md
       - Golang:
         - ./articles/Go/index.md
         - Go语言介绍: ./articles/Go/Go语言介绍.md
@@ -331,11 +331,14 @@ theme:
       accent: black
     
   features:
+    - navigation.instant
+    - navigation.instant.progress
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.path
     - navigation.prune
+    - navigation.indexes
     - navigation.top
     - navigation.footer
     - content.code.copy
