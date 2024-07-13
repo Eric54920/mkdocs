@@ -10,7 +10,7 @@
     - :simple-django: __Django__ [:octicons-arrow-right-24: 进入](./articles/Django/index.md)
     - :simple-fastapi: __FastAPI__ [:octicons-arrow-right-24: 进入](./articles/FastAPI/index.md)
     - :simple-flask: __Flask__ [:octicons-arrow-right-24: 进入](./articles/Flask/index.md)
-    - :material-material-design: __设计模式__ [:octicons-arrow-right-24: 进入](./articles/设计模式/index.md)
+    - :simple-textpattern: __设计模式__ [:octicons-arrow-right-24: 进入](./articles/设计模式/index.md)
 
     </div>
 

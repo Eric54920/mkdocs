@@ -58,6 +58,7 @@
 - [Python协程](./Python协程.md)
 - [Python的IO多路复用](./Python的IO多路复用.md)
 - [Python开发规范](./Python开发规范.md)
+- [Python的gRPC](./Python的gRPC.md)
 - [Python使用shutil实现文件拷贝](./Python使用shutil实现文件拷贝.md)
 - [Python使用PIL进行图片压缩](./Python使用PIL进行图片压缩.md)
 - [Python调用ChatGPT](./Python调用ChatGPT.md)

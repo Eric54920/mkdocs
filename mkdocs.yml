@@ -1,306 +1,6 @@
 site_name: Eric
 site_url: http://theguodong.com
 
-nav:
-  - 首页: 
-    - index.md
-    - 服务端:
-      - Python:
-        - ./articles/Python/index.md
-        - Python语言介绍: ./articles/Python/Python语言介绍.md
-        - Python变量: ./articles/Python/Python变量.md
-        - Python常量: ./articles/Python/Python常量.md
-        - Python注释: ./articles/Python/Python注释.md
-        - Python数据类型: ./articles/Python/Python数据类型.md
-        - Python运算符: ./articles/Python/Python运算符.md
-        - Python判断语句: ./articles/Python/Python判断语句.md
-        - Python循环: ./articles/Python/Python循环.md
-        - Python字符串格式化: ./articles/Python/Python字符串格式化.md
-        - Python深浅拷贝: ./articles/Python/Python深浅拷贝.md
-        - Python序列化: ./articles/Python/Python序列化.md
-        - Python推导式: ./articles/Python/Python推导式.md
-        - Python迭代器: ./articles/Python/Python迭代器.md
-        - Python生成器: ./articles/Python/Python生成器.md
-        - Python装饰器: ./articles/Python/Python装饰器.md
-        - Python文件读写: ./articles/Python/Python文件读写.md
-        - Python正则表达式: ./articles/Python/Python正则表达式.md
-        - Python匿名函数: ./articles/Python/Python匿名函数.md
-        - Python函数: ./articles/Python/Python函数.md
-        - Python函数名的应用: ./articles/Python/Python函数名的应用.md
-        - Python递归: ./articles/Python/Python递归.md
-        - Python闭包: ./articles/Python/Python闭包.md
-        - Python反射: ./articles/Python/Python反射.md
-        - Python内置函数: ./articles/Python/Python内置函数.md
-        - Python异常处理: ./articles/Python/Python异常处理.md
-        - Python模块和包: ./articles/Python/Python模块和包.md
-        - Python中的__all__: ./articles/Python/Python中的__all__.md
-        - Python的functools模块: ./articles/Python/Python的functools模块.md
-        - Python的os模块: ./articles/Python/Python的os模块.md
-        - Python的sys模块: ./articles/Python/Python的sys模块.md
-        - Python的time模块: ./articles/Python/Python的time模块.md
-        - Python的datetime模块: ./articles/Python/Python的datetime模块.md
-        - Python的random模块: ./articles/Python/Python的random模块.md
-        - Python的json模块: ./articles/Python/Python的json模块.md
-        - Python的hashlib模块: ./articles/Python/Python的hashlib模块.md
-        - Python的logging模块: ./articles/Python/Python的logging模块.md
-        - Python的collections模块: ./articles/Python/Python的collections模块.md
-        - Python的stmplib模块: ./articles/Python/Python的stmplib模块.md
-        - Python的socket模块: ./articles/Python/Python的socket模块.md
-        - Python面向对象: ./articles/Python/Python面向对象.md
-        - Python的元类: ./articles/Python/Python的元类.md
-        - Python类的继承: ./articles/Python/Python类的继承.md
-        - Python的封装: ./articles/Python/Python的封装.md
-        - Python的多态: ./articles/Python/Python的多态.md
-        - Python类的私有成员: ./articles/Python/Python类的私有成员.md
-        - Python的特殊方法: ./articles/Python/Python的特殊方法.md
-        - Python的抽象类: ./articles/Python/Python的抽象类.md
-        - Python信号量: ./articles/Python/Python信号量.md
-        - Python进程: ./articles/Python/Python进程.md
-        - Python线程: ./articles/Python/Python线程.md
-        - Python的Event: ./articles/Python/Python的Event.md
-        - Python定时器: ./articles/Python/Python定时器.md
-        - Python的锁: ./articles/Python/Python的锁.md
-        - Python的GIL: ./articles/Python/Python的GIL.md
-        - Python的并发和并行: ./articles/Python/Python的并发和并行.md
-        - Python协程: ./articles/Python/Python协程.md
-        - Python的IO多路复用: ./articles/Python/Python的IO多路复用.md
-        - Python开发规范: ./articles/Python/Python开发规范.md
-        - Python使用shutil实现文件拷贝: ./articles/Python/Python使用shutil实现文件拷贝.md
-        - Python使用PIL进行图片压缩: ./articles/Python/Python使用PIL进行图片压缩.md
-        - Python调用ChatGPT: ./articles/Python/Python调用ChatGPT.md
-      - Django:
-        - ./articles/Django/index.md
-        - Django介绍: ./articles/Django/Django介绍.md
-        - Django路由: ./articles/Django/Django路由.md
-        - Django视图: ./articles/Django/Django视图.md
-        - Django请求处理: ./articles/Django/Django请求处理.md
-        - Django响应处理: ./articles/Django/Django响应处理.md
-        - Django中间件: ./articles/Django/Django中间件.md
-        - Django模型: ./articles/Django/Django模型.md
-        - Django模型字段类型: ./articles/Django/Django模型字段类型.md
-        - Django表单: ./articles/Django/Django表单.md
-        - Django模板: ./articles/Django/Django模板.md
-        - Django的Cookies和Sessions: ./articles/Django/Django的Cookies和Sessions.md
-        - DRF介绍: ./articles/Django/DRF介绍.md
-        - DRF视图: ./articles/Django/DRF视图.md
-        - DRF用户模型: ./articles/Django/DRF用户模型.md
-        - DRF认证: ./articles/Django/DRF认证.md
-        - DRF权限: ./articles/Django/DRF权限.md
-        - DRF限流: ./articles/Django/DRF限流.md
-        - DRF分页: ./articles/Django/DRF分页.md
-        - DRF版本: ./articles/Django/DRF版本.md
-        - DRF过滤器: ./articles/Django/DRF过滤器.md
-        - DRF渲染器: ./articles/Django/DRF渲染器.md
-        - DRF解析器: ./articles/Django/DRF解析器.md
-        - DRF内容协商: ./articles/Django/DRF内容协商.md
-        - DRF元数据: ./articles/Django/DRF元数据.md
-      - FastAPI:
-        - ./articles/FastAPI/index.md
-        - FastAPI介绍: ./articles/FastAPI/FastAPI介绍.md
-        - FastAPI数据库迁移: ./articles/FastAPI/FastAPI数据库迁移.md
-      - Flask:
-        - ./articles/Flask/index.md
-        - Flask介绍: ./articles/Flask/Flask介绍.md
-      - Golang:
-        - ./articles/Go/index.md
-        - Go语言介绍: ./articles/Go/Go语言介绍.md
-        - Go语言的包: ./articles/Go/Go语言的包.md
-        - Go语言import: ./articles/Go/Go语言import.md
-        - Go语言依赖管理: ./articles/Go/Go语言依赖管理.md
-        - Go语言变量: ./articles/Go/Go语言变量.md
-        - Go语言常量: ./articles/Go/Go语言常量.md
-        - Go语言数据类型: ./articles/Go/Go语言数据类型.md
-        - Go语言运算符: ./articles/Go/Go语言运算符.md
-        - Go语言fmt包: ./articles/Go/Go语言fmt包.md
-        - Go语言if判断: ./articles/Go/Go语言if判断.md
-        - Go语言for循环: ./articles/Go/Go语言for循环.md
-        - Go语言switch: ./articles/Go/Go语言switch.md
-        - Go语言Array: ./articles/Go/Go语言Array.md
-        - Go语言Slice: ./articles/Go/Go语言Slice.md
-        - Go语言Map: ./articles/Go/Go语言Map.md
-        - Go语言函数: ./articles/Go/Go语言函数.md
-        - Go语言函数作用域: ./articles/Go/Go语言函数作用域.md
-        - Go语言函数类型和变量: ./articles/Go/Go语言函数类型和变量.md
-        - Go语言闭包: ./articles/Go/Go语言闭包.md
-        - Go语言defer延迟调用: ./articles/Go/Go语言defer延迟调用.md
-        - Go语言函数异常处理: ./articles/Go/Go语言函数异常处理.md
-        - Go语言传值与传指针: ./articles/Go/Go语言传值与传指针.md
-        - Go语言递归: ./articles/Go/Go语言递归.md
-        - Go语言指针: ./articles/Go/Go语言指针.md
-        - Go语言自定义类型: ./articles/Go/Go语言自定义类型.md
-        - Go语言结构体: ./articles/Go/Go语言结构体.md
-        - Go语言结构体与序列化: ./articles/Go/Go语言结构体与序列化.md
-        - Go语言接口: ./articles/Go/Go语言接口.md
-        - Go语言Error: ./articles/Go/Go语言Error.md
-        - Go语言反射: ./articles/Go/Go语言反射.md
-        - Go语言文件操作: ./articles/Go/Go语言文件操作.md
-        - Go语言泛型: ./articles/Go/Go语言泛型.md
-      - Gin:
-        - ./articles/Gin/index.md
-        - Gin介绍: ./articles/Gin/Gin介绍.md
-      - Rust:
-        - ./articles/Rust/index.md
-        - Rust介绍: ./articles/Rust/Rust介绍.md
-      - Actix:
-        - ./articles/Actix/index.md
-        - Actix介绍: ./articles/Actix/Actix介绍.md
-      - 设计模式:
-        - ./articles/设计模式/index.md
-        - 设计模式介绍: ./articles/设计模式/设计模式介绍.md
-        - 单例模式: ./articles/设计模式/单例模式.md
-        - 工厂方法模式: ./articles/设计模式/工厂方法模式.md
-        - 抽象工厂模式: ./articles/设计模式/抽象工厂模式.md
-        - 建造者模式: ./articles/设计模式/建造者模式.md
-        - 原型模式: ./articles/设计模式/原型模式.md
-        - 适配器模式: ./articles/设计模式/适配器模式.md
-        - 桥接模式: ./articles/设计模式/桥接模式.md
-        - 组合模式: ./articles/设计模式/组合模式.md
-        - 装饰模式: ./articles/设计模式/装饰模式.md
-        - 外观模式: ./articles/设计模式/外观模式.md
-        - 享元模式: ./articles/设计模式/享元模式.md
-        - 代理模式: ./articles/设计模式/代理模式.md
-        - 责任链模式: ./articles/设计模式/责任链模式.md
-        - 命令模式: ./articles/设计模式/命令模式.md
-        - 解释器模式: ./articles/设计模式/解释器模式.md
-        - 迭代器模式: ./articles/设计模式/迭代器模式.md
-        - 中介者模式: ./articles/设计模式/中介者模式.md
-        - 备忘录模式: ./articles/设计模式/备忘录模式.md
-        - 观察者模式: ./articles/设计模式/观察者模式.md
-        - 状态模式: ./articles/设计模式/状态模式.md
-        - 策略模式: ./articles/设计模式/策略模式.md
-        - 模板方法模式: ./articles/设计模式/模板方法模式.md
-        - 访问者模式: ./articles/设计模式/访问者模式.md
-      - Docker:
-        - ./articles/Docker/index.md
-        - Docker介绍: ./articles/Docker/Docker介绍.md
-    - 前端:
-      - HTML:
-        - ./articles/HTML/index.md
-        - HTML介绍: ./articles/HTML/HTML介绍.md
-        - HTML5介绍: ./articles/HTML/HTML5介绍.md
-      - CSS:
-        - ./articles/CSS/index.md
-        - CSS介绍: ./articles/CSS/CSS介绍.md
-        - CSS3介绍: ./articles/CSS/CSS3介绍.md
-      - JavaScript:
-        - ./articles/JavaScript/index.md
-        - JavaScript介绍: ./articles/JavaScript/JavaScript介绍.md
-      - Vue:
-        - ./articles/Vue/index.md
-        - Vue介绍: ./articles/Vue/Vue介绍.md
-    - 数据科学:
-      - NumPy:
-        - ./articles/NumPy/index.md
-        - NumPy介绍: ./articles/NumPy/NumPy介绍.md
-        - NumPy数据类型: ./articles/NumPy/NumPy数据类型.md
-        - NumPy创建数组: ./articles/NumPy/NumPy创建数组.md
-        - NumPy数组属性: ./articles/NumPy/NumPy数组属性.md
-        - NumPy数组的切片和索引: ./articles/NumPy/NumPy数组的切片和索引.md
-        - NumPy广播: ./articles/NumPy/NumPy广播.md
-        - NumPy迭代: ./articles/NumPy/NumPy迭代.md
-        - NumPy修改数组形状: ./articles/NumPy/NumPy修改数组形状.md
-        - NumPy连接数组: ./articles/NumPy/NumPy连接数组.md
-        - NumPy分割数组: ./articles/NumPy/NumPy分割数组.md
-        - NumPy数组元素的添加和删除: ./articles/NumPy/NumPy数组元素的添加和删除.md
-        - NumPy字符串函数: ./articles/NumPy/NumPy字符串函数.md
-        - NumPy数学函数: ./articles/NumPy/NumPy数学函数.md
-        - NumPy排序函数: ./articles/NumPy/NumPy排序函数.md
-        - NumPy搜索函数: ./articles/NumPy/NumPy搜索函数.md
-        - NumPy赋值: ./articles/NumPy/NumPy赋值.md
-        - NumPy视图: ./articles/NumPy/NumPy视图.md
-        - NumPy副本: ./articles/NumPy/NumPy副本.md
-        - NumPy的IO函数: ./articles/NumPy/NumPy的IO函数.md
-    - 人工智能:
-      - LangChain:
-        - ./articles/LangChain/index.md
-        - LangChain介绍: ./articles/LangChain/LangChain介绍.md
-    - 数据库:
-      - MySQL:
-        - ./articles/DataBase/MySQL/index.md
-        - MySQL存储引擎: ./articles/DataBase/MySQL/MySQL存储引擎.md
-        - MySQL完整性约束: ./articles/DataBase/MySQL/MySQL完整性约束.md
-        - MySQL数据类型: ./articles/DataBase/MySQL/MySQL数据类型.md
-        - MySQL正则表达式: articles/DataBase/MySQL/MySQL正则表达式.md
-        - MySQL内置函数: ./articles/DataBase/MySQL/MySQL内置函数.md
-        - MySQL自定义函数: ./articles/DataBase/MySQL/MySQL自定义函数.md
-        - MySQL存储过程: ./articles/DataBase/MySQL/MySQL存储过程.md
-        - MySQL数据备份与恢复: ./articles/DataBase/MySQL/MySQL数据备份与恢复.md
-        - MySQL权限管理: ./articles/DataBase/MySQL/MySQL权限管理.md
-        - MySQL流程控制: ./articles/DataBase/MySQL/MySQL流程控制.md
-        - MySQL视图: ./articles/DataBase/MySQL/MySQL视图.md
-        - MySQL索引: ./articles/DataBase/MySQL/MySQL索引.md
-        - MySQL事务: ./articles/DataBase/MySQL/MySQL事务.md
-        - MySQL触发器: ./articles/DataBase/MySQL/MySQL触发器.md
-      - Redis:
-        - ./articles/DataBase/Redis/index.md
-        - Redis基础数据类型: ./articles/DataBase/Redis/Redis基础数据类型.md
-        - Redis主从复制: ./articles/DataBase/Redis/Redis主从复制.md
-        - Redis数据持久化: ./articles/DataBase/Redis/Redis数据持久化.md
-        - Redis不重启情况下，RDB切换到AOF: ./articles/DataBase/Redis/Redis不重启情况下，RDB切换到AOF.md
-        - 缓存相关问题: ./articles/DataBase/Redis/缓存相关问题.md
-      - PostgreSQL:
-        - ./articles/DataBase/PostgreSQL/index.md
-        - PostgreSQL介绍: ./articles/DataBase/PostgreSQL/PostgreSQL介绍.md
-      - MongoDB:
-        - ./articles/DataBase/MongoDB/index.md
-        - MongoDB介绍: ./articles/DataBase/MongoDB/MongoDB介绍.md
-    - 开发工具:
-      - Git:
-        - ./articles/Git/index.md
-        - Git查看和配置环境信息: ./articles/Git/Git查看和配置环境信息.md
-        - Git常用命令: ./articles/Git/Git常用命令.md
-        - 如何给开源项目贡献代码: ./articles/Git/如何给开源项目贡献代码.md
-  - 相册: 
-    - gallery.md
-    - 时间线:
-      - 2024:
-        - GR3｜麻木不仁的日子里，记录就是反抗: ./gallery/2024-05-19/gallery.md
-        - 春意暖暖，岁月缓缓，在感受，在记录，在珍惜: ./gallery/2024-04-05/gallery.md
-        - 一起去婺源吧，看那座山崖上肆意生长的村落: ./gallery/2024-03-23/gallery.md
-        - 乌镇｜天青色等烟雨，而我在等你: ./gallery/2024-03-08/gallery.md
-      - 2023:
-        - 西安｜我从远方赶来，赴你一面之约: ./gallery/2023-11-15/gallery.md
-        - 总要带着喜欢的人，去看一眼蔚蓝的赛里木湖: ./gallery/2023-06-09/gallery.md
-        - 你不在重庆的日子，我替你吹了嘉陵江的晚风: ./gallery/2023-06-08/gallery.md
-        - 在充满阳光的地方，安静的迎接温暖的一天: ./gallery/2023-05-07/gallery.md
-        - 青海贵德｜奇特的丹霞地貌和清澈见底的黄河: ./gallery/2023-04-27/gallery.md
-        - 焦虑的日子里，不妨放下一切，出去走走吧: ./gallery/2023-03-27/gallery.md
-        - 总要去趟上海吧，吹吹黄浦江的晚风: ./gallery/2023-03-01/gallery.md
-        - 生活匆忙，别错过日落和夕阳: ./gallery/2023-02-28/gallery.md
-        - 追赶日落就算我献给自己的浪漫: ./gallery/2023-02-27/gallery.md
-        - 没有大城市的繁华，却有人间最纯净的朴素: ./gallery/2023-01-23/gallery.md
-        - 万物皆有裂痕，那是阳光照进来的地方: ./gallery/2023-01-10/gallery.md
-        - 空黄的路灯无力地照着沉寂的深巷: ./gallery/2023-01-09/gallery.md
-        - 北京后海附近，街头人文纪实摄影: ./gallery/2023-01-03/gallery.md
-        - 一年前去逛展拍的鹦鹉，颜色太好看了: ./gallery/2023-01-02/gallery.md
-        - 如今已是离开北京的第二个年头了，怀念: ./gallery/2023-01-01/gallery.md
-      - 2022:
-        - GR3｜傍晚的蓝色是治愈，也是温柔: ./gallery/2022-12-18/gallery.md
-        - GR3｜没有销声匿迹，我在热爱生活: ./gallery/2022-12-03/gallery.md
-        - GR3｜等鲜花盛开，人间温柔亦浪漫: ./gallery/2022-12-02/gallery.md
-        - GR3｜乌篷船缓缓从水面划过，溅起阵阵涟漪: ./gallery/2022-12-01/gallery.md
-        - GR3｜人间朝暮，落叶惊秋，你我皆是江南客: ./gallery/2022-11-25/gallery.md
-        - GR3｜趁阳光正好，趁秋意尚在，赶快出来疯吧: ./gallery/2022-11-24/gallery.md
-        - GR3｜西湖街拍，有光理光才会理你: ./gallery/2022-11-22/gallery.md
-        - GR3｜向野而生，怀念以前没有疫情的日子: ./gallery/2022-11-14/gallery.md
-        - 这个季节可太适合来良渚散心拍照了: ./gallery/2022-10-30/gallery.md
-        - 许多人和事一旦错过就不可能再遇到了: ./gallery/2022-10-19/gallery.md
-        - 大热天的谁能拒绝一份冰凉美味的龟苓膏呢: ./gallery/2022-10-05/gallery.md
-        - 这才是我记忆里南方小镇该有的样子！: ./gallery/2022-10-04/gallery.md
-        - 如果有不开心的时候，去良渚是不错的选择: ./gallery/2022-10-01/gallery.md
-        - 从广州南下，到珠海情侣路，所到之处皆美景: ./gallery/2022-06-27/gallery.md
-        - 看到清晨烈焰似的云霞，就知道这一趟没白来: ./gallery/2022-06-26/gallery.md
-        - 希望余生都能浪费在热爱的事情上📸: ./gallery/2022-06-15/gallery.md
-        - iPhone｜工厂里也能拍到绝美的照片: ./gallery/2022-05-29/gallery.md
-        - iPhone｜震耳噪音中搬运布料的纺织厂工人: ./gallery/2022-05-15/gallery.md
-        - 这一刻，阳光和微风的完美相遇: ./gallery/2022-04-12/gallery.md
-        - 朴树的音乐需要在夜深人静的时候去品味: ./gallery/2022-04-11/gallery.md
-        - 等到疫情过去，带着Ta，一起去划船吧: ./gallery/2022-04-08/gallery.md
-        - 如果能和你分享此刻该多好: ./gallery/2022-04-07/gallery.md
-        - 青海焦黄色山脉和盘山公路⛰️: ./gallery/2022-04-06/gallery.md
-        - 每周必达，杭州临平大剧院: ./gallery/2022-04-03/gallery.md
-  - 关于: about.md
-
 theme: 
   name: material
   custom_dir: overrides
@@ -392,6 +92,7 @@ extra_css:
   - stylesheets/gallery.css
   - https://unpkg.com/katex@0/dist/katex.min.css
   - assets/plyr/plyr.css
+  - https://cdn.jsdelivr.net/npm/simple-icons-font@v13/font/simple-icons.min.css
 
 extra_javascript:
   - assets/fancybox/fancybox.umd.js
@@ -403,3 +104,304 @@ extra_javascript:
   - https://unpkg.com/katex@0/dist/katex.min.js
   - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
   - assets/plyr/plyr.js
+
+nav:
+  - 首页: 
+    - index.md
+    - 服务端:
+      - <i class="si si-python"></i> Python:
+        - ./articles/Python/index.md
+        - Python语言介绍: ./articles/Python/Python语言介绍.md
+        - Python变量: ./articles/Python/Python变量.md
+        - Python常量: ./articles/Python/Python常量.md
+        - Python注释: ./articles/Python/Python注释.md
+        - Python数据类型: ./articles/Python/Python数据类型.md
+        - Python运算符: ./articles/Python/Python运算符.md
+        - Python判断语句: ./articles/Python/Python判断语句.md
+        - Python循环: ./articles/Python/Python循环.md
+        - Python字符串格式化: ./articles/Python/Python字符串格式化.md
+        - Python深浅拷贝: ./articles/Python/Python深浅拷贝.md
+        - Python序列化: ./articles/Python/Python序列化.md
+        - Python推导式: ./articles/Python/Python推导式.md
+        - Python迭代器: ./articles/Python/Python迭代器.md
+        - Python生成器: ./articles/Python/Python生成器.md
+        - Python装饰器: ./articles/Python/Python装饰器.md
+        - Python文件读写: ./articles/Python/Python文件读写.md
+        - Python正则表达式: ./articles/Python/Python正则表达式.md
+        - Python匿名函数: ./articles/Python/Python匿名函数.md
+        - Python函数: ./articles/Python/Python函数.md
+        - Python函数名的应用: ./articles/Python/Python函数名的应用.md
+        - Python递归: ./articles/Python/Python递归.md
+        - Python闭包: ./articles/Python/Python闭包.md
+        - Python反射: ./articles/Python/Python反射.md
+        - Python内置函数: ./articles/Python/Python内置函数.md
+        - Python异常处理: ./articles/Python/Python异常处理.md
+        - Python模块和包: ./articles/Python/Python模块和包.md
+        - Python中的__all__: ./articles/Python/Python中的__all__.md
+        - Python的functools模块: ./articles/Python/Python的functools模块.md
+        - Python的os模块: ./articles/Python/Python的os模块.md
+        - Python的sys模块: ./articles/Python/Python的sys模块.md
+        - Python的time模块: ./articles/Python/Python的time模块.md
+        - Python的datetime模块: ./articles/Python/Python的datetime模块.md
+        - Python的random模块: ./articles/Python/Python的random模块.md
+        - Python的json模块: ./articles/Python/Python的json模块.md
+        - Python的hashlib模块: ./articles/Python/Python的hashlib模块.md
+        - Python的logging模块: ./articles/Python/Python的logging模块.md
+        - Python的collections模块: ./articles/Python/Python的collections模块.md
+        - Python的stmplib模块: ./articles/Python/Python的stmplib模块.md
+        - Python的socket模块: ./articles/Python/Python的socket模块.md
+        - Python面向对象: ./articles/Python/Python面向对象.md
+        - Python的元类: ./articles/Python/Python的元类.md
+        - Python类的继承: ./articles/Python/Python类的继承.md
+        - Python的封装: ./articles/Python/Python的封装.md
+        - Python的多态: ./articles/Python/Python的多态.md
+        - Python类的私有成员: ./articles/Python/Python类的私有成员.md
+        - Python的特殊方法: ./articles/Python/Python的特殊方法.md
+        - Python的抽象类: ./articles/Python/Python的抽象类.md
+        - Python信号量: ./articles/Python/Python信号量.md
+        - Python进程: ./articles/Python/Python进程.md
+        - Python线程: ./articles/Python/Python线程.md
+        - Python的Event: ./articles/Python/Python的Event.md
+        - Python定时器: ./articles/Python/Python定时器.md
+        - Python的锁: ./articles/Python/Python的锁.md
+        - Python的GIL: ./articles/Python/Python的GIL.md
+        - Python的并发和并行: ./articles/Python/Python的并发和并行.md
+        - Python协程: ./articles/Python/Python协程.md
+        - Python的IO多路复用: ./articles/Python/Python的IO多路复用.md
+        - Python开发规范: ./articles/Python/Python开发规范.md
+        - Python的gRPC: ./articles/Python/Python的gRPC.md
+        - Python使用shutil实现文件拷贝: ./articles/Python/Python使用shutil实现文件拷贝.md
+        - Python使用PIL进行图片压缩: ./articles/Python/Python使用PIL进行图片压缩.md
+        - Python调用ChatGPT: ./articles/Python/Python调用ChatGPT.md
+      - <i class="si si-django"></i> Django:
+        - ./articles/Django/index.md
+        - Django介绍: ./articles/Django/Django介绍.md
+        - Django路由: ./articles/Django/Django路由.md
+        - Django视图: ./articles/Django/Django视图.md
+        - Django请求处理: ./articles/Django/Django请求处理.md
+        - Django响应处理: ./articles/Django/Django响应处理.md
+        - Django中间件: ./articles/Django/Django中间件.md
+        - Django模型: ./articles/Django/Django模型.md
+        - Django模型字段类型: ./articles/Django/Django模型字段类型.md
+        - Django表单: ./articles/Django/Django表单.md
+        - Django模板: ./articles/Django/Django模板.md
+        - Django的Cookies和Sessions: ./articles/Django/Django的Cookies和Sessions.md
+        - DRF介绍: ./articles/Django/DRF介绍.md
+        - DRF视图: ./articles/Django/DRF视图.md
+        - DRF用户模型: ./articles/Django/DRF用户模型.md
+        - DRF认证: ./articles/Django/DRF认证.md
+        - DRF权限: ./articles/Django/DRF权限.md
+        - DRF限流: ./articles/Django/DRF限流.md
+        - DRF分页: ./articles/Django/DRF分页.md
+        - DRF版本: ./articles/Django/DRF版本.md
+        - DRF过滤器: ./articles/Django/DRF过滤器.md
+        - DRF渲染器: ./articles/Django/DRF渲染器.md
+        - DRF解析器: ./articles/Django/DRF解析器.md
+        - DRF内容协商: ./articles/Django/DRF内容协商.md
+        - DRF元数据: ./articles/Django/DRF元数据.md
+      - <i class="si si-fastapi"></i> FastAPI:
+        - ./articles/FastAPI/index.md
+        - FastAPI介绍: ./articles/FastAPI/FastAPI介绍.md
+        - FastAPI数据库迁移: ./articles/FastAPI/FastAPI数据库迁移.md
+      - <i class="si si-flask"></i> Flask:
+        - ./articles/Flask/index.md
+        - Flask介绍: ./articles/Flask/Flask介绍.md
+      - <i class="si si-go"></i> Golang:
+        - ./articles/Go/index.md
+        - Go语言介绍: ./articles/Go/Go语言介绍.md
+        - Go语言的包: ./articles/Go/Go语言的包.md
+        - Go语言import: ./articles/Go/Go语言import.md
+        - Go语言依赖管理: ./articles/Go/Go语言依赖管理.md
+        - Go语言变量: ./articles/Go/Go语言变量.md
+        - Go语言常量: ./articles/Go/Go语言常量.md
+        - Go语言数据类型: ./articles/Go/Go语言数据类型.md
+        - Go语言运算符: ./articles/Go/Go语言运算符.md
+        - Go语言fmt包: ./articles/Go/Go语言fmt包.md
+        - Go语言if判断: ./articles/Go/Go语言if判断.md
+        - Go语言for循环: ./articles/Go/Go语言for循环.md
+        - Go语言switch: ./articles/Go/Go语言switch.md
+        - Go语言Array: ./articles/Go/Go语言Array.md
+        - Go语言Slice: ./articles/Go/Go语言Slice.md
+        - Go语言Map: ./articles/Go/Go语言Map.md
+        - Go语言函数: ./articles/Go/Go语言函数.md
+        - Go语言函数作用域: ./articles/Go/Go语言函数作用域.md
+        - Go语言函数类型和变量: ./articles/Go/Go语言函数类型和变量.md
+        - Go语言闭包: ./articles/Go/Go语言闭包.md
+        - Go语言defer延迟调用: ./articles/Go/Go语言defer延迟调用.md
+        - Go语言函数异常处理: ./articles/Go/Go语言函数异常处理.md
+        - Go语言传值与传指针: ./articles/Go/Go语言传值与传指针.md
+        - Go语言递归: ./articles/Go/Go语言递归.md
+        - Go语言指针: ./articles/Go/Go语言指针.md
+        - Go语言自定义类型: ./articles/Go/Go语言自定义类型.md
+        - Go语言结构体: ./articles/Go/Go语言结构体.md
+        - Go语言结构体与序列化: ./articles/Go/Go语言结构体与序列化.md
+        - Go语言接口: ./articles/Go/Go语言接口.md
+        - Go语言Error: ./articles/Go/Go语言Error.md
+        - Go语言反射: ./articles/Go/Go语言反射.md
+        - Go语言文件操作: ./articles/Go/Go语言文件操作.md
+        - Go语言泛型: ./articles/Go/Go语言泛型.md
+      - <i class="si si-gin"></i> Gin:
+        - ./articles/Gin/index.md
+        - Gin介绍: ./articles/Gin/Gin介绍.md
+      - <i class="si si-rust"></i> Rust:
+        - ./articles/Rust/index.md
+        - Rust介绍: ./articles/Rust/Rust介绍.md
+      - <i class="si si-actix"></i> Actix:
+        - ./articles/Actix/index.md
+        - Actix介绍: ./articles/Actix/Actix介绍.md
+      - <i class="si si-textpattern"></i> 设计模式:
+        - ./articles/设计模式/index.md
+        - 设计模式介绍: ./articles/设计模式/设计模式介绍.md
+        - 单例模式: ./articles/设计模式/单例模式.md
+        - 工厂方法模式: ./articles/设计模式/工厂方法模式.md
+        - 抽象工厂模式: ./articles/设计模式/抽象工厂模式.md
+        - 建造者模式: ./articles/设计模式/建造者模式.md
+        - 原型模式: ./articles/设计模式/原型模式.md
+        - 适配器模式: ./articles/设计模式/适配器模式.md
+        - 桥接模式: ./articles/设计模式/桥接模式.md
+        - 组合模式: ./articles/设计模式/组合模式.md
+        - 装饰模式: ./articles/设计模式/装饰模式.md
+        - 外观模式: ./articles/设计模式/外观模式.md
+        - 享元模式: ./articles/设计模式/享元模式.md
+        - 代理模式: ./articles/设计模式/代理模式.md
+        - 责任链模式: ./articles/设计模式/责任链模式.md
+        - 命令模式: ./articles/设计模式/命令模式.md
+        - 解释器模式: ./articles/设计模式/解释器模式.md
+        - 迭代器模式: ./articles/设计模式/迭代器模式.md
+        - 中介者模式: ./articles/设计模式/中介者模式.md
+        - 备忘录模式: ./articles/设计模式/备忘录模式.md
+        - 观察者模式: ./articles/设计模式/观察者模式.md
+        - 状态模式: ./articles/设计模式/状态模式.md
+        - 策略模式: ./articles/设计模式/策略模式.md
+        - 模板方法模式: ./articles/设计模式/模板方法模式.md
+        - 访问者模式: ./articles/设计模式/访问者模式.md
+      - <i class="si si-docker"></i> Docker:
+        - ./articles/Docker/index.md
+        - Docker介绍: ./articles/Docker/Docker介绍.md
+    - 前端:
+      - <i class="si si-html5"></i> HTML:
+        - ./articles/HTML/index.md
+        - HTML介绍: ./articles/HTML/HTML介绍.md
+        - HTML5介绍: ./articles/HTML/HTML5介绍.md
+      - <i class="si si-css3"></i> CSS:
+        - ./articles/CSS/index.md
+        - CSS介绍: ./articles/CSS/CSS介绍.md
+        - CSS3介绍: ./articles/CSS/CSS3介绍.md
+      - <i class="si si-javascript"></i> JavaScript:
+        - ./articles/JavaScript/index.md
+        - JavaScript介绍: ./articles/JavaScript/JavaScript介绍.md
+      - <i class="si si-vuedotjs"></i> Vue:
+        - ./articles/Vue/index.md
+        - Vue介绍: ./articles/Vue/Vue介绍.md
+    - 数据科学:
+      - <i class="si si-numpy"></i> NumPy:
+        - ./articles/NumPy/index.md
+        - NumPy介绍: ./articles/NumPy/NumPy介绍.md
+        - NumPy数据类型: ./articles/NumPy/NumPy数据类型.md
+        - NumPy创建数组: ./articles/NumPy/NumPy创建数组.md
+        - NumPy数组属性: ./articles/NumPy/NumPy数组属性.md
+        - NumPy数组的切片和索引: ./articles/NumPy/NumPy数组的切片和索引.md
+        - NumPy广播: ./articles/NumPy/NumPy广播.md
+        - NumPy迭代: ./articles/NumPy/NumPy迭代.md
+        - NumPy修改数组形状: ./articles/NumPy/NumPy修改数组形状.md
+        - NumPy连接数组: ./articles/NumPy/NumPy连接数组.md
+        - NumPy分割数组: ./articles/NumPy/NumPy分割数组.md
+        - NumPy数组元素的添加和删除: ./articles/NumPy/NumPy数组元素的添加和删除.md
+        - NumPy字符串函数: ./articles/NumPy/NumPy字符串函数.md
+        - NumPy数学函数: ./articles/NumPy/NumPy数学函数.md
+        - NumPy排序函数: ./articles/NumPy/NumPy排序函数.md
+        - NumPy搜索函数: ./articles/NumPy/NumPy搜索函数.md
+        - NumPy赋值: ./articles/NumPy/NumPy赋值.md
+        - NumPy视图: ./articles/NumPy/NumPy视图.md
+        - NumPy副本: ./articles/NumPy/NumPy副本.md
+        - NumPy的IO函数: ./articles/NumPy/NumPy的IO函数.md
+    - 人工智能:
+      - <i class="si si-langchain"></i> LangChain:
+        - ./articles/LangChain/index.md
+        - LangChain介绍: ./articles/LangChain/LangChain介绍.md
+    - 数据库:
+      - <i class="si si-mysql"></i> MySQL:
+        - ./articles/DataBase/MySQL/index.md
+        - MySQL存储引擎: ./articles/DataBase/MySQL/MySQL存储引擎.md
+        - MySQL完整性约束: ./articles/DataBase/MySQL/MySQL完整性约束.md
+        - MySQL数据类型: ./articles/DataBase/MySQL/MySQL数据类型.md
+        - MySQL正则表达式: articles/DataBase/MySQL/MySQL正则表达式.md
+        - MySQL内置函数: ./articles/DataBase/MySQL/MySQL内置函数.md
+        - MySQL自定义函数: ./articles/DataBase/MySQL/MySQL自定义函数.md
+        - MySQL存储过程: ./articles/DataBase/MySQL/MySQL存储过程.md
+        - MySQL数据备份与恢复: ./articles/DataBase/MySQL/MySQL数据备份与恢复.md
+        - MySQL权限管理: ./articles/DataBase/MySQL/MySQL权限管理.md
+        - MySQL流程控制: ./articles/DataBase/MySQL/MySQL流程控制.md
+        - MySQL视图: ./articles/DataBase/MySQL/MySQL视图.md
+        - MySQL索引: ./articles/DataBase/MySQL/MySQL索引.md
+        - MySQL事务: ./articles/DataBase/MySQL/MySQL事务.md
+        - MySQL触发器: ./articles/DataBase/MySQL/MySQL触发器.md
+      - <i class="si si-redis"></i> Redis:
+        - ./articles/DataBase/Redis/index.md
+        - Redis基础数据类型: ./articles/DataBase/Redis/Redis基础数据类型.md
+        - Redis主从复制: ./articles/DataBase/Redis/Redis主从复制.md
+        - Redis数据持久化: ./articles/DataBase/Redis/Redis数据持久化.md
+        - Redis不重启情况下，RDB切换到AOF: ./articles/DataBase/Redis/Redis不重启情况下，RDB切换到AOF.md
+        - 缓存相关问题: ./articles/DataBase/Redis/缓存相关问题.md
+      - <i class="si si-postgresql"></i> PostgreSQL:
+        - ./articles/DataBase/PostgreSQL/index.md
+        - PostgreSQL介绍: ./articles/DataBase/PostgreSQL/PostgreSQL介绍.md
+      - <i class="si si-mongodb"></i> MongoDB:
+        - ./articles/DataBase/MongoDB/index.md
+        - MongoDB介绍: ./articles/DataBase/MongoDB/MongoDB介绍.md
+    - 开发工具:
+      - <i class="si si-git"></i> Git:
+        - ./articles/Git/index.md
+        - Git查看和配置环境信息: ./articles/Git/Git查看和配置环境信息.md
+        - Git常用命令: ./articles/Git/Git常用命令.md
+        - 如何给开源项目贡献代码: ./articles/Git/如何给开源项目贡献代码.md
+  - 相册: 
+    - gallery.md
+    - 时间线:
+      - 2024:
+        - GR3｜麻木不仁的日子里，记录就是反抗: ./gallery/2024-05-19/gallery.md
+        - 春意暖暖，岁月缓缓，在感受，在记录，在珍惜: ./gallery/2024-04-05/gallery.md
+        - 一起去婺源吧，看那座山崖上肆意生长的村落: ./gallery/2024-03-23/gallery.md
+        - 乌镇｜天青色等烟雨，而我在等你: ./gallery/2024-03-08/gallery.md
+      - 2023:
+        - 西安｜我从远方赶来，赴你一面之约: ./gallery/2023-11-15/gallery.md
+        - 总要带着喜欢的人，去看一眼蔚蓝的赛里木湖: ./gallery/2023-06-09/gallery.md
+        - 你不在重庆的日子，我替你吹了嘉陵江的晚风: ./gallery/2023-06-08/gallery.md
+        - 在充满阳光的地方，安静的迎接温暖的一天: ./gallery/2023-05-07/gallery.md
+        - 青海贵德｜奇特的丹霞地貌和清澈见底的黄河: ./gallery/2023-04-27/gallery.md
+        - 焦虑的日子里，不妨放下一切，出去走走吧: ./gallery/2023-03-27/gallery.md
+        - 总要去趟上海吧，吹吹黄浦江的晚风: ./gallery/2023-03-01/gallery.md
+        - 生活匆忙，别错过日落和夕阳: ./gallery/2023-02-28/gallery.md
+        - 追赶日落就算我献给自己的浪漫: ./gallery/2023-02-27/gallery.md
+        - 没有大城市的繁华，却有人间最纯净的朴素: ./gallery/2023-01-23/gallery.md
+        - 万物皆有裂痕，那是阳光照进来的地方: ./gallery/2023-01-10/gallery.md
+        - 空黄的路灯无力地照着沉寂的深巷: ./gallery/2023-01-09/gallery.md
+        - 北京后海附近，街头人文纪实摄影: ./gallery/2023-01-03/gallery.md
+        - 一年前去逛展拍的鹦鹉，颜色太好看了: ./gallery/2023-01-02/gallery.md
+        - 如今已是离开北京的第二个年头了，怀念: ./gallery/2023-01-01/gallery.md
+      - 2022:
+        - GR3｜傍晚的蓝色是治愈，也是温柔: ./gallery/2022-12-18/gallery.md
+        - GR3｜没有销声匿迹，我在热爱生活: ./gallery/2022-12-03/gallery.md
+        - GR3｜等鲜花盛开，人间温柔亦浪漫: ./gallery/2022-12-02/gallery.md
+        - GR3｜乌篷船缓缓从水面划过，溅起阵阵涟漪: ./gallery/2022-12-01/gallery.md
+        - GR3｜人间朝暮，落叶惊秋，你我皆是江南客: ./gallery/2022-11-25/gallery.md
+        - GR3｜趁阳光正好，趁秋意尚在，赶快出来疯吧: ./gallery/2022-11-24/gallery.md
+        - GR3｜西湖街拍，有光理光才会理你: ./gallery/2022-11-22/gallery.md
+        - GR3｜向野而生，怀念以前没有疫情的日子: ./gallery/2022-11-14/gallery.md
+        - 这个季节可太适合来良渚散心拍照了: ./gallery/2022-10-30/gallery.md
+        - 许多人和事一旦错过就不可能再遇到了: ./gallery/2022-10-19/gallery.md
+        - 大热天的谁能拒绝一份冰凉美味的龟苓膏呢: ./gallery/2022-10-05/gallery.md
+        - 这才是我记忆里南方小镇该有的样子！: ./gallery/2022-10-04/gallery.md
+        - 如果有不开心的时候，去良渚是不错的选择: ./gallery/2022-10-01/gallery.md
+        - 从广州南下，到珠海情侣路，所到之处皆美景: ./gallery/2022-06-27/gallery.md
+        - 看到清晨烈焰似的云霞，就知道这一趟没白来: ./gallery/2022-06-26/gallery.md
+        - 希望余生都能浪费在热爱的事情上📸: ./gallery/2022-06-15/gallery.md
+        - iPhone｜工厂里也能拍到绝美的照片: ./gallery/2022-05-29/gallery.md
+        - iPhone｜震耳噪音中搬运布料的纺织厂工人: ./gallery/2022-05-15/gallery.md
+        - 这一刻，阳光和微风的完美相遇: ./gallery/2022-04-12/gallery.md
+        - 朴树的音乐需要在夜深人静的时候去品味: ./gallery/2022-04-11/gallery.md
+        - 等到疫情过去，带着Ta，一起去划船吧: ./gallery/2022-04-08/gallery.md
+        - 如果能和你分享此刻该多好: ./gallery/2022-04-07/gallery.md
+        - 青海焦黄色山脉和盘山公路⛰️: ./gallery/2022-04-06/gallery.md
+        - 每周必达，杭州临平大剧院: ./gallery/2022-04-03/gallery.md
+  - 关于: about.md

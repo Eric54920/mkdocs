@@ -37,80 +37,43 @@ LangChain 是一个开源库，旨在帮助开发者创建与大规模语言模�
 
 #### 安装 LangChain
 ```bash
-pip install langchain openai
+pip install langchain-openai
 ```
 
-#### 配置 OpenAI API 密钥
+#### 配置 API 密钥
 ```python
 import os
-from langchain import OpenAI, ConversationChain
+from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
-from langchain.memory import ConversationBufferMemory
 
-# 设置 OpenAI API 密钥
-os.environ["OPENAI_API_KEY"] = "your-openai-api-key"
+# 设置 API 密钥
+os.environ["OPENAI_API_KEY"] = "your-api-key-here"
 
-# 初始化 OpenAI 模型
-llm = OpenAI(temperature=0.9)
+# 创建 LLM
+llm = ChatOpenAI(temperature=0.7, model="deepseek-chat", base_url="https://api.deepseek.com")
 
-# 创建提示模板
-prompt_template = PromptTemplate.from_template("你: {user_input}\nAI:")
+# 定义提示模板
+template = """
+问题: {question}
 
-# 初始化内存
-memory = ConversationBufferMemory()
+请提供一个简洁明了的回答:
+"""
 
-# 创建对话链
-conversation = ConversationChain(
-    llm=llm,
-    prompt=prompt_template,
-    memory=memory
-)
+prompt = PromptTemplate(template=template, input_variables=["question"])
 
-# 运行对话链
-response = conversation.run("你好，告诉我关于LangChain的信息。")
+# 创建链
+chain = prompt | llm
+
+# 使用链进行问答
+response = chain.invoke({"question": "什么是人工智能?"})
 print(response)
 ```
 
 #### 解释
-1. **OpenAI**：初始化 OpenAI 模型，设置 `temperature` 参数以控制输出的随机性。
+1. **ChatOpenAI**：初始化 ChatOpenAI 模型，设置 `temperature` 参数以控制输出的随机性，设置 `base_url` 参数控制 API 请求的基本 URL，仅在使用代理或服务模拟器时指定，这里以国内 `deepseek-chat` 模型作为代理。
 2. **PromptTemplate**：定义提示模板，用于生成动态提示。
-3. **ConversationBufferMemory**：使用内存模块保持对话的上下文。
-4. **ConversationChain**：创建对话链，结合模型、提示模板和内存模块。
-5. **conversation.run**：运行对话链，生成响应。
-
-### LangChain 的高级使用
-
-LangChain 支持更复杂的链和逻辑处理。例如，我们可以创建一个智能助手，根据用户输入查询天气、设置提醒等：
-
-```python
-from langchain.chains import SimpleChain
-from langchain.prompts import ChatPromptTemplate
-from langchain.agents import Tool
-
-# 创建一个用于查询天气的工具
-class WeatherTool(Tool):
-    def run(self, location: str) -> str:
-        # 假设这是一个调用天气 API 的函数
-        return f"当前{location}的天气是晴朗的，25摄氏度。"
-
-# 初始化工具
-weather_tool = WeatherTool()
-
-# 定义提示模板
-prompt_template = ChatPromptTemplate.from_template("你: {user_input}\nAI:")
-
-# 创建简单链
-simple_chain = SimpleChain(
-    llm=llm,
-    tools=[weather_tool],
-    prompt=prompt_template,
-    memory=memory
-)
-
-# 运行简单链
-response = simple_chain.run("查一下北京的天气")
-print(response)
-```
+3. **chain**：对话链，结合模型、提示模板。
+4. **chain.invoke**：运行对话链，生成响应。
 
 ### 总结
 
