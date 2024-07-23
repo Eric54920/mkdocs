@@ -1,5 +1,9 @@
 # 关于
 
+<div style="text-align:center">
+    <img src="/assets/img/24.jpg" style="border-radius: 50%;width: 30%;">
+</div>
+
 ### 介绍
 
 Hi 大家好, 我是 Eric 👋

@@ -6,11 +6,11 @@ comments: true
 
 Python支持以下几种推导式：列表推导式、集合推导式、字典推导式和生成器表达式。下面分别介绍每种推导式的语法和示例用法：
 
-### 1. 列表推导式（List Comprehension）
+### 1. 列表推导式
 
 列表推导式允许根据一定规则快速生成列表。
 
-#### 基本语法：
+**基本语法**：
 
 ```python
 [expression for item in iterable if condition]
@@ -21,7 +21,7 @@ Python支持以下几种推导式：列表推导式、集合推导式、字典�
 - `iterable` 是一个可迭代对象，如列表、元组、字符串等。
 - `if condition` 是一个可选的条件，用于过滤要包含在结果列表中的元素。
 
-#### 示例：
+**示例**：
 
 ```python
 # 生成一个包含1到10的平方数的列表
@@ -33,17 +33,17 @@ even_numbers = [x for x in range(1, 11) if x % 2 == 0]
 print(even_numbers)  # 输出: [2, 4, 6, 8, 10]
 ```
 
-### 2. 集合推导式（Set Comprehension）
+### 2. 集合推导式
 
 集合推导式类似于列表推导式，但是生成的是集合而不是列表。
 
-#### 基本语法：
+**基本语法**：
 
 ```python
 {expression for item in iterable if condition}
 ```
 
-#### 示例：
+**示例**：
 
 ```python
 # 生成一个包含1到10的平方数的集合
@@ -51,17 +51,17 @@ squares_set = {x**2 for x in range(1, 11)}
 print(squares_set)  # 输出: {64, 1, 4, 36, 100, 9, 16, 49, 81, 25}
 ```
 
-### 3. 字典推导式（Dictionary Comprehension）
+### 3. 字典推导式
 
 字典推导式允许从一个可迭代对象生成一个字典，可以指定键和值的生成规则。
 
-#### 基本语法：
+**基本语法**：
 
 ```python
 {key_expression: value_expression for item in iterable if condition}
 ```
 
-#### 示例：
+**示例**：
 
 ```python
 # 生成一个将数字映射到其平方数的字典
@@ -69,17 +69,17 @@ squares_dict = {x: x**2 for x in range(1, 6)}
 print(squares_dict)  # 输出: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 ```
 
-### 4. 生成器表达式（Generator Expression）
+### 4. 生成器表达式
 
 生成器表达式与列表推导式类似，但是生成的是一个生成器对象，延迟生成元素，逐个产生值，节省内存。
 
-#### 基本语法：
+**基本语法**：
 
 ```python
 (expression for item in iterable if condition)
 ```
 
-#### 示例：
+**示例**：
 
 ```python
 # 生成一个包含1到10的平方数的生成器对象

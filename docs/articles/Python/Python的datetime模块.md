@@ -4,15 +4,15 @@ comments: true
 
 `datetime` 模块是 Python 标准库中用于处理日期和时间的模块，它提供了多种类和函数来处理日期、时间、时间间隔和日期算术等。使用 `datetime` 模块可以更方便地处理日期和时间，同时提供了时区支持和日期算术运算。
 
-### 导入 datetime 模块
+### 1. 导入 datetime 模块
 
 ```python
 import datetime
 ```
 
-### 常用类和函数
+### 2. 常用类和函数
 
-#### `datetime.datetime`
+#### 2.1 `datetime.datetime`
 
 `datetime` 类是 `datetime` 模块中最重要的类，用于表示一个特定的日期和时间。
 
@@ -30,7 +30,7 @@ import datetime
   print(f"指定日期和时间: {dt}")
   ```
 
-#### `datetime.date`
+#### 2.2 `datetime.date`
 
 `date` 类用于表示日期（年、月、日）。
 
@@ -41,7 +41,7 @@ import datetime
   print(f"今天的日期: {today}")
   ```
 
-#### `datetime.time`
+#### 2.3 `datetime.time`
 
 `time` 类用于表示时间（时、分、秒、微秒）。
 
@@ -52,7 +52,7 @@ import datetime
   print(f"指定时间: {t}")
   ```
 
-#### `datetime.timedelta`
+#### 2.4 `datetime.timedelta`
 
 `timedelta` 类表示两个日期或时间之间的差异（时间间隔）。
 
@@ -63,7 +63,7 @@ import datetime
   print(f"时间间隔: {delta}")
   ```
 
-#### `datetime.timezone`
+#### 2.5 `datetime.timezone`
 
 `timezone` 类用于表示时区。
 
@@ -78,7 +78,7 @@ import datetime
   print(f"时区: {tz}")
   ```
 
-### 格式化日期时间字符串
+### 3. 格式化日期时间字符串
 
 可以使用 `strftime()` 方法将 `datetime` 对象格式化为字符串，也可以使用 `strptime()` 方法将字符串解析为 `datetime` 对象。
 
@@ -97,7 +97,7 @@ import datetime
   print(f"解析后的 datetime 对象: {parsed_dt}")
   ```
 
-### 示例用法
+### 4. 示例用法
 
 以下是一个综合示例，演示了 `datetime` 模块中几个常用类和方法的用法：
 
@@ -130,6 +130,6 @@ parsed_dt = datetime.datetime.strptime(dt_str, "%Y-%m-%d %H:%M:%S")
 print(f"解析后的 datetime 对象: {parsed_dt}")
 ```
 
-### 总结
+### 5. 总结
 
 `datetime` 模块提供了强大而灵活的工具来处理日期和时间，包括日期时间对象的创建、格式化、解析、时间间隔的计算等功能。掌握 `datetime` 模块的使用可以大大简化和提高日期时间相关编程的效率。

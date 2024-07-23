@@ -55,18 +55,19 @@ print(response)
   - `messages` 参数包含对话的上下文。`role` 可以是 `system`、`user` 或 `assistant`，分别表示系统设置、用户输入和助手回复。
 - **示例使用**：定义了一个示例提示 `prompt` 并调用 `chat_with_gpt` 函数，然后打印返回的结果。
 
-### 注意事项
+### 5. 注意事项
 
 !!! warning
    
     1. **API 密钥安全**：不要在代码中直接硬编码 API 密钥，尤其是在共享或公开的代码库中。使用环境变量或其他安全存储方式。
     2. **API 使用限制**：确保您了解并遵守 OpenAI 的使用限制和配额，以避免超出使用限额。
 
-### 5. 使用环境变量存储 API 密钥
+### 6. 使用环境变量存储 API 密钥
 
 为了更安全地存储 API 密钥，建议使用环境变量。以下是如何在代码中使用环境变量存储和读取 API 密钥的示例：
 
-1. **设置环境变量**：
+**设置环境变量**：
+
    - 在 Linux/macOS 上，您可以将 API 密钥添加到 `~/.bashrc` 或 `~/.zshrc` 文件：
      ```bash
      export OPENAI_API_KEY='your-api-key-here'
@@ -76,7 +77,7 @@ print(response)
      setx OPENAI_API_KEY "your-api-key-here"
      ```
 
-2. **在 Python 代码中读取环境变量**：
+**在 Python 代码中读取环境变量**：
 
 ```python
 import os

@@ -22,7 +22,7 @@ lambda arguments: expression
 
 Lambda表达式通常与高阶函数（如 `map()`、`filter()`、`sorted()` 等）结合使用，作为这些函数的参数传递。
 
-##### 示例：使用 `map()` 和 Lambda 表达式将列表中的每个元素平方
+**示例：使用 `map()` 和 Lambda 表达式将列表中的每个元素平方**
 
 ```python
 numbers = [1, 2, 3, 4, 5]
@@ -34,7 +34,7 @@ print(squared)  # 输出: [1, 4, 9, 16, 25]
 
 Lambda 表达式可以在需要一个简单函数对象的地方提供更紧凑的代码。
 
-##### 示例：使用 Lambda 表达式在字典列表中进行排序
+**示例：使用 Lambda 表达式在字典列表中进行排序**
 
 ```python
 students = [

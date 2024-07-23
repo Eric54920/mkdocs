@@ -10,7 +10,7 @@ Python提供了多种内置的序列化和反序列化方法，下面将介绍�
 
 `pickle` 模块用于序列化和反序列化Python对象，可以将任意复杂的Python对象转换为字节流，也可以从字节流反序列化恢复成原始对象。
 
-#### 序列化示例：
+#### 1.1 序列化示例
 
 ```python
 import pickle
@@ -26,7 +26,7 @@ with open('data.pickle', 'wb') as f:
     f.write(serialized_data)
 ```
 
-#### 反序列化示例：
+#### 1.2 反序列化示例
 
 ```python
 import pickle
@@ -45,7 +45,7 @@ print(data)  # 输出: {'name': 'Alice', 'age': 30, 'city': 'New York'}
 
 `json` 模块用于序列化和反序列化JSON格式的数据，适用于存储和交换数据。JSON是一种轻量级的数据交换格式，通常用于跨平台数据传输。
 
-#### 序列化示例：
+#### 2.1 序列化示例
 
 ```python
 import json
@@ -61,7 +61,7 @@ with open('data.json', 'w') as f:
     f.write(serialized_data)
 ```
 
-#### 反序列化示例：
+#### 2.2 反序列化示例
 
 ```python
 import json

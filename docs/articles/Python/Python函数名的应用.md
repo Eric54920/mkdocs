@@ -8,7 +8,7 @@ comments: true
 
 在Python中，可以将函数名赋值给变量，并且可以通过这些变量来调用函数。
 
-#### 示例：
+**示例**：
 
 ```python
 def greet(name):
@@ -26,7 +26,7 @@ print(message)  # 输出: Hello, Alice!
 
 函数名可以作为另一个函数的参数传递。
 
-#### 示例：
+**示例**：
 
 ```python
 def greet(name):
@@ -44,7 +44,7 @@ print(message)  # 输出: Hello, Bob!
 
 函数可以返回另一个函数的引用。
 
-#### 示例：
+**示例**：
 
 ```python
 def make_greeting_func(greeting):
@@ -67,7 +67,7 @@ print(message2)  # 输出: Hi, Bob!
 
 函数名可以存储在列表、字典等数据结构中，以便后续使用。
 
-#### 示例：
+**示例**：
 
 ```python
 def add(x, y):
@@ -94,7 +94,7 @@ print(result2)  # 输出: 2
 - **回调函数**：将函数作为参数传递给其他函数，用于异步处理和事件驱动编程。
 - **装饰器**：通过将函数作为参数传递给装饰器函数，来增强或修改函数的行为。
 
-#### 示例：使用装饰器增强函数的功能
+**示例：使用装饰器增强函数的功能**
 
 ```python
 def debug(func):

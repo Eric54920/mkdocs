@@ -12,7 +12,7 @@ comments: true
 
 Python 的 `threading` 模块提供了高级别的线程管理功能，可以轻松创建、启动和管理多个线程。
 
-#### 示例：使用 `threading.Thread` 类创建线程
+**示例：使用 `threading.Thread` 类创建线程**
 
 ```python
 import threading
@@ -45,7 +45,7 @@ if __name__ == "__main__":
 - 使用 `threading.Thread` 类创建线程对象，通过 `target` 参数指定线程执行的目标函数，通过 `args` 参数传递函数的参数。
 - 调用 `start()` 方法启动线程，调用 `join()` 方法等待线程结束。
 
-#### 运行结果：
+**运行结果**：
 ```
 Worker 1 started
 Worker 2 started
@@ -53,7 +53,7 @@ Worker 1 finished
 Worker 2 finished
 All threads finished
 ```
-#### 示例：继承 threading.Thread 类
+**示例：继承 threading.Thread 类**
 
 ```python
 import threading
@@ -91,7 +91,7 @@ if __name__ == "__main__":
 - 创建 `MyThread` 实例并调用 `start()` 方法启动线程，调用 `join()` 方法等待线程结束。
 - 这种方式更加符合面向对象的设计思想，能够更好地组织和封装线程的功能。
 
-#### 运行结果：
+**运行结果**：
 ```
 Thread 1 started
 Thread 2 started
@@ -104,7 +104,7 @@ All threads finished
 
 线程间通信是多线程编程中重要的一部分，Python 提供了多种方式来实现线程间的数据交换，如使用 `queue.Queue`。
 
-#### 示例：使用 `queue.Queue` 实现线程间通信
+**示例：使用 `queue.Queue` 实现线程间通信**
 
 ```python
 import threading
@@ -155,7 +155,7 @@ if __name__ == "__main__":
 - 生产者线程在队列中放入数据后，消费者线程即可从队列中获取并处理数据。
 - 在示例中，生产者线程每隔 1 秒生产一个数据，消费者线程每隔 2 秒消费一个数据。
 
-#### 运行结果：
+**运行结果**：
 ```
 Produced: 0
 Consumed: 0
@@ -174,7 +174,7 @@ All threads finished
 
 线程池是管理多个线程的一种方式，可以避免频繁创建和销毁线程，提高效率。
 
-#### 示例：使用 `concurrent.futures.ThreadPoolExecutor` 实现线程池
+**示例：使用 `concurrent.futures.ThreadPoolExecutor` 实现线程池**
 
 ```python
 import concurrent.futures
@@ -206,7 +206,7 @@ if __name__ == "__main__":
 - 使用 `executor.submit()` 方法提交任务给线程池执行，并返回 `concurrent.futures.Future` 对象。
 - 可以通过 `future.result()` 获取任务的返回结果（阻塞方式），也可以通过回调函数获取任务执行完成后的处理结果。
 
-#### 运行结果：
+**运行结果**：
 ```
 Worker 1 started
 Worker 2 started
@@ -215,6 +215,6 @@ Worker 2 finished
 All threads finished
 ```
 
-### 总结
+### 5. 总结
 
 Python 提供了多种方式来创建和管理线程，开发者可以根据具体的需求选择合适的方式。使用 `threading` 模块可以轻松创建和管理线程，实现简单的多线程编程。而使用 `concurrent.futures` 模块可以更加方便地实现线程池和异步执行任务。线程间通信是多线程编程的重要组成部分，通过合适的线程同步和通信机制可以避免竞态条件和数据不一致的问题。

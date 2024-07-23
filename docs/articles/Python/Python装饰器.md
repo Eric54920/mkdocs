@@ -47,7 +47,7 @@ def display():
 display()
 ```
 
-输出结果：
+**输出结果**：
 ```
 Decorator one executed
 Decorator two executed
@@ -74,7 +74,7 @@ def display_info(name, age):
 display_info('John', 25)
 ```
 
-输出结果：
+**输出结果**：
 ```
 LOG: Wrapper executed this before display_info()
 Display_info ran with arguments (John, 25)
@@ -100,7 +100,7 @@ def display():
 display()
 ```
 
-输出结果：
+**输出结果**：
 ```
 Call method executed this before display()
 Display function ran

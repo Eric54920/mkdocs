@@ -12,7 +12,7 @@ comments: true
 
 - **异步编程**：通过 `asyncio`、`async` 和 `await` 关键字等异步编程工具，可以实现单线程内的任务并发执行，适用于 I/O 密集型任务，如网络请求、文件读写等。
 
-### 示例：使用 `asyncio` 实现并发
+**示例：使用 `asyncio` 实现并发**
 
 ```python
 import asyncio
@@ -42,7 +42,7 @@ if __name__ == "__main__":
 
 - **并行计算库**：如 `concurrent.futures`、`joblib`、`dask` 等库，提供了高级接口来管理和分发任务到多个处理器核心或节点上执行。
 
-### 示例：使用 `multiprocessing` 实现并行
+**示例：使用 `multiprocessing` 实现并行**
 
 ```python
 import multiprocessing
@@ -69,7 +69,7 @@ if __name__ == "__main__":
     process2.join()
 ```
 
-### 区别和选择
+### 3. 区别和选择
 
 - **并发 vs 并行**：并发更侧重于任务之间的交替执行和任务管理，适合于处理大量 I/O 操作；而并行则更关注任务的同时执行，适合于 CPU 密集型任务。
 

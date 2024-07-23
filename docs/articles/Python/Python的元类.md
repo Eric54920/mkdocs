@@ -35,7 +35,7 @@ class MyClass:
 
 要创建自定义的元类，可以从 `type` 类继承并重写 `__new__` 方法，或者直接定义一个新的类并将其指定为要创建类的 `metaclass` 参数。
 
-#### 通过继承 type 类来定义元类
+#### 3.1 通过继承 type 类来定义元类
 
 ```python
 class MyMeta(type):
@@ -47,7 +47,7 @@ class MyClass(metaclass=MyMeta):
     pass
 ```
 
-#### 直接定义元类类对象
+#### 3.2 直接定义元类类对象
 
 ```python
 class MyMeta:

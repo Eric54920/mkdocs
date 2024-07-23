@@ -11,7 +11,7 @@ Python 提供了 `threading.Lock` 类来实现基本的互斥锁（Mutex）。`L
 - `acquire(blocking=True, timeout=-1)`：获取锁。默认情况下，如果锁当前已被其他线程持有，则阻塞当前线程，直到获取到锁为止。可选参数 `timeout` 指定最长的阻塞时间（秒），超时则抛出 `TimeoutError` 异常。
 - `release()`：释放锁。将当前持有的锁释放，允许其他线程获取锁。
 
-#### 示例：
+**示例**：
 
 ```python
 import threading
@@ -59,7 +59,7 @@ if __name__ == "__main__":
 
 除了基本的 `Lock` 类，Python 还提供了可重入锁（Reentrant Lock），即 `threading.RLock` 类。可重入锁允许同一个线程多次获取同一个锁，而不会造成死锁。可重入锁主要用于确保在同一个线程中，多个函数可以安全地获取和释放锁。
 
-#### 示例：
+**示例**：
 
 ```python
 import threading

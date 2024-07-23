@@ -8,7 +8,7 @@ comments: true
 
 `%` 操作符可以将变量插入字符串中，并指定格式化的方式。
 
-#### 基本语法：
+**基本语法**：
 
 ```python
 formatted_string = "format string % (value1, value2, ...)"
@@ -17,7 +17,7 @@ formatted_string = "format string % (value1, value2, ...)"
 - `%` 后面跟着格式化字符串，其中 `%` 后的括号中包含要插入的变量。
 - 格式化字符串中使用 `%` 后面的占位符来表示变量的位置和格式化方式。
 
-#### 示例：
+**示例**：
 
 ```python
 name = "Alice"
@@ -26,7 +26,7 @@ formatted_string = "My name is %s and I am %d years old." % (name, age)
 print(formatted_string)
 ```
 
-#### 输出结果：
+**输出结果**：
 
 ```
 My name is Alice and I am 25 years old.
@@ -43,7 +43,7 @@ My name is Alice and I am 25 years old.
 
 `str.format()` 方法允许更灵活和强大的字符串格式化，支持指定变量的位置和格式。
 
-#### 基本语法：
+**基本语法**：
 
 ```python
 formatted_string = "format string {}".format(value1, value2, ...)"
@@ -53,7 +53,7 @@ formatted_string = "format string {}".format(value1, value2, ...)"
 - 可以使用 `{}` 中的数字或命名字段来指定变量的位置或名称。
 - 可以在 `{}` 中使用 `:` 指定格式化选项。
 
-#### 示例：
+**示例**：
 
 ```python
 name = "Bob"
@@ -62,7 +62,7 @@ formatted_string = "My name is {} and I am {} years old.".format(name, age)
 print(formatted_string)
 ```
 
-#### 输出结果：
+**输出结果**：
 
 ```
 My name is Bob and I am 30 years old.
@@ -76,7 +76,7 @@ formatted_string = "The value of pi is {:.2f}".format(pi)
 print(formatted_string)
 ```
 
-#### 输出结果：
+**输出结果**：
 
 ```
 The value of pi is 3.14
@@ -88,7 +88,7 @@ The value of pi is 3.14
 
 f-string 是从 Python 3.6 开始引入的一种更简洁、更直观的字符串格式化方式，允许在字符串中直接插入变量。
 
-#### 基本语法：
+**基本语法**：
 
 ```python
 formatted_string = f"format string {value1} {value2} ..."
@@ -97,7 +97,7 @@ formatted_string = f"format string {value1} {value2} ..."
 - 在字符串前加上 `f` 或 `F`，然后在字符串中用 `{}` 插入变量。
 - 可以在 `{}` 中使用表达式和函数调用。
 
-#### 示例：
+**示例**：
 
 ```python
 name = "Charlie"
@@ -106,7 +106,7 @@ formatted_string = f"My name is {name} and I am {age} years old."
 print(formatted_string)
 ```
 
-#### 输出结果：
+**输出结果**：
 
 ```
 My name is Charlie and I am 35 years old.
@@ -121,7 +121,7 @@ formatted_string = f"The sum of {a} and {b} is {a + b}"
 print(formatted_string)
 ```
 
-#### 输出结果：
+**输出结果**：
 
 ```
 The sum of 10 and 5 is 15

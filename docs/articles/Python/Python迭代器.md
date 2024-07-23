@@ -15,7 +15,7 @@ comments: true
 
 可以通过以下两种方式创建迭代器：
 
-#### 使用 iter() 函数
+#### 2.1 使用 iter() 函数
 
 可以通过 `iter()` 函数从可迭代对象（如列表、元组）创建迭代器。
 
@@ -27,7 +27,7 @@ my_list = [1, 2, 3, 4, 5]
 my_iterator = iter(my_list)
 ```
 
-#### 自定义迭代器类
+#### 2.2 自定义迭代器类
 
 也可以通过自定义类实现 `__iter__()` 和 `__next__()` 方法来创建迭代器。
 
@@ -55,14 +55,14 @@ my_iterator = MyIterator([1, 2, 3, 4, 5])
 
 迭代器可以用于 `for...in` 循环中，或者通过 `next()` 函数逐个获取元素。
 
-#### 使用 for 循环
+#### 3.1 使用 for 循环
 
 ```python
 for item in my_iterator:
     print(item)
 ```
 
-#### 使用 next() 函数
+#### 3.2 使用 next() 函数
 
 ```python
 print(next(my_iterator))  # 输出: 1

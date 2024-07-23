@@ -10,7 +10,7 @@ comments: true
 pip install pillow
 ```
 
-### 有损压缩示例
+### 1. 有损压缩示例
 
 有损压缩通常用于JPEG格式，可以通过降低图像质量来显著减小文件大小。
 
@@ -62,7 +62,7 @@ compress_image_lossy(input_path, output_path, quality=85)
 
 这个代码在保存JPEG图像之前会检查图像模式，如果图像模式是`RGBA`（即包含透明度），它会将图像转换为`RGB`模式（去掉透明度）。这样可以避免`OSError`错误。
 
-### 无损压缩示例
+### 2. 无损压缩示例
 
 无损压缩通常用于PNG格式，优化文件大小但不损失图像质量。
 
@@ -83,11 +83,11 @@ output_path = 'compressed_image_lossless.png'  # 输出图像路径
 compress_image_lossless(input_path, output_path)
 ```
 
-### 使用示例
+### 3. 使用示例
 
-1. 创建一个名为`compress_image.py`的文件，并将以上代码粘贴到文件中。
-2. 将你要压缩的图像放在与脚本相同的目录中，并确保输入路径和输出路径正确。
-3. 运行脚本：
+- 创建一个名为`compress_image.py`的文件，并将以上代码粘贴到文件中。
+- 将你要压缩的图像放在与脚本相同的目录中，并确保输入路径和输出路径正确。
+- 运行脚本：
 
 ```sh
 python compress_image.py

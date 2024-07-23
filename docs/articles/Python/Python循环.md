@@ -8,7 +8,7 @@ comments: true
 
 `for` 循环用于遍历可迭代对象（例如列表、元组、字符串等），依次取出每个元素进行操作。
 
-#### 基本语法：
+**基本语法**：
 
 ```python
 for item in iterable:
@@ -21,7 +21,7 @@ for item in iterable:
 - `item` 是当前迭代的元素。
 - `iterable` 是可迭代对象，如列表、元组、字符串等。
 
-#### 示例：
+**示例**：
 
 遍历列表：
 
@@ -50,7 +50,7 @@ for i in range(5):
 
 `while` 循环根据条件表达式的真假来重复执行代码块，直到条件不再满足为止。
 
-#### 基本语法：
+**基本语法**：
 
 ```python
 while condition:
@@ -62,7 +62,7 @@ while condition:
 
 - `condition` 是一个表达式，如果为真则继续循环，如果为假则退出循环。
 
-#### 示例：
+**示例**：
 
 ```python
 count = 0
@@ -77,7 +77,7 @@ while count < 5:
 
 `break` 语句用于退出当前循环，即使循环条件仍然为真。
 
-#### 示例：
+**示例**：
 
 ```python
 for i in range(10):
@@ -90,7 +90,7 @@ for i in range(10):
 
 `continue` 语句用于跳过当前循环中的剩余代码，直接进入下一次循环迭代。
 
-#### 示例：
+**示例**：
 
 ```python
 for i in range(10):
@@ -103,7 +103,7 @@ for i in range(10):
 
 Python 的循环语句可以包含 `else` 分支，当循环正常完成（即没有被 `break` 中止）时执行。
 
-#### 示例：
+**示例**：
 
 ```python
 for i in range(5):
@@ -116,7 +116,7 @@ else:
 
 在 Python 中，你可以在循环内部嵌套另一个循环，以实现更复杂的逻辑。
 
-#### 示例：
+**示例**：
 
 ```python
 for i in range(3):

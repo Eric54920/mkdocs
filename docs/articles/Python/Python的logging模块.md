@@ -4,17 +4,17 @@ comments: true
 
 `logging` 模块是 Python 标准库中用于记录日志的模块，它提供了灵活且功能丰富的日志记录功能，可以帮助开发人员进行调试、跟踪和记录应用程序的运行状态和行为。使用 `logging` 模块可以将日志输出到控制台、文件、网络等不同的目标，还可以根据日志级别过滤和控制日志的输出内容。
 
-### 基本概念和导入模块
+### 1. 基本概念
 
 使用 `logging` 模块记录日志通常涉及以下基本概念：
 
-1. **Logger**: 日志记录器，负责产生日志消息。通过 `logging.getLogger(name)` 方法创建，`name` 是日志记录器的名称。
+- **Logger**: 日志记录器，负责产生日志消息。通过 `logging.getLogger(name)` 方法创建，`name` 是日志记录器的名称。
 
-2. **Handler**: 处理器，负责将日志消息分发到不同的目的地，如控制台、文件等。`logging` 模块提供了多种内置的处理器。
+- **Handler**: 处理器，负责将日志消息分发到不同的目的地，如控制台、文件等。`logging` 模块提供了多种内置的处理器。
 
-3. **Formatter**: 格式化器，定义日志消息的最终输出格式。可以通过 `logging.Formatter` 类来创建格式化器。
+- **Formatter**: 格式化器，定义日志消息的最终输出格式。可以通过 `logging.Formatter` 类来创建格式化器。
 
-### 基本用法示例
+### 2. 基本用法示例
 
 以下是 `logging` 模块的基本用法示例：
 
@@ -42,7 +42,7 @@ logger.critical('This is a critical message')
 - `getLogger()` 方法创建了一个名为 `'example'` 的日志记录器。
 - `debug()`、`info()`、`warning()`、`error()` 和 `critical()` 方法分别记录了不同级别的日志消息。
 
-### 日志级别
+### 3. 日志级别
 
 `logging` 模块定义了以下几个日志级别，按重要性递增：
 
@@ -52,7 +52,7 @@ logger.critical('This is a critical message')
 - `ERROR`: 用于记录错误事件，但不会影响程序的正常运行。
 - `CRITICAL`: 最高级别的错误，表示严重的错误，可能导致程序无法继续运行。
 
-### Handler 和 Formatter
+### 4. Handler 和 Formatter
 
 `logging` 模块中的 Handler 控制日志的输出位置，而 Formatter 则定义日志消息的具体格式。可以通过添加 Handler 和设置 Formatter 来实现不同的日志输出方式和格式化要求。例如，将日志输出到文件和控制台：
 
@@ -70,10 +70,10 @@ logger.addHandler(file_handler)
 logger.info('Logging to both console and file')
 ```
 
-### 高级配置
+### 5. 高级配置
 
 可以通过配置 `logging.config` 模块或者使用 `dictConfig` 方法来实现更复杂的日志记录配置，包括从配置文件加载配置信息等。
 
-### 总结
+### 6. 总结
 
 `logging` 模块是 Python 中标准的日志记录工具，提供了灵活而强大的功能来记录和管理应用程序的日志信息。通过设置不同的日志级别、添加处理器和格式化器，可以根据需要精确控制日志的输出内容和方式，帮助开发人员更有效地进行调试和错误分析。

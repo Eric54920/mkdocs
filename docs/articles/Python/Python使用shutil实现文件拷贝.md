@@ -4,7 +4,7 @@ comments: true
 
 在Python中，可以使用`shutil`模块来拷贝文件。`shutil`模块提供了多个用于文件操作的函数，如`shutil.copy`、`shutil.copy2`和`shutil.copyfile`。下面是一些示例，展示了如何使用这些函数来拷贝文件。
 
-### 使用 `shutil.copy`
+### 1. 使用 `shutil.copy`
 
 `shutil.copy` 函数将文件从源路径复制到目标路径。此函数会拷贝文件的内容以及权限，但不会拷贝文件的元数据（例如最后修改时间）。
 
@@ -27,7 +27,7 @@ dst = 'path/to/destination/file.txt'  # 目标文件路径
 copy_file(src, dst)
 ```
 
-### 使用 `shutil.copy2`
+### 2. 使用 `shutil.copy2`
 
 `shutil.copy2` 函数与 `shutil.copy` 类似，但它会拷贝文件的内容、权限以及元数据（例如最后修改时间和创建时间）。
 
@@ -50,7 +50,7 @@ dst = 'path/to/destination/file.txt'  # 目标文件路径
 copy_file_with_metadata(src, dst)
 ```
 
-### 使用 `shutil.copyfile`
+### 3. 使用 `shutil.copyfile`
 
 `shutil.copyfile` 函数仅拷贝文件内容，不拷贝权限和元数据。目标文件必须是一个新文件，不能是一个目录。
 
@@ -73,7 +73,7 @@ dst = 'path/to/destination/file.txt'  # 目标文件路径
 copy_file_content_only(src, dst)
 ```
 
-### 示例使用说明
+### 4. 示例使用说明
 
 1. 将代码保存到一个Python文件中，例如 `copy_file.py`。
 2. 确保源文件路径和目标文件路径是正确的。

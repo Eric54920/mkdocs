@@ -8,7 +8,7 @@ comments: true
 
 使用内置的 `open()` 函数可以打开一个文件，并返回一个文件对象，然后可以对该文件对象进行读取或写入操作。
 
-#### 基本语法：
+**基本语法**：
 
 ```python
 file_object = open(file_path, mode)
@@ -18,7 +18,7 @@ file_object = open(file_path, mode)
 - `mode` 是打开文件的模式，包括读取模式（`'r'`）、写入模式（`'w'`）、追加模式（`'a'`）等。
 - 还可以指定文件的编码方式（如 `encoding='utf-8'`）。
 
-#### 示例：
+**示例**：
 
 ```python
 # 打开一个文件进行读取
@@ -30,7 +30,7 @@ file_object = open(file_path, 'r', encoding='utf-8')
 
 可以使用文件对象的方法来读取文件内容，常见的方法包括 `read()`、`readline()` 和 `readlines()`。
 
-#### `read()` 方法
+#### 2.1 `read()` 方法
 
 `read()` 方法用于读取整个文件内容。
 
@@ -39,7 +39,7 @@ content = file_object.read()
 print(content)
 ```
 
-#### `readline()` 方法
+#### 2.2 `readline()` 方法
 
 `readline()` 方法用于每次读取文件的一行内容。
 
@@ -50,7 +50,7 @@ while line:
     line = file_object.readline()
 ```
 
-#### `readlines()` 方法
+#### 2.3 `readlines()` 方法
 
 `readlines()` 方法用于一次性读取文件的所有行，并将其存储为列表。
 
@@ -64,7 +64,7 @@ for line in lines:
 
 可以使用文件对象的 `write()` 方法将内容写入文件。
 
-#### 示例：
+**示例**：
 
 ```python
 # 打开一个文件进行写入
@@ -91,7 +91,7 @@ file_object.close()
 
 更推荐的做法是使用 `with` 语句来自动管理文件的打开和关闭，这样可以确保在退出 `with` 代码块时文件对象被正确关闭，即使发生异常也不会影响文件的关闭操作。
 
-#### 示例：
+**示例**：
 
 ```python
 file_path = 'example.txt'

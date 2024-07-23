@@ -12,7 +12,7 @@ Python 中的进程（Process）是操作系统分配资源的基本单位，每
 
 Python 提供了 `multiprocessing` 模块来支持多进程编程，它允许开发者轻松地创建、启动和管理多个进程。主要通过 `Process` 类来实现进程的创建和管理。
 
-#### 示例1：使用 `Process` 类创建新的进程
+**示例1：使用 `Process` 类创建新的进程**
 
 ```python
 import multiprocessing
@@ -41,11 +41,12 @@ if __name__ == "__main__":
 ```
 
 **说明**：
+
 - 在 `multiprocessing` 模块中，使用 `Process` 类创建新的进程。
 - 每个进程通过 `target` 参数指定执行的目标函数，通过 `args` 参数传递函数的参数。
 - 调用 `start()` 方法启动进程，调用 `join()` 方法等待进程结束。
 
-#### 示例2：使用类继承 `multiprocessing.Process`
+**示例2：使用类继承 `multiprocessing.Process`**
 
 另一种方式是直接继承 `multiprocessing.Process` 类，重写其中的 `run()` 方法来定义进程的行为。
 
@@ -80,11 +81,12 @@ if __name__ == "__main__":
 ```
 
 **说明**：
+
 - `MyProcess` 类继承了 `multiprocessing.Process`，重写了 `run()` 方法来定义进程的执行逻辑。
 - 创建 `MyProcess` 实例并调用 `start()` 方法启动进程，调用 `join()` 方法等待进程结束。
 - 这种方式更加符合面向对象的设计思想，利用类的继承机制来扩展和定制进程的行为。
 
-#### 输出结果：
+**输出结果**：
 ```
 Worker 1 started
 Worker 2 started
@@ -97,7 +99,7 @@ All processes finished
 
 在多进程编程中，进程间通信（IPC）是一个重要的问题，常用的方式包括队列（`Queue`）、管道（`Pipe`）和共享内存（`Value` 和 `Array`）等。这些方式允许进程之间安全地交换数据和信息。
 
-#### 示例：使用 `Queue` 实现进程间通信
+**示例：使用 `Queue` 实现进程间通信**
 
 ```python
 import multiprocessing
@@ -139,11 +141,12 @@ if __name__ == "__main__":
 ```
 
 **说明**：
+
 - 使用 `multiprocessing.Queue()` 创建进程间通信的队列。
 - 生产者进程向队列中放入数据，消费者进程从队列中获取数据。
 - 生产者结束后，向队列放入结束标记（`None`），通知消费者进程停止。
 
-#### 输出结果：
+**输出结果**：
 ```
 Produced: 0
 Consumed: 0
@@ -162,7 +165,7 @@ All processes finished
 
 使用进程池可以更方便地管理多个进程的生命周期，避免频繁创建和销毁进程。
 
-#### 示例：使用进程池执行任务
+**示例：使用进程池执行任务**
 
 ```python
 import multiprocessing
@@ -192,12 +195,13 @@ if __name__ == "__main__":
 ```
 
 **说明**：
+
 - 使用 `multiprocessing.Pool()` 创建进程池，通过 `processes` 参数指定进程数量。
 - 使用 `apply_async()` 方法提交异步任务给进程池执行。
 - 调用 `close()` 方法关闭进程池，不再接受新任务。
 - 调用 `join()` 方法等待所有任务完成。
 
-#### 输出结果：
+**输出结果**：
 ```
 Worker 1 started
 Worker 2 started

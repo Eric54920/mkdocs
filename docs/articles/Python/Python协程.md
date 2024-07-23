@@ -22,7 +22,7 @@ Python 提供了 `asyncio` 模块作为异步 I/O 框架的核心工具，它基
   
 - `await`：用于等待一个异步操作完成，异步操作可以是另一个协程、任务对象（Task）、Future 对象等。
 
-#### 2.2 示例：基本的协程使用
+**示例：基本的协程使用**
 
 ```python
 import asyncio
@@ -74,7 +74,7 @@ if __name__ == "__main__":
 
 Python 3.6 引入了异步迭代器和异步生成器，允许在异步上下文中进行迭代操作，非常适合处理流数据和异步任务集合。
 
-**示例：**
+**示例**：
 
 ```python
 async def async_range(n):
@@ -94,7 +94,7 @@ if __name__ == "__main__":
 
 异步上下文管理器允许在异步代码中使用 `async with` 语法管理资源，类似于常规的上下文管理器。
 
-**示例：**
+**示例**：
 
 ```python
 class AsyncResource:
@@ -121,7 +121,7 @@ if __name__ == "__main__":
 
 使用 `aiohttp` 可以实现高性能的异步 Web 服务，处理大量并发请求。
 
-**示例：**
+**示例**：
 
 ```python
 from aiohttp import web

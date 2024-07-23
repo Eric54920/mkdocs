@@ -12,9 +12,9 @@ comments: true
 - **外部函数（Outer Function）**：包含内部函数的函数。
 - **局部变量（Local Variable）**：定义在外部函数内部，被内部函数引用和操作的变量。
 
-### 2. 示例
+### 2. 简单闭包示例
 
-#### 简单闭包示例：
+**示例**：
 
 ```python
 def outer_function(x):
@@ -55,7 +55,7 @@ print(result)  # 输出: 12
 - **回调函数**：将函数作为参数传递给其他函数，用于异步处理。
 - **装饰器**：用闭包实现装饰器，增强或修改函数的行为。
 
-#### 示例：函数工厂
+**示例：函数工厂**
 
 ```python
 def power_factory(exponent):

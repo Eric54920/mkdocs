@@ -4,14 +4,14 @@ comments: true
 
 在 Python 中，信号量（Semaphore）是一种同步原语，用于管理并发访问的资源。信号量维护一个内部计数器，该计数器表示还剩余多少资源可供使用。当需要使用资源时，线程可以尝试获取信号量，如果信号量计数大于零，则减少计数并允许访问资源；如果计数为零，则线程需要等待直到有资源可用或超时。下面详细介绍 Python 中信号量的使用方法。
 
-### 使用 `threading.Semaphore`
+### 1. 使用 `threading.Semaphore`
 
 Python 提供了 `threading` 模块，其中的 `Semaphore` 类用于创建信号量对象。主要方法包括：
 
 - `acquire()`：尝试获取信号量。如果信号量计数大于零，则计数减一并立即返回；如果计数为零，则阻塞直到有资源可用。
 - `release()`：释放信号量。增加信号量计数，通常在使用完资源后调用。
 
-#### 示例
+**示例**
 
 ```python
 import threading
@@ -55,11 +55,11 @@ Thread 2 is releasing
 Thread 3 is releasing
 ```
 
-### 使用 `asyncio.Semaphore`（异步）
+### 2. 使用 `asyncio.Semaphore`（异步）
 
 在异步编程中，可以使用 `asyncio` 模块提供的 `Semaphore` 类来实现类似的功能。`Semaphore` 对象与 `threading.Semaphore` 类似，但是适用于协程而非线程。
 
-#### 示例
+**示例**
 
 ```python
 import asyncio
@@ -96,6 +96,6 @@ Coroutine 1 is releasing
 Coroutine 2 is releasing
 ```
 
-### 总结
+### 3. 总结
 
 信号量在多线程和异步编程中都是非常有用的同步工具，可以有效地管理并发访问的资源，避免竞态条件和资源争用问题。在编写并发程序时，根据需要选择合适的信号量类（`threading.Semaphore` 或 `asyncio.Semaphore`），并正确使用其 `acquire()` 和 `release()` 方法来确保程序的正确性和效率。
