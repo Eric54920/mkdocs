@@ -31,8 +31,6 @@ theme:
       accent: black
     
   features:
-    - navigation.instant
-    - navigation.instant.progress
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
