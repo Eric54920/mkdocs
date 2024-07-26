@@ -4,7 +4,7 @@ comments: true
 
 在Go语言中，Map（映射）是一种集合类型，用于存储键值对。每个键值对都是唯一的，即每个键只能对应一个值。Map在其他编程语言中也被称为哈希表（Hash table）、字典（Dictionary）或关联数组（Associative array）。Map提供了一种高效的查找、插入和删除操作，适用于需要快速访问和更新数据的场景。
 
-### 声明和初始化Map
+### 1. 声明和初始化Map
 
 在Go语言中，可以使用以下语法声明和初始化一个Map：
 
@@ -26,12 +26,12 @@ mapName := map[KeyType]ValueType {
 }
 ```
 
-其中：
+**说明**：
 
 - `KeyType` 是键的类型，可以是任何可以用`==`运算符比较的类型，通常是基本类型、字符串、指针或结构体。
 - `ValueType` 是值的类型，可以是任何类型，包括基本类型、复合类型（如数组、结构体）、甚至是另一个Map。
 
-### 示例
+**示例**：
 
 ```go
 package main
@@ -59,7 +59,7 @@ func main() {
 }
 ```
 
-### 访问Map元素
+### 2. 访问Map元素
 
 可以使用键来访问Map中的元素，如果键不存在，则返回值类型的零值。
 
@@ -74,7 +74,7 @@ fmt.Println("Alice's age:", ages["Alice"]) // Output: 28
 fmt.Println("Dave's age:", ages["Dave"])   // Output: 0 (zero value for int)
 ```
 
-### 修改Map元素
+### 3. 修改Map元素
 
 通过赋值操作可以修改Map中已有的键值对，如果键不存在，则会添加新的键值对。
 
@@ -91,7 +91,7 @@ ages["Dave"] = 34 // 添加新的键值对
 fmt.Println("Updated ages:", ages)
 ```
 
-### 删除Map元素
+### 4. 删除Map元素
 
 使用内置的 `delete` 函数可以删除Map中的元素。
 
@@ -107,7 +107,7 @@ delete(ages, "Bob") // 删除Bob的键值对
 fmt.Println("Updated ages:", ages)
 ```
 
-### 检查Map中的键是否存在
+### 5. 检查Map中的键是否存在
 
 可以使用多重赋值的方式来检查Map中的键是否存在。
 
@@ -126,7 +126,7 @@ if ok {
 }
 ```
 
-### 迭代Map
+### 6. 迭代Map
 
 可以使用 `for range` 结构来迭代Map中的键值对。
 
@@ -142,7 +142,7 @@ for name, age := range ages {
 }
 ```
 
-### 注意事项
+### 7. 注意事项
 
 - Map是引用类型，在函数传递中传递的是指向底层数据结构的指针，因此在函数中对Map的修改会影响原始数据。
 - Map中的键必须是可比较的类型，如果尝试使用切片或包含切片的结构体作为键，则会引发编译错误。

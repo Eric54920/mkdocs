@@ -32,7 +32,7 @@ theme:
     
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
+    # - navigation.tabs.sticky
     - navigation.sections
     - navigation.path
     - navigation.prune
@@ -215,22 +215,21 @@ nav:
         - Go语言常量: ./articles/Go/Go语言常量.md
         - Go语言数据类型: ./articles/Go/Go语言数据类型.md
         - Go语言运算符: ./articles/Go/Go语言运算符.md
-        - Go语言fmt包: ./articles/Go/Go语言fmt包.md
         - Go语言if判断: ./articles/Go/Go语言if判断.md
         - Go语言for循环: ./articles/Go/Go语言for循环.md
         - Go语言switch: ./articles/Go/Go语言switch.md
         - Go语言Array: ./articles/Go/Go语言Array.md
         - Go语言Slice: ./articles/Go/Go语言Slice.md
         - Go语言Map: ./articles/Go/Go语言Map.md
+        - Go语言指针: ./articles/Go/Go语言指针.md
         - Go语言函数: ./articles/Go/Go语言函数.md
+        - Go语言传值与传指针: ./articles/Go/Go语言传值与传指针.md
         - Go语言函数作用域: ./articles/Go/Go语言函数作用域.md
         - Go语言函数类型和变量: ./articles/Go/Go语言函数类型和变量.md
         - Go语言闭包: ./articles/Go/Go语言闭包.md
         - Go语言defer延迟调用: ./articles/Go/Go语言defer延迟调用.md
         - Go语言函数异常处理: ./articles/Go/Go语言函数异常处理.md
-        - Go语言传值与传指针: ./articles/Go/Go语言传值与传指针.md
         - Go语言递归: ./articles/Go/Go语言递归.md
-        - Go语言指针: ./articles/Go/Go语言指针.md
         - Go语言自定义类型: ./articles/Go/Go语言自定义类型.md
         - Go语言结构体: ./articles/Go/Go语言结构体.md
         - Go语言结构体与序列化: ./articles/Go/Go语言结构体与序列化.md
@@ -239,6 +238,18 @@ nav:
         - Go语言反射: ./articles/Go/Go语言反射.md
         - Go语言文件操作: ./articles/Go/Go语言文件操作.md
         - Go语言泛型: ./articles/Go/Go语言泛型.md
+        - Go语言fmt包: ./articles/Go/Go语言fmt包.md
+        - Go语言time包: ./articles/Go/Go语言time包.md
+        - Go语言os包: ./articles/Go/Go语言os包.md
+        - Go语言crypto包: ./articles/Go/Go语言crypto包.md
+        - Go语言filepath包: ./articles/Go/Go语言filepath包.md
+        - Go语言http包: ./articles/Go/Go语言http包.md
+        - Go语言ioutil包: ./articles/Go/Go语言ioutil包.md
+        - Go语言json包: ./articles/Go/Go语言json包.md
+        - Go语言net包: ./articles/Go/Go语言net包.md
+        - Go语言strconv包: ./articles/Go/Go语言strconv包.md
+        - Go语言strings包: ./articles/Go/Go语言strings包.md
+        - Go语言sync包: ./articles/Go/Go语言sync包.md
       - <i class="si si-gin"></i> Gin:
         - ./articles/Gin/index.md
         - Gin介绍: ./articles/Gin/Gin介绍.md

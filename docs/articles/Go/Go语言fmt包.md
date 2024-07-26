@@ -4,9 +4,9 @@ comments: true
 
 Go语言的`fmt`包提供了格式化I/O的函数，类似于C语言的`printf`和`scanf`系列函数。`fmt`包中的函数可以用于格式化字符串并输出到控制台或者其他输出设备，以及从输入设备读取格式化输入。
 
-### 输出函数
+### 1. 输出函数
 
-#### 1. `Print`系列
+#### 1.1 `Print`系列
 
 - `fmt.Print(a ...interface{}) (n int, err error)`：直接输出参数，不带格式。
 - `fmt.Println(a ...interface{}) (n int, err error)`：输出参数，并在最后加上换行符。
@@ -34,7 +34,7 @@ func main() {
 }
 ```
 
-#### 2. `Fprint`系列
+#### 1.2 `Fprint`系列
 
 - `fmt.Fprint(w io.Writer, a ...interface{}) (n int, err error)`：将格式化的字符串写入`w`，`w`可以是文件、缓冲区等。
 - `fmt.Fprintln(w io.Writer, a ...interface{}) (n int, err error)`：类似`Fprint`，但会在最后添加换行符。
@@ -58,7 +58,7 @@ func main() {
 }
 ```
 
-#### 3. `Sprint`系列
+#### 1.3 `Sprint`系列
 
 - `fmt.Sprint(a ...interface{}) string`：返回格式化后的字符串。
 - `fmt.Sprintln(a ...interface{}) string`：类似`Sprint`，但会在最后添加换行符。
@@ -83,9 +83,9 @@ func main() {
 }
 ```
 
-### 输入函数
+### 2. 输入函数
 
-#### 1. `Scan`系列
+#### 2.1 `Scan`系列
 
 - `fmt.Scan(a ...interface{}) (n int, err error)`：从标准输入读取内容，存入参数中。
 - `fmt.Scanln(a ...interface{}) (n int, err error)`：类似`Scan`，但会在遇到换行符时停止读取。
@@ -117,7 +117,7 @@ func main() {
 }
 ```
 
-#### 2. `Fscan`系列
+#### 2.2 `Fscan`系列
 
 - `fmt.Fscan(r io.Reader, a ...interface{}) (n int, err error)`：从`r`中读取内容，存入参数中。
 - `fmt.Fscanln(r io.Reader, a ...interface{}) (n int, err error)`：类似`Fscan`，但会在遇到换行符时停止读取。
@@ -149,7 +149,7 @@ func main() {
 }
 ```
 
-#### 3. `Sscan`系列
+#### 2.3 `Sscan`系列
 
 - `fmt.Sscan(str string, a ...interface{}) (n int, err error)`：从字符串`str`中读取内容，存入参数中。
 - `fmt.Sscanln(str string, a ...interface{}) (n int, err error)`：类似`Sscan`，但会在遇到换行符时停止读取。
@@ -178,7 +178,7 @@ func main() {
 }
 ```
 
-### 格式化占位符
+### 3. 格式化占位符
 
 `fmt`包中的格式化函数使用占位符来指定格式。常见的占位符如下：
 
@@ -188,11 +188,11 @@ func main() {
 - `%T`：值的类型。
 - `%%`：字面上的百分号。
 
-#### 布尔类型
+#### 3.1 布尔类型
 
 - `%t`：单词`true`或`false`。
 
-#### 整数类型
+#### 3.2 整数类型
 
 - `%b`：二进制表示。
 - `%c`：相应Unicode码点表示。
@@ -204,7 +204,7 @@ func main() {
 - `%X`：十六进制表示，使用A-F。
 - `%U`：Unicode格式：U+1234，等同于"U+%04X"。
 
-#### 浮点数和复数
+#### 3.3 浮点数和复数
 
 - `%b`：无小数部分的科学计数法，如-123456p-78。
 - `%e`：科学计数法，如-1.234456e+78。
@@ -214,18 +214,18 @@ func main() {
 - `%g`：根据实际情况采用%e或%f格式（以获得更简洁、准确的输出）。
 - `%G`：根据实际情况采用%E或%F格式（以获得更简洁、准确的输出）。
 
-#### 字符串和字节切片
+#### 3.4 字符串和字节切片
 
 - `%s`：字符串或字节切片。
 - `%q`：双引号围绕的字符串字面值，必要时会采用安全的转义表示。
 - `%x`：每个字节用两字符十六进制数表示（使用a-f）。
 - `%X`：每个字节用两字符十六进制数表示（使用A-F）。
 
-#### 指针
+#### 3.5 指针
 
 - `%p`：十六进制表示，前缀0x。
 
-### 示例
+### 4. 示例
 
 以下是一个综合示例，展示了`fmt`包的常用功能和占位符的用法：
 

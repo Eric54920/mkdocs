@@ -8,7 +8,7 @@
 
 Hi 大家好, 我是 Eric 👋
 
-目前我在杭州做后端开发，主要语言是Python，除此之外，我还是一名签约视觉中国的摄影爱好者
+我目前在杭州从事后端开发，主要使用Python，也有全栈开发的经验。目前正在学习Golang，目标是成为一名独立开发者。除此之外，我还是一名签约视觉中国的摄影爱好者，理想是在旅行途中进行开发，成为一名“旅行路上的开发者”。
 
 ### 语言和工具
 
@@ -45,6 +45,12 @@ Hi 大家好, 我是 Eric 👋
 === "开发工具"
 
     - :material-microsoft-visual-studio-code: VS Code
+
+### 想学或待学
+
+  - :simple-rust: Rust
+  - :simple-swift: Swift
+  - :simple-flutter: Flutter
 
 ### 社交媒体
 

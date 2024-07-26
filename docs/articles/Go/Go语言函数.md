@@ -4,7 +4,7 @@ comments: true
 
 在Go语言中，函数是一种独立的代码块，用于执行特定的任务或计算，并可以通过参数进行定制。函数在Go语言中具有以下基本特点和语法结构：
 
-### 基本语法
+### 1. 基本语法
 
 ```go
 func functionName(parameterList) (returnTypeList) {
@@ -13,7 +13,7 @@ func functionName(parameterList) (returnTypeList) {
 }
 ```
 
-其中：
+**说明**：
 
 - `functionName` 是函数的名称，根据惯例，使用驼峰命名法（CamelCase）。
 - `parameterList` 是参数列表，参数由参数名和参数类型组成，多个参数之间用逗号分隔。
@@ -21,7 +21,7 @@ func functionName(parameterList) (returnTypeList) {
 - `函数体` 包含函数的具体实现，包括各种语句和逻辑。
 - `return` 语句可选，用于从函数中返回一个或多个值。
 
-### 示例
+**示例**：
 
 ```go
 package main
@@ -50,7 +50,7 @@ func main() {
 }
 ```
 
-### 参数
+### 2. 参数
 
 函数可以接受零个或多个参数。参数列表的每个参数都必须指定类型。
 
@@ -66,7 +66,7 @@ func calculate(a, b int, op string) {
 }
 ```
 
-### 返回值
+### 3. 返回值
 
 函数可以返回一个或多个值。如果函数有多个返回值，它们必须用括号括起来。
 
@@ -82,7 +82,7 @@ func swap(x, y string) (string, string) {
 }
 ```
 
-### 匿名函数
+### 4. 匿名函数
 
 Go语言支持匿名函数，即没有函数名的函数，可以直接使用函数字面量（Function Literal）定义并调用。
 
@@ -107,7 +107,7 @@ func main() {
 }
 ```
 
-### 函数作为参数和返回值
+### 5. 函数作为参数和返回值
 
 在Go语言中，函数可以作为参数传递给其他函数，也可以作为函数的返回值。
 
@@ -147,7 +147,7 @@ func main() {
 }
 ```
 
-### 注意事项
+### 6. 注意事项
 
 - Go语言的函数可以返回多个值，这是一种非常方便的特性。
 - 函数是一等公民，可以作为参数传递和返回值。
