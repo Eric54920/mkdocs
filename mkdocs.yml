@@ -201,6 +201,20 @@ nav:
       - <i class="si si-fastapi"></i> FastAPI:
         - ./articles/FastAPI/index.md
         - FastAPI介绍: ./articles/FastAPI/FastAPI介绍.md
+        - FastAPI快速入门: ./articles/FastAPI/FastAPI快速入门.md
+        - FastAPI请求参数: ./articles/FastAPI/FastAPI请求参数.md
+        - FastAPI响应: ./articles/FastAPI/FastAPI响应.md
+        - FastAPI异常处理: ./articles/FastAPI/FastAPI异常处理.md
+        - FastAPI路径操作配置: ./articles/FastAPI/FastAPI路径操作配置.md
+        - FastAPI依赖注入: ./articles/FastAPI/FastAPI依赖注入.md
+        - FastAPI安全和认证: ./articles/FastAPI/FastAPI安全和认证.md
+        - FastAPI中间件: ./articles/FastAPI/FastAPI中间件.md
+        - FastAPI跨域: ./articles/FastAPI/FastAPI跨域.md
+        - FastAPI后台任务: ./articles/FastAPI/FastAPI后台任务.md
+        - FastAPI子应用: ./articles/FastAPI/FastAPI子应用.md
+        - FastAPI事件: ./articles/FastAPI/FastAPI事件.md
+        - FastAPI异步: ./articles/FastAPI/FastAPI异步.md
+        - FastAPI的websocket: ./articles/FastAPI/FastAPI的websocket.md
         - FastAPI数据库迁移: ./articles/FastAPI/FastAPI数据库迁移.md
       - <i class="si si-flask"></i> Flask:
         - ./articles/Flask/index.md
@@ -241,6 +255,7 @@ nav:
         - Go语言fmt包: ./articles/Go/Go语言fmt包.md
         - Go语言time包: ./articles/Go/Go语言time包.md
         - Go语言os包: ./articles/Go/Go语言os包.md
+        - Go语言io包: ./articles/Go/Go语言io包.md
         - Go语言crypto包: ./articles/Go/Go语言crypto包.md
         - Go语言filepath包: ./articles/Go/Go语言filepath包.md
         - Go语言http包: ./articles/Go/Go语言http包.md
@@ -253,6 +268,7 @@ nav:
       - <i class="si si-gin"></i> Gin:
         - ./articles/Gin/index.md
         - Gin介绍: ./articles/Gin/Gin介绍.md
+        - Gin快速入门: ./articles/Gin/Gin快速入门.md
       - <i class="si si-rust"></i> Rust:
         - ./articles/Rust/index.md
         - Rust介绍: ./articles/Rust/Rust介绍.md
@@ -285,9 +301,6 @@ nav:
         - 策略模式: ./articles/设计模式/策略模式.md
         - 模板方法模式: ./articles/设计模式/模板方法模式.md
         - 访问者模式: ./articles/设计模式/访问者模式.md
-      - <i class="si si-docker"></i> Docker:
-        - ./articles/Docker/index.md
-        - Docker介绍: ./articles/Docker/Docker介绍.md
     - 前端:
       - <i class="si si-html5"></i> HTML:
         - ./articles/HTML/index.md
@@ -303,6 +316,13 @@ nav:
       - <i class="si si-vuedotjs"></i> Vue:
         - ./articles/Vue/index.md
         - Vue介绍: ./articles/Vue/Vue介绍.md
+    - 运维:
+      - <i class="si si-docker"></i> Docker:
+        - ./articles/Docker/index.md
+        - Docker介绍: ./articles/Docker/Docker介绍.md
+      - <i class="si si-nginx"></i> Nginx:
+        - ./articles/Nginx/index.md
+        - Nginx介绍: ./articles/Nginx/Nginx介绍.md
     - 数据科学:
       - <i class="si si-numpy"></i> NumPy:
         - ./articles/NumPy/index.md

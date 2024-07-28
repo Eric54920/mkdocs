@@ -30,9 +30,6 @@ Hi 大家好, 我是 Eric 👋
     - :simple-fastapi: FastAPI
     - :simple-go: Golang
     - :simple-gin: Gin
-    - :simple-docker: Docker
-    - :simple-linux: Linux
-    - :simple-ubuntu: Ubuntu
   
 === "数据库"
 
@@ -45,6 +42,16 @@ Hi 大家好, 我是 Eric 👋
 === "开发工具"
 
     - :material-microsoft-visual-studio-code: VS Code
+
+=== "操作系统"
+
+    - :simple-linux: Linux
+    - :simple-ubuntu: Ubuntu
+
+=== "运维"
+
+    - :simple-docker: Docker
+    - :simple-nginx: Nginx
 
 ### 想学或待学
 

@@ -4,7 +4,7 @@ comments: true
 
 使用 FastAPI 和 SQLAlchemy 进行数据库操作时，数据库迁移是一个重要的步骤。Alembic 是一个用于处理数据库迁移的工具，可以帮助你管理数据库模式的变更。下面是一个完整的步骤指南，介绍如何在 FastAPI 项目中使用 Alembic 进行数据库迁移。
 
-### 步骤 1：安装必要的包
+### 1. 安装必要的包
 
 首先，确保你已经安装了 FastAPI、SQLAlchemy 和 Alembic：
 
@@ -12,7 +12,7 @@ comments: true
 pip install fastapi sqlalchemy alembic pymysql
 ```
 
-### 步骤 2：设置项目结构
+### 2. 设置项目结构
 
 假设你的项目结构如下：
 
@@ -33,9 +33,9 @@ pip install fastapi sqlalchemy alembic pymysql
         ├── .gitkeep
 ```
 
-### 步骤 3：配置数据库和模型
+### 3. 配置数据库和模型
 
-#### `database.py`
+#### 3.1 `database.py`
 
 创建和配置数据库连接：
 
@@ -58,7 +58,7 @@ def get_db():
         db.close()
 ```
 
-#### `models.py`
+#### 3.2 `models.py`
 
 定义你的数据模型：
 
@@ -73,7 +73,7 @@ class User(Base):
     email = Column(String(50), unique=True, index=True)
 ```
 
-### 步骤 4：初始化 Alembic
+### 4. 初始化 Alembic
 
 在项目根目录下初始化 Alembic：
 
@@ -81,7 +81,7 @@ class User(Base):
 alembic init alembic
 ```
 
-### 步骤 5：配置 Alembic
+### 5. 配置 Alembic
 
 编辑 `alembic.ini` 文件，设置数据库连接字符串：
 
@@ -167,7 +167,7 @@ else:
     run_migrations_online()
 ```
 
-### 步骤 6：创建迁移脚本
+### 6. 创建迁移脚本
 
 使用 Alembic 自动生成迁移脚本：
 
@@ -175,7 +175,7 @@ else:
 alembic revision --autogenerate -m "Initial migration"
 ```
 
-### 步骤 7：应用迁移
+### 7. 应用迁移
 
 运行以下命令以应用迁移到数据库：
 
@@ -183,11 +183,11 @@ alembic revision --autogenerate -m "Initial migration"
 alembic upgrade head
 ```
 
-### 示例：添加新字段
+### 8. 添加新字段
 
 假设你需要在 `User` 表中添加一个 `age` 字段：
 
-1. 更新你的 `User` 模型：
+- 更新你的 `User` 模型：
 
     ```python
     class User(Base):
@@ -198,13 +198,13 @@ alembic upgrade head
         age = Column(Integer, nullable=True)  # 新增字段
     ```
 
-2. 创建新的迁移脚本：
+- 创建新的迁移脚本：
 
     ```bash
     alembic revision --autogenerate -m "Add age column to user table"
     ```
 
-3. 在生成的迁移脚本中，你应该会看到：
+- 在生成的迁移脚本中，你应该会看到：
 
     ```python
     def upgrade():
@@ -214,7 +214,7 @@ alembic upgrade head
         op.drop_column('users', 'age')
     ```
 
-4. 应用迁移：
+- 应用迁移：
 
     ```bash
     alembic upgrade head

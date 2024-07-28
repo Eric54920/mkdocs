@@ -39,6 +39,7 @@
 - [Go语言fmt包](Go语言fmt包.md)
 - [Go语言time包](Go语言time包.md)
 - [Go语言os包](Go语言os包.md)
+- [Go语言io包](Go语言io包.md)
 - [Go语言crypto包](Go语言crypto包.md)
 - [Go语言filepath包](Go语言filepath包.md)
 - [Go语言http包](Go语言http包.md)
