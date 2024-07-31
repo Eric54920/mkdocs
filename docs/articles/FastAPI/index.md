@@ -15,4 +15,6 @@
 - [FastAPI事件](FastAPI事件.md)
 - [FastAPI异步](FastAPI异步.md)
 - [FastAPI的websocket](FastAPI的websocket.md)
+- [FastAPI使用Tortoise](FastAPI使用Tortoise.md)
+- [FastAPI使用SQLAlchemy](FastAPI使用SQLAlchemy.md)
 - [FastAPI数据库迁移](FastAPI数据库迁移.md)

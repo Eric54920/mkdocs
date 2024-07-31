@@ -25,6 +25,8 @@
 - [Go语言defer延迟调用](Go语言defer延迟调用.md)
 - [Go语言函数异常处理](Go语言函数异常处理.md)
 - [Go语言递归](Go语言递归.md)
+- [Go语言channel](Go语言channel.md)
+- [Go语言goroutine](Go语言goroutine.md)
 - [Go语言自定义类型](Go语言自定义类型.md)
 - [Go语言结构体](Go语言结构体.md)
 - [Go语言结构体与序列化](Go语言结构体与序列化.md)

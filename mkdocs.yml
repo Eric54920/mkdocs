@@ -215,6 +215,8 @@ nav:
         - FastAPI事件: ./articles/FastAPI/FastAPI事件.md
         - FastAPI异步: ./articles/FastAPI/FastAPI异步.md
         - FastAPI的websocket: ./articles/FastAPI/FastAPI的websocket.md
+        - FastAPI使用Tortoise: ./articles/FastAPI/FastAPI使用Tortoise.md
+        - FastAPI使用SQLAlchemy: ./articles/FastAPI/FastAPI使用SQLAlchemy.md
         - FastAPI数据库迁移: ./articles/FastAPI/FastAPI数据库迁移.md
       - <i class="si si-flask"></i> Flask:
         - ./articles/Flask/index.md
@@ -244,6 +246,8 @@ nav:
         - Go语言defer延迟调用: ./articles/Go/Go语言defer延迟调用.md
         - Go语言函数异常处理: ./articles/Go/Go语言函数异常处理.md
         - Go语言递归: ./articles/Go/Go语言递归.md
+        - Go语言channel: ./articles/Go/Go语言channel.md
+        - Go语言goroutine: ./articles/Go/Go语言goroutine.md
         - Go语言自定义类型: ./articles/Go/Go语言自定义类型.md
         - Go语言结构体: ./articles/Go/Go语言结构体.md
         - Go语言结构体与序列化: ./articles/Go/Go语言结构体与序列化.md
@@ -269,6 +273,11 @@ nav:
         - ./articles/Gin/index.md
         - Gin介绍: ./articles/Gin/Gin介绍.md
         - Gin快速入门: ./articles/Gin/Gin快速入门.md
+        - Gin请求: ./articles/Gin/Gin请求.md
+        - Gin响应: ./articles/Gin/Gin响应.md
+        - Gin模版: ./articles/Gin/Gin模版.md
+        - Gin路由: ./articles/Gin/Gin路由.md
+        - Gin中间件: ./articles/Gin/Gin中间件.md
       - <i class="si si-rust"></i> Rust:
         - ./articles/Rust/index.md
         - Rust介绍: ./articles/Rust/Rust介绍.md
