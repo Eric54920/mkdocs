@@ -278,6 +278,8 @@ nav:
         - Gin模版: ./articles/Gin/Gin模版.md
         - Gin路由: ./articles/Gin/Gin路由.md
         - Gin中间件: ./articles/Gin/Gin中间件.md
+        - Gin使用Air热重载: ./articles/Gin/Gin使用Air热重载.md
+        - Gin使用swagger生成文档: ./articles/Gin/Gin使用swagger生成文档.md
       - <i class="si si-rust"></i> Rust:
         - ./articles/Rust/index.md
         - Rust介绍: ./articles/Rust/Rust介绍.md
