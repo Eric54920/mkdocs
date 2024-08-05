@@ -9,3 +9,4 @@
 - [Gin中间件](Gin中间件.md)
 - [Gin使用Air热重载](Gin使用Air热重载.md)
 - [Gin使用swagger生成文档](Gin使用swagger生成文档.md)
+- [Gin使用gorm实现增删改查](Gin使用gorm实现增删改查.md)

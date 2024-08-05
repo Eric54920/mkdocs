@@ -198,6 +198,7 @@ type Booking struct {
 func main() {
     router := gin.Default()
 
+    // 注册自定义验证函数
     if v, ok := binding.Validator.Engine().(*validator.Validate); ok {
         v.RegisterValidation("bookabledate", bookableDate)
     }

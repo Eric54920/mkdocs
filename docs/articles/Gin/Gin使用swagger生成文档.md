@@ -6,7 +6,7 @@ comments: true
 
 ### 1. 安装依赖
 
-首先，安装 `gin-swagger` 和 `swag` 工具：
+首先，安装 `swag` 工具：
 
 ```bash
 go install github.com/swaggo/swag/cmd/swag@latest
@@ -32,7 +32,6 @@ import (
 
 // PingExample godoc
 // @Summary ping example
-// @Schemes
 // @Description do ping
 // @Tags example
 // @Accept json
@@ -135,7 +134,6 @@ import (
 
 // PingExample godoc
 // @Summary ping example
-// @Schemes
 // @Description do ping
 // @Tags example
 // @Accept json

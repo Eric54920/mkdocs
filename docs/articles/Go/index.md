@@ -36,7 +36,7 @@
 - [Go语言文件操作](Go语言文件操作.md)
 - [Go语言泛型](Go语言泛型.md)
 
-## Go语言常用标准库
+## Go语言常用库
 
 - [Go语言fmt包](Go语言fmt包.md)
 - [Go语言time包](Go语言time包.md)
@@ -51,3 +51,7 @@
 - [Go语言strconv包](Go语言strconv包.md)
 - [Go语言strings包](Go语言strings包.md)
 - [Go语言sync包](Go语言sync包.md)
+- [Go语言template包](Go语言template包.md)
+- [Go语言sql包](Go语言sql包.md)
+- [Go语言sqlx包](Go语言sqlx包.md)
+- [Go语言gorm包](Go语言gorm包.md)

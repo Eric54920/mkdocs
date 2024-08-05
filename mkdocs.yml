@@ -137,18 +137,6 @@ nav:
         - Python模块和包: ./articles/Python/Python模块和包.md
         - Python虚拟环境: ./articles/Python/Python虚拟环境.md
         - Python中的__all__: ./articles/Python/Python中的__all__.md
-        - Python的functools模块: ./articles/Python/Python的functools模块.md
-        - Python的os模块: ./articles/Python/Python的os模块.md
-        - Python的sys模块: ./articles/Python/Python的sys模块.md
-        - Python的time模块: ./articles/Python/Python的time模块.md
-        - Python的datetime模块: ./articles/Python/Python的datetime模块.md
-        - Python的random模块: ./articles/Python/Python的random模块.md
-        - Python的json模块: ./articles/Python/Python的json模块.md
-        - Python的hashlib模块: ./articles/Python/Python的hashlib模块.md
-        - Python的logging模块: ./articles/Python/Python的logging模块.md
-        - Python的collections模块: ./articles/Python/Python的collections模块.md
-        - Python的stmplib模块: ./articles/Python/Python的stmplib模块.md
-        - Python的socket模块: ./articles/Python/Python的socket模块.md
         - Python面向对象: ./articles/Python/Python面向对象.md
         - Python的元类: ./articles/Python/Python的元类.md
         - Python类的继承: ./articles/Python/Python类的继承.md
@@ -169,6 +157,20 @@ nav:
         - Python的IO多路复用: ./articles/Python/Python的IO多路复用.md
         - Python开发规范: ./articles/Python/Python开发规范.md
         - Python的gRPC: ./articles/Python/Python的gRPC.md
+        - Python的functools包: ./articles/Python/Python的functools包.md
+        - Python的os包: ./articles/Python/Python的os包.md
+        - Python的sys包: ./articles/Python/Python的sys包.md
+        - Python的time包: ./articles/Python/Python的time包.md
+        - Python的datetime包: ./articles/Python/Python的datetime包.md
+        - Python的random包: ./articles/Python/Python的random包.md
+        - Python的json包: ./articles/Python/Python的json包.md
+        - Python的hashlib包: ./articles/Python/Python的hashlib包.md
+        - Python的logging包: ./articles/Python/Python的logging包.md
+        - Python的collections包: ./articles/Python/Python的collections包.md
+        - Python的stmplib包: ./articles/Python/Python的stmplib包.md
+        - Python的socket包: ./articles/Python/Python的socket包.md
+        - Python的requests包: ./articles/Python/Python的requests包.md
+        - Python的pymysql包: ./articles/Python/Python的pymysql包.md
         - Python使用shutil实现文件拷贝: ./articles/Python/Python使用shutil实现文件拷贝.md
         - Python使用PIL进行图片压缩: ./articles/Python/Python使用PIL进行图片压缩.md
         - Python调用ChatGPT: ./articles/Python/Python调用ChatGPT.md
@@ -269,6 +271,10 @@ nav:
         - Go语言strconv包: ./articles/Go/Go语言strconv包.md
         - Go语言strings包: ./articles/Go/Go语言strings包.md
         - Go语言sync包: ./articles/Go/Go语言sync包.md
+        - Go语言template包: ./articles/Go/Go语言template包.md
+        - Go语言sql包: ./articles/Go/Go语言sql包.md
+        - Go语言sqlx包: ./articles/Go/Go语言sqlx包.md
+        - Go语言gorm包: ./articles/Go/Go语言gorm包.md
       - <i class="si si-gin"></i> Gin:
         - ./articles/Gin/index.md
         - Gin介绍: ./articles/Gin/Gin介绍.md
@@ -280,6 +286,7 @@ nav:
         - Gin中间件: ./articles/Gin/Gin中间件.md
         - Gin使用Air热重载: ./articles/Gin/Gin使用Air热重载.md
         - Gin使用swagger生成文档: ./articles/Gin/Gin使用swagger生成文档.md
+        - Gin使用gorm实现增删改查: ./articles/Gin/Gin使用gorm实现增删改查.md
       - <i class="si si-rust"></i> Rust:
         - ./articles/Rust/index.md
         - Rust介绍: ./articles/Rust/Rust介绍.md

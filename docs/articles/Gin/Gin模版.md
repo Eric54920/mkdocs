@@ -67,7 +67,7 @@ router.GET("/index", func(c *gin.Context) {
 
 可以通过定义布局模板实现模板继承。
 
-`templates/layouts/base.tmpl`：
+`templates/base.tmpl`：
 
 ```html
 <!DOCTYPE html>
@@ -85,6 +85,8 @@ router.GET("/index", func(c *gin.Context) {
 `templates/index.tmpl`：
 
 ```html
+{{ template "base.tmpl" }}
+
 {{ define "title" }}Main website{{ end }}
 
 {{ define "body" }}
@@ -95,7 +97,7 @@ router.GET("/index", func(c *gin.Context) {
 加载模板时要包含布局模板：
 
 ```go
-router.LoadHTMLGlob("templates/**/*")
+router.LoadHTMLGlob("templates/*")
 
 router.GET("/index", func(c *gin.Context) {
     c.HTML(200, "index.tmpl", gin.H{
@@ -239,7 +241,7 @@ func main() {
     })
 
     // 加载模板文件
-    router.LoadHTMLGlob("templates/**/*")
+    router.LoadHTMLGlob("templates/*")
 
     // 静态文件服务
     router.Static("/assets", "./assets")
@@ -255,7 +257,7 @@ func main() {
 }
 ```
 
-模板文件`templates/layouts/base.tmpl`：
+模板文件`templates/base.tmpl`：
 
 ```html
 <!DOCTYPE html>
@@ -274,6 +276,8 @@ func main() {
 模板文件`templates/index.tmpl`：
 
 ```html
+{{template "base.tmpl"}}
+
 {{ define "title" }}Main website{{ end }}
 
 {{ define "body" }}
