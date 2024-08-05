@@ -9,7 +9,7 @@ comments: true
 首先，使用 `go install` 安装 `Air`：
 
 ```bash
-go install github.com/cosmtrek/air@latest
+go install github.com/air-verse/air@latest
 ```
 
 确保 `$GOPATH/bin` 目录在你的环境变量 `PATH` 中，以便可以全局访问 `air` 命令。
