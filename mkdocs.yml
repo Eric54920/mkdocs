@@ -403,6 +403,7 @@ nav:
         - ./articles/Git/index.md
         - Git查看和配置环境信息: ./articles/Git/Git查看和配置环境信息.md
         - Git常用命令: ./articles/Git/Git常用命令.md
+        - Git工作流: ./articles/Git/Git工作流.md
         - 如何给开源项目贡献代码: ./articles/Git/如何给开源项目贡献代码.md
   - 相册: 
     - gallery.md
