@@ -1,3 +1,14 @@
 .article-title {
     overflow-wrap: break-word;
 }
+
+/* 首页目录 */
+.category-item li {
+    padding: 0 !important;
+}
+
+.category-item a {
+    display: block;
+    padding: .8rem;
+    color: #000000de;
+}

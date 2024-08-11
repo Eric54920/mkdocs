@@ -4,31 +4,31 @@
 
 === "Python"
 
-    <div class="grid cards" markdown>
+    <div class="grid cards category-item" markdown>
 
-    - :simple-python: __Python__ [:octicons-arrow-right-24: 进入](./articles/Python/index.md)
-    - :simple-django: __Django__ [:octicons-arrow-right-24: 进入](./articles/Django/index.md)
-    - :simple-fastapi: __FastAPI__ [:octicons-arrow-right-24: 进入](./articles/FastAPI/index.md)
-    - :simple-flask: __Flask__ [:octicons-arrow-right-24: 进入](./articles/Flask/index.md)
-    - :simple-textpattern: __设计模式__ [:octicons-arrow-right-24: 进入](./articles/设计模式/index.md)
+    - [:simple-python: __Python__](./articles/Python/index.md)
+    - [:simple-django: __Django__](./articles/Django/index.md)
+    - [:simple-fastapi: __FastAPI__](./articles/FastAPI/index.md)
+    - [:simple-flask: __Flask__](./articles/Flask/index.md)
+    - [:simple-textpattern: __设计模式__](./articles/设计模式/index.md)
 
     </div>
 
 === "Golang"
 
-    <div class="grid cards" markdown>
+    <div class="grid cards category-item" markdown>
 
-    - :simple-go: __Golang__ [:octicons-arrow-right-24: 进入](./articles/Go/index.md)
-    - :simple-gin: __Gin__ [:octicons-arrow-right-24: 进入](./articles/Gin/index.md)
+    - [:simple-go: __Golang__](./articles/Go/index.md)
+    - [:simple-gin: __Gin__](./articles/Gin/index.md)
 
     </div>
 
 === "Rust"
 
-    <div class="grid cards" markdown>
+    <div class="grid cards category-item" markdown>
 
-    - :simple-rust: __Rust__ [:octicons-arrow-right-24: 进入](./articles/Rust/index.md)
-    - :simple-actix: __Actix__ [:octicons-arrow-right-24: 进入](./articles/Actix/index.md)
+    - [:simple-rust: __Rust__](./articles/Rust/index.md)
+    - [:simple-actix: __Actix__](./articles/Actix/index.md)
 
     </div>
 
@@ -36,62 +36,62 @@
 
 === "HTML/CSS"
 
-    <div class="grid cards" markdown>
+    <div class="grid cards category-item" markdown>
 
-    - :simple-html5: __HTML__ [:octicons-arrow-right-24: 进入](./articles/HTML/index.md)
-    - :simple-css3: __CSS__ [:octicons-arrow-right-24: 进入](./articles/CSS/index.md)
+    - [:simple-html5: __HTML__](./articles/HTML/index.md)
+    - [:simple-css3: __CSS__](./articles/CSS/index.md)
 
     </div>
 
 === "JavaScript"
 
-    <div class="grid cards" markdown>
+    <div class="grid cards category-item" markdown>
 
-    - :simple-javascript: __JavaScript__ [:octicons-arrow-right-24: 进入](./articles/JavaScript/index.md)
-    - :simple-vuedotjs: __Vue__ [:octicons-arrow-right-24: 进入](./articles/Vue/index.md)
+    - [:simple-javascript: __JavaScript__](./articles/JavaScript/index.md)
+    - [:simple-vuedotjs: __Vue__](./articles/Vue/index.md)
 
     </div>
 
 ## 运维
 
-<div class="grid cards" markdown>
+<div class="grid cards category-item" markdown>
 
-- :simple-docker: __Docker__ [:octicons-arrow-right-24: 进入](./articles/Docker/index.md)
-- :simple-nginx: __Nginx__ [:octicons-arrow-right-24: 进入](./articles/Nginx/index.md)
+- [:simple-docker: __Docker__](./articles/Docker/index.md)
+- [:simple-nginx: __Nginx__](./articles/Nginx/index.md)
 
 </div>
     
 ## 数据科学
 
-<div class="grid cards" markdown>
+<div class="grid cards category-item" markdown>
 
-- :simple-numpy: __NumPy__ [:octicons-arrow-right-24: 进入](./articles/NumPy/index.md)
+- [:simple-numpy: __NumPy__](./articles/NumPy/index.md)
 
 </div>
 
 ## 人工智能
 
-<div class="grid cards" markdown>
+<div class="grid cards category-item" markdown>
 
-- :simple-langchain: __LangChain__ [:octicons-arrow-right-24: 进入](./articles/LangChain/index.md)
+- [:simple-langchain: __LangChain__](./articles/LangChain/index.md)
 
 </div>
 
 ## 数据库
 
-<div class="grid cards" markdown>
+<div class="grid cards category-item" markdown>
 
-- :simple-mysql: __MySQL__ [:octicons-arrow-right-24: 进入](./articles/DataBase/MySQL/index.md)
-- :simple-redis: __Redis__ [:octicons-arrow-right-24: 进入](./articles/DataBase/Redis/index.md)
-- :simple-postgresql: __PostgreSQL__ [:octicons-arrow-right-24: 进入](./articles/DataBase/PostgreSQL/index.md)
-- :simple-mongodb: __MongoDB__ [:octicons-arrow-right-24: 进入](./articles/DataBase/MongoDB/index.md)
+- [:simple-mysql: __MySQL__](./articles/DataBase/MySQL/index.md)
+- [:simple-redis: __Redis__](./articles/DataBase/Redis/index.md)
+- [:simple-postgresql: __PostgreSQL__](./articles/DataBase/PostgreSQL/index.md)
+- [:simple-mongodb: __MongoDB__](./articles/DataBase/MongoDB/index.md)
 
 </div>
 
 ## 开发工具
 
-<div class="grid cards" markdown>
+<div class="grid cards category-item" markdown>
 
-- :simple-git: __Git__ [:octicons-arrow-right-24: 进入](./articles/Git/index.md)
+- [:simple-git: __Git__](./articles/Git/index.md)
 
 </div>
