@@ -171,6 +171,7 @@ nav:
         - Python的socket包: ./articles/Python/Python的socket包.md
         - Python的requests包: ./articles/Python/Python的requests包.md
         - Python的pymysql包: ./articles/Python/Python的pymysql包.md
+        - Python的selenium包: ./articles/Python/Python的selenium包.md
         - Python使用shutil实现文件拷贝: ./articles/Python/Python使用shutil实现文件拷贝.md
         - Python使用PIL进行图片压缩: ./articles/Python/Python使用PIL进行图片压缩.md
         - Python调用ChatGPT: ./articles/Python/Python调用ChatGPT.md
