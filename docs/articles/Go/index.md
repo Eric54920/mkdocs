@@ -55,3 +55,5 @@
 - [Go语言sql包](Go语言sql包.md)
 - [Go语言sqlx包](Go语言sqlx包.md)
 - [Go语言gorm包](Go语言gorm包.md)
+- [Go语言viper包](Go语言viper包.md)
+- [Go语言fsnotify包](Go语言fsnotify包.md)

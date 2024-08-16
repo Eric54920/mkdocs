@@ -6,7 +6,7 @@ Selenium 是一个广泛使用的自动化测试工具，它可以驱动浏览�
 
 以下是详细介绍 Python Selenium 及其所有主要方法。
 
-### 1. **安装 Selenium**
+### 1. 安装 Selenium
 
 首先，使用 `pip` 安装 Selenium：
 
@@ -23,7 +23,7 @@ sudo apt-get install chromedriver
 
 或者从 [ChromeDriver 官方网站](https://sites.google.com/chromium.org/driver/) 下载适合你操作系统的版本。
 
-### 2. **基本使用**
+### 2. 基本使用
 
 #### 2.1. 导入库和启动浏览器
 
@@ -75,7 +75,7 @@ driver.get("https://www.example.com")
   driver.quit()
   ```
 
-### 3. **元素定位与操作**
+### 3. 元素定位与操作
 
 Selenium 提供多种方式来查找和操作网页元素。
 
@@ -198,7 +198,7 @@ Selenium 提供多种方式来查找和操作网页元素。
       print(element.text)
   ```
 
-### 4. **处理浏览器窗口和框架**
+### 4. 处理浏览器窗口和框架
 
 #### 4.1. 处理多个窗口
 
@@ -228,7 +228,7 @@ Selenium 提供多种方式来查找和操作网页元素。
   driver.switch_to.default_content()
   ```
 
-### 5. **处理弹出框和对话框**
+### 5. 处理弹出框和对话框
 
 #### 5.1. 警告框（Alert）
 
@@ -262,7 +262,7 @@ Selenium 提供多种方式来查找和操作网页元素。
   print(alert.text)
   ```
 
-### 6. **处理下拉菜单**
+### 6. 处理下拉菜单
 
 - **`Select(driver.find_element(By.METHOD, "value"))`**: 实例化一个 Select 对象。
   
@@ -289,7 +289,7 @@ Selenium 提供多种方式来查找和操作网页元素。
   select.select_by_index(1)
   ```
 
-### 7. **等待**
+### 7. 等待
 
 #### 7.1. 显式等待（Explicit Waits）
 
@@ -319,7 +319,7 @@ element = WebDriverWait(driver, 10).until(
 driver.implicitly_wait(10)  # 设置10秒等待时间
 ```
 
-### 8. **Cookies 管理**
+### 8. Cookies 管理
 
 - **`get_cookies()`**: 获取所有 cookies。
   
@@ -353,7 +353,7 @@ driver.implicitly_wait(10)  # 设置10秒等待时间
   driver.delete_all_cookies()
   ```
 
-### 9. **JavaScript 执行**
+### 9. JavaScript 执行
 
 - **`execute_script(script, *args)`**: 执行 JavaScript 脚本。
 
@@ -361,7 +361,7 @@ driver.implicitly_wait(10)  # 设置10秒等待时间
   driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
   ```
 
-### 10. **文件上传**
+### 10. 文件上传
 
 使用 `send_keys` 方法模拟文件上传：
 
@@ -370,7 +370,7 @@ element = driver.find_element(By.ID, "file_upload")
 element.send_keys("/path/to/yourfile.txt")
 ```
 
-### 11. **浏览器前进和后退**
+### 11. 浏览器前进和后退
 
 - **`forward()`**: 浏览器前进。
 
@@ -384,7 +384,7 @@ element.send_keys("/path/to/yourfile.txt")
   driver.back()
   ```
 
-### 12. **截屏**
+### 12. 截屏
 
 - **`save_screenshot(file_path)`**: 保存当前页面的截图。
 
@@ -398,7 +398,7 @@ element.send_keys("/path/to/yourfile.txt")
   driver.get_screenshot_as_file("screenshot.png")
   ```
 
-### 13. **窗口管理**
+### 13. 窗口管理
 
 - **`maximize_window()`**: 最大化窗口。
 
@@ -425,7 +425,7 @@ element.send_keys("/path/to/yourfile.txt")
   print(size)
   ```
 
-### 14. **关闭和退出**
+### 14. 关闭和退出
 
 - **`close()`**: 关闭当前窗口。
 

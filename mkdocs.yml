@@ -276,6 +276,8 @@ nav:
         - Go语言sql包: ./articles/Go/Go语言sql包.md
         - Go语言sqlx包: ./articles/Go/Go语言sqlx包.md
         - Go语言gorm包: ./articles/Go/Go语言gorm包.md
+        - Go语言viper包: ./articles/Go/Go语言viper包.md
+        - Go语言fsnotify包: ./articles/Go/Go语言fsnotify包.md
       - <i class="si si-gin"></i> Gin:
         - ./articles/Gin/index.md
         - Gin介绍: ./articles/Gin/Gin介绍.md
