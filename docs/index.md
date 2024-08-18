@@ -4,94 +4,74 @@
 
 === "Python"
 
-    <div class="grid cards category-item" markdown>
-
-    - [:simple-python: __Python__](./articles/Python/index.md)
-    - [:simple-django: __Django__](./articles/Django/index.md)
-    - [:simple-fastapi: __FastAPI__](./articles/FastAPI/index.md)
-    - [:simple-flask: __Flask__](./articles/Flask/index.md)
-    - [:simple-textpattern: __设计模式__](./articles/设计模式/index.md)
-
-    </div>
+    <ul id="home-container">
+        <li class="item"><a href="./articles/Python/"><i class="si si-python"></i> Python</a></li>
+        <li class="item"><a href="./articles/Django/"><i class="si si-django"></i> Django</a></li>
+        <li class="item"><a href="./articles/FastAPI/"><i class="si si-fastapi"></i> FastAPI</a></li>
+        <li class="item"><a href="./articles/Flask/"><i class="si si-flask"></i> Flask</a></li>
+        <li class="item"><a href="./articles/设计模式/"><i class="si si-textpattern"></i> 设计模式</a></li>
+    </ul>
 
 === "Golang"
 
-    <div class="grid cards category-item" markdown>
-
-    - [:simple-go: __Golang__](./articles/Go/index.md)
-    - [:simple-gin: __Gin__](./articles/Gin/index.md)
-
-    </div>
+    <ul id="home-container">
+        <li class="item"><a href="./articles/Go/"><i class="si si-go"></i> Golang</a></li>
+        <li class="item"><a href="./articles/Gin/"><i class="si si-gin"></i> Gin</a></li>
+    </ul>
 
 === "Rust"
 
-    <div class="grid cards category-item" markdown>
-
-    - [:simple-rust: __Rust__](./articles/Rust/index.md)
-    - [:simple-actix: __Actix__](./articles/Actix/index.md)
-
-    </div>
+    <ul id="home-container">
+        <li class="item"><a href="./articles/Rust/"><i class="si si-rust"></i> Rust</a></li>
+        <li class="item"><a href="./articles/Actix/"><i class="si si-actix"></i> Actix</a></li>
+    </ul>
 
 ## 前端
 
 === "HTML/CSS"
 
-    <div class="grid cards category-item" markdown>
-
-    - [:simple-html5: __HTML__](./articles/HTML/index.md)
-    - [:simple-css3: __CSS__](./articles/CSS/index.md)
-
-    </div>
+    <ul id="home-container">
+        <li class="item"><a href="./articles/HTML/"><i class="si si-html5"></i> HTML</a></li>
+        <li class="item"><a href="./articles/CSS/"><i class="si si-css3"></i> CSS</a></li>
+    </ul>
 
 === "JavaScript"
 
-    <div class="grid cards category-item" markdown>
-
-    - [:simple-javascript: __JavaScript__](./articles/JavaScript/index.md)
-    - [:simple-vuedotjs: __Vue__](./articles/Vue/index.md)
-
-    </div>
+    <ul id="home-container">
+        <li class="item"><a href="./articles/JavaScript/"><i class="si si-javascript"></i> JavaScript</a></li>
+        <li class="item"><a href="./articles/Vue/"><i class="si si-vuedotjs"></i> Vue</a></li>
+    </ul>
 
 ## 运维
 
-<div class="grid cards category-item" markdown>
-
-- [:simple-docker: __Docker__](./articles/Docker/index.md)
-- [:simple-nginx: __Nginx__](./articles/Nginx/index.md)
-
-</div>
+<ul id="home-container">
+    <li class="item"><a href="./articles/Docker/"><i class="si si-docker"></i> Docker</a></li>
+    <li class="item"><a href="./articles/Nginx/"><i class="si si-nginx"></i> Nginx</a></li>
+</ul>
     
 ## 数据科学
 
-<div class="grid cards category-item" markdown>
-
-- [:simple-numpy: __NumPy__](./articles/NumPy/index.md)
-
-</div>
+<ul id="home-container">
+    <li class="item"><a href="./articles/NumPy/"><i class="si si-numpy"></i> NumPy</a></li>
+</ul>
 
 ## 人工智能
 
-<div class="grid cards category-item" markdown>
-
-- [:simple-langchain: __LangChain__](./articles/LangChain/index.md)
-
-</div>
+<ul id="home-container">
+    <li class="item"><a href="./articles/LangChain/"><i class="si si-langchain"></i> LangChain</a></li>
+</ul>
 
 ## 数据库
 
-<div class="grid cards category-item" markdown>
-
-- [:simple-mysql: __MySQL__](./articles/DataBase/MySQL/index.md)
-- [:simple-redis: __Redis__](./articles/DataBase/Redis/index.md)
-- [:simple-postgresql: __PostgreSQL__](./articles/DataBase/PostgreSQL/index.md)
-- [:simple-mongodb: __MongoDB__](./articles/DataBase/MongoDB/index.md)
-
-</div>
+<ul id="home-container">
+    <li class="item"><a href="./articles/DataBase/MySQL/"><i class="si si-mysql"></i> MySQL</a></li>
+    <li class="item"><a href="./articles/DataBase/Redis/"><i class="si si-redis"></i> Redis</a></li>
+    <li class="item"><a href="./articles/DataBase/PostgreSQL/"><i class="si si-postgresql"></i> PostgreSQL</a></li>
+    <li class="item"><a href="./articles/DataBase/MongoDB/"><i class="si si-mongodb"></i> MongoDB</a></li>
+</ul>
 
 ## 开发工具
 
-<div class="grid cards category-item" markdown>
-
-- [:simple-git: __Git__](./articles/Git/index.md)
-
-</div>
+<ul id="home-container">
+    <li class="item"><a href="./articles/Git/"><i class="si si-git"></i> Git</a></li>
+</ul>
