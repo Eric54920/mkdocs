@@ -40,10 +40,3 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
-/* 更小屏幕（如手机竖屏）调整为单列 */
-@media (max-width: 480px) {
-    #home-container {
-        grid-template-columns: 1fr;
-    }
-}
