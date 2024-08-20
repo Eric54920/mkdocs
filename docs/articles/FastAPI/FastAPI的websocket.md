@@ -38,6 +38,7 @@ async def websocket_endpoint(websocket: WebSocket):
 ```
 
 在这个示例中：
+
 - 客户端连接到 `/ws` 路径的 WebSocket。
 - 服务器接受 WebSocket 连接。
 - 服务器持续接收客户端消息，并回发接收到的消息。
