@@ -58,7 +58,49 @@ t, err := time.ParseInLocation(layout, str, loc)
 t := time.Date(2024, time.July, 26, 12, 34, 56, time.UTC, time.UTC)
 ```
 
-### 3. 时间的计算
+### 3. 格式化时间
+
+- **`time.Time.Format(layout string)`**
+
+将时间对象格式转换成字符串
+
+```go
+now := time.Now()
+
+// 格式化为 YYYY-MM-DD HH:MM:SS 格式
+fmt.Println("Current time in YYYY-MM-DD HH:MM:SS format:", now.Format("2006-01-02 15:04:05"))
+
+// 格式化为 YYYY-MM-DD 格式
+fmt.Println("Current time in YYYY-MM-DD format:", now.Format("2006-01-02"))
+
+// 格式化为 HH:MM:SS 格式
+fmt.Println("Current time in HH:MM:SS format:", now.Format("15:04:05"))
+
+// 格式化为 RFC3339 标准格式
+fmt.Println("Current time in RFC3339 format:", now.Format(time.RFC3339))
+```
+
+**时间格式说明**：
+
+Go 使用一个固定的时间 `Mon Jan 2 15:04:05 MST 2006` 来表示格式，其中：
+
+- `2006` 表示年
+- `01` 表示月
+- `02` 表示日
+- `15` 表示小时（24 小时制）
+- `04` 表示分钟
+- `05` 表示秒
+- `MST` 表示时区
+
+**自定义时间格式**：
+
+你可以根据需要自定义格式，比如：
+
+- `2006-01-02 15:04:05` 对应 `YYYY-MM-DD HH:MM:SS`
+- `02-Jan-2006` 对应 `DD-Mon-YYYY`
+- `15:04:05` 对应 `HH:MM:SS`
+
+### 4. 时间的计算
 
 - **`time.Time.Add(d time.Duration)`**
 
@@ -93,9 +135,9 @@ loc, _ := time.LoadLocation("Asia/Shanghai")
 shanghaiTime := currentTime.In(loc)
 ```
 
-### 4. 时间间隔
+### 5. 时间间隔
 
-`time.Duration`
+- **`time.Duration`**
 
 `time.Duration` 表示时间间隔，单位是纳秒。你可以通过以下方法创建和操作时间间隔：
 
@@ -109,7 +151,7 @@ duration := time.Hour * 2 // 2小时
 seconds := duration.Seconds()
 ```
 
-### 5. 定时任务和睡眠
+### 6. 定时任务和睡眠
 
 - **`time.Sleep(d time.Duration)`**
 
@@ -153,7 +195,7 @@ time.AfterFunc(2 * time.Second, func() {
 })
 ```
 
-### 6. 时区处理
+### 7. 时区处理
 
 - **`time.LoadLocation(name string)`**
 
@@ -179,7 +221,7 @@ loc := time.FixedZone("FixedZone", 3600) // UTC+1小时
 utc := time.UTC
 ```
 
-### 7. 时间戳
+### 8. 时间戳
 
 - **`time.Time.Unix()`**
 
@@ -197,7 +239,7 @@ timestamp := currentTime.Unix()
 nanoTimestamp := currentTime.UnixNano()
 ```
 
-### 8. 时间间隔比较
+### 9. 时间间隔比较
 
 - **`time.Duration.Compare(d time.Duration)`**
 
@@ -239,6 +281,6 @@ if currentTime.After(futureTime) {
 }
 ```
 
-### 总结
+### 10. 总结
 
 Go语言的 `time` 标准库为时间处理提供了全面的功能，从时间的创建、格式化，到时间计算、定时任务和时区处理。掌握这些方法和类型能够极大地提升开发效率和代码的可维护性。希望这篇文章能够帮助你深入理解和高效使用 Go 语言中的 `time` 包。
