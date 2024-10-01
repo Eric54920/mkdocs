@@ -337,6 +337,7 @@ nav:
       - <i class="si si-vuedotjs"></i> Vue:
         - ./articles/Vue/index.md
         - Vue介绍: ./articles/Vue/Vue介绍.md
+        - Vue3组合式API: ./articles/Vue/Vue3组合式API.md
     - 运维:
       - <i class="si si-docker"></i> Docker:
         - ./articles/Docker/index.md
