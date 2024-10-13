@@ -339,6 +339,7 @@ nav:
         - ./articles/Vue/index.md
         - Vue介绍: ./articles/Vue/Vue介绍.md
         - Vue3组合式API: ./articles/Vue/Vue3组合式API.md
+        - Vue实现国际化: ./articles/Vue/Vue实现国际化.md
     - 运维:
       - <i class="si si-docker"></i> Docker:
         - ./articles/Docker/index.md
