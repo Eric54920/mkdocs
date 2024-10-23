@@ -411,6 +411,7 @@ nav:
         - Git常用命令: ./articles/Git/Git常用命令.md
         - Git工作流: ./articles/Git/Git工作流.md
         - 如何给开源项目贡献代码: ./articles/Git/如何给开源项目贡献代码.md
+        - 如何在错误分支上修改代码后进行补救: ./articles/Git/如何在错误分支上修改代码后进行补救.md
   - 相册: 
     - gallery.md
     - 时间线:
