@@ -71,3 +71,4 @@
 - [Python使用shutil实现文件拷贝](Python使用shutil实现文件拷贝.md)
 - [Python使用PIL进行图片压缩](Python使用PIL进行图片压缩.md)
 - [Python调用ChatGPT](Python调用ChatGPT.md)
+- [Python使用Beanie操作MongoDB](Python使用Beanie操作MongoDB.md)

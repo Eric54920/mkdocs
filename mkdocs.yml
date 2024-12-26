@@ -175,6 +175,7 @@ nav:
         - Python使用shutil实现文件拷贝: ./articles/Python/Python使用shutil实现文件拷贝.md
         - Python使用PIL进行图片压缩: ./articles/Python/Python使用PIL进行图片压缩.md
         - Python调用ChatGPT: ./articles/Python/Python调用ChatGPT.md
+        - Python使用Beanie操作MongoDB: ./articles/Python/Python使用Beanie操作MongoDB.md
       - <i class="si si-django"></i> Django:
         - ./articles/Django/index.md
         - Django介绍: ./articles/Django/Django介绍.md
@@ -409,6 +410,7 @@ nav:
         - ./articles/Git/index.md
         - Git查看和配置环境信息: ./articles/Git/Git查看和配置环境信息.md
         - Git常用命令: ./articles/Git/Git常用命令.md
+        - Git的tag命令: ./articles/Git/Git的tag命令.md
         - Git工作流: ./articles/Git/Git工作流.md
         - 如何给开源项目贡献代码: ./articles/Git/如何给开源项目贡献代码.md
         - 如何在错误分支上修改代码后进行补救: ./articles/Git/如何在错误分支上修改代码后进行补救.md
