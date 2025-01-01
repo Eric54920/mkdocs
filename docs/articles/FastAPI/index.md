@@ -4,6 +4,7 @@
 - [FastAPI快速入门](FastAPI快速入门.md)
 - [FastAPI请求参数](FastAPI请求参数.md)
 - [FastAPI响应](FastAPI响应.md)
+- [FastAPI挂载静态文件](FastAPI挂载静态文件.md)
 - [FastAPI异常处理](FastAPI异常处理.md)
 - [FastAPI路径操作配置](FastAPI路径操作配置.md)
 - [FastAPI依赖注入](FastAPI依赖注入.md)

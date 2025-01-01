@@ -208,6 +208,7 @@ nav:
         - FastAPI快速入门: ./articles/FastAPI/FastAPI快速入门.md
         - FastAPI请求参数: ./articles/FastAPI/FastAPI请求参数.md
         - FastAPI响应: ./articles/FastAPI/FastAPI响应.md
+        - FastAPI挂载静态文件: ./articles/FastAPI/FastAPI挂载静态文件.md
         - FastAPI异常处理: ./articles/FastAPI/FastAPI异常处理.md
         - FastAPI路径操作配置: ./articles/FastAPI/FastAPI路径操作配置.md
         - FastAPI依赖注入: ./articles/FastAPI/FastAPI依赖注入.md
