@@ -12,7 +12,7 @@ def add(a: int, b: int) -> int:
     return a + b
 ```
 
-#### 3.1 说明
+#### 1.1 说明
 
 - `a: int` 和 `b: int` 表示参数 `a` 和 `b` 需要是整数
 - `-> int` 表示返回值类型是 `int`
@@ -76,7 +76,7 @@ def add(a: int, b: int) -> int:
     return a + b
 ```
 
-### 3.2 NumPy 风格
+#### 3.2 NumPy 风格
 
 ```python
 def add(a: int, b: int) -> int:
@@ -103,7 +103,7 @@ def add(a: int, b: int) -> int:
     return a + b
 ```
 
-### 3.3 reStructuredText (Sphinx) 风格
+#### 3.3 reStructuredText (Sphinx) 风格
 
 ```python
 def add(a: int, b: int) -> int:
