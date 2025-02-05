@@ -156,6 +156,7 @@ nav:
         - Python协程: ./articles/Python/Python协程.md
         - Python的IO多路复用: ./articles/Python/Python的IO多路复用.md
         - Python开发规范: ./articles/Python/Python开发规范.md
+        - Python函数注释: ./articles/Python/Python函数注释.md
         - Python的gRPC: ./articles/Python/Python的gRPC.md
         - Python的functools包: ./articles/Python/Python的functools包.md
         - Python的os包: ./articles/Python/Python的os包.md
