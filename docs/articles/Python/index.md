@@ -48,6 +48,7 @@
 - [Python的并发和并行](Python的并发和并行.md)
 - [Python协程](Python协程.md)
 - [Python的IO多路复用](Python的IO多路复用.md)
+- [Python代码风格指南](Python代码风格指南.md)
 - [Python开发规范](Python开发规范.md)
 - [Python函数注释](Python函数注释.md)
 - [Python的gRPC](Python的gRPC.md)

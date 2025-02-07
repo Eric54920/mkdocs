@@ -155,6 +155,7 @@ nav:
         - Python的并发和并行: ./articles/Python/Python的并发和并行.md
         - Python协程: ./articles/Python/Python协程.md
         - Python的IO多路复用: ./articles/Python/Python的IO多路复用.md
+        - Python代码风格指南: ./articles/Python/Python代码风格指南.md
         - Python开发规范: ./articles/Python/Python开发规范.md
         - Python函数注释: ./articles/Python/Python函数注释.md
         - Python的gRPC: ./articles/Python/Python的gRPC.md
